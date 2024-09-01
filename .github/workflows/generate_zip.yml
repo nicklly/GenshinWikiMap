@@ -2,11 +2,10 @@ name: Generate Zip File
 
 on:
   push:
-    paths-ignore:
-      - 'resources/splash/**'
     paths:
       - 'data/**.json'
       - 'resources/**'
+      - '!resources/splash/**'
       - '!resources/genshin_resources.zip'
   workflow_dispatch:
 
