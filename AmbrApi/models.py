@@ -26,7 +26,7 @@ class MaterialItem(BaseModel):
     id: int
     name: str
     type: str
-    recipe: bool
+    recipe: Optional[bool] = None
     mapMark: bool
     icon: str
     rank: int
