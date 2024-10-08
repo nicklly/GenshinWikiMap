@@ -19,7 +19,7 @@ WEAPON_INFO_API = 'https://gi.yatta.moe/api/v2/CHS/weapon/{}?vh=42F2'
 WEAPON_STORY_API = 'https://gi.yatta.moe/api/v2/CHS/readable/Weapon{}?vh=42F2'
 """武器故事接口"""
 
-ASSETS_API = 'https://api.ambr.top/assets/UI/{}'
+ASSETS_API = 'https://gi.yatta.moe/assets/UI/{}'
 """资源下载接口"""
 
 MATERIAL_LIST_API = 'https://gi.yatta.moe/api/v2/chs/material?vh=42F2'

@@ -278,6 +278,15 @@
     "icon": "UI_EquipIcon_Sword_Purewill",
     "route": "Sword of Narzissenkreuz"
   },
+  "11430": {
+    "id": 11430,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "弥坚骨",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "icon": "UI_EquipIcon_Sword_Umpakati",
+    "route": "Sturdy Bone"
+  },
   "11431": {
     "id": 11431,
     "rank": 4,
@@ -394,6 +403,15 @@
     "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Sword_Estoc",
     "route": "Absolution"
+  },
+  "11516": {
+    "id": 11516,
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "岩峰巡歌",
+    "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
+    "icon": "UI_EquipIcon_Sword_XochitlsTube",
+    "route": "Peak Patrol Song"
   },
   "12101": {
     "id": 12101,
@@ -646,6 +664,15 @@
     "specialProp": "FIGHT_PROP_HP_PERCENT",
     "icon": "UI_EquipIcon_Claymore_Mechanic",
     "route": "Portable Power Saw"
+  },
+  "12430": {
+    "id": 12430,
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "name": "硕果钩",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "icon": "UI_EquipIcon_Claymore_Umpakati",
+    "route": "Fruitful Hook"
   },
   "12431": {
     "id": 12431,
@@ -934,6 +961,15 @@
     "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Pole_Mechanic",
     "route": "Prospector's Drill"
+  },
+  "13430": {
+    "id": 13430,
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "name": "镇山之钉",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "icon": "UI_EquipIcon_Pole_Umpakati",
+    "route": "Mountain-Bracing Bolt"
   },
   "13431": {
     "id": 13431,
