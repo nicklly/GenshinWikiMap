@@ -1495,6 +1495,40 @@
     "release": 1728334800,
     "route": "Xilonen"
   },
+  "10000104": {
+    "id": 10000104,
+    "rank": 5,
+    "name": "恰斯卡",
+    "element": "Wind",
+    "weaponType": "WEAPON_BOW",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "LADY",
+    "icon": "UI_AvatarIcon_Chasca",
+    "birthday": [
+      12,
+      10
+    ],
+    "release": 1731967200,
+    "route": "Chasca"
+  },
+  "10000105": {
+    "id": 10000105,
+    "rank": 4,
+    "name": "欧洛伦",
+    "element": "Electric",
+    "weaponType": "WEAPON_BOW",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "MALE",
+    "icon": "UI_AvatarIcon_Olorun",
+    "birthday": [
+      10,
+      14
+    ],
+    "release": 1731967200,
+    "route": "Ororon"
+  },
   "10000005-hydro": {
     "id": "10000005-hydro",
     "rank": 5,

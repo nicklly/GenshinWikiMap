@@ -296,6 +296,15 @@
     "icon": "UI_EquipIcon_Sword_Isikhulu",
     "route": "Flute of Ezpitzal"
   },
+  "11432": {
+    "id": 11432,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "厄水之祸",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "icon": "UI_EquipIcon_Sword_SacrificialNgombe",
+    "route": "Calamity of Eshu"
+  },
   "11501": {
     "id": 11501,
     "rank": 5,
@@ -1304,6 +1313,15 @@
     "icon": "UI_EquipIcon_Catalyst_ConchSprayer",
     "route": "Ash-Graven Drinking Horn"
   },
+  "14430": {
+    "id": 14430,
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "name": "乘浪的回旋",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "icon": "UI_EquipIcon_Catalyst_Umpakati",
+    "route": "Waveriding Whirl"
+  },
   "14431": {
     "id": 14431,
     "rank": 4,
@@ -1691,6 +1709,15 @@
     "icon": "UI_EquipIcon_Bow_Mechanic",
     "route": "Range Gauge"
   },
+  "15430": {
+    "id": 15430,
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "name": "缀花之翎",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "icon": "UI_EquipIcon_Bow_Umpakati",
+    "route": "Flower-Wreathed Feathers"
+  },
   "15431": {
     "id": 15431,
     "rank": 4,
@@ -1780,5 +1807,14 @@
     "specialProp": "FIGHT_PROP_HP_PERCENT",
     "icon": "UI_EquipIcon_Bow_Arcdange",
     "route": "Silvershower Heartstrings"
+  },
+  "15514": {
+    "id": 15514,
+    "rank": 5,
+    "type": "WEAPON_BOW",
+    "name": "星鹫赤羽",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Bow_Qoyllorsnova",
+    "route": "Astral Vulture's Crimson Plumage"
   }
 }

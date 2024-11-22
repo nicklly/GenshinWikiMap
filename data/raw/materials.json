@@ -1554,6 +1554,26 @@
       "rank": 1,
       "route": "Embercore Flower"
     },
+    "101252": {
+      "id": 101252,
+      "name": "微光角菌",
+      "type": "localSpecialtyNatlan",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101252",
+      "rank": 1,
+      "route": "Glowing Hornshroom"
+    },
+    "101253": {
+      "id": 101253,
+      "name": "枯叶紫英",
+      "type": "localSpecialtyNatlan",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101253",
+      "rank": 1,
+      "route": "Withering Purpurbloom"
+    },
     "101301": {
       "id": 101301,
       "name": "桦木",
@@ -4264,6 +4284,36 @@
       "rank": 4,
       "route": "Heart of the Secret Source"
     },
+    "112116": {
+      "id": 112116,
+      "name": "折光的胚芽",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112116",
+      "rank": 2,
+      "route": "Refractive Bud"
+    },
+    "112117": {
+      "id": 112117,
+      "name": "惑光的阔叶",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112117",
+      "rank": 3,
+      "route": "Bewildering Broadleaf"
+    },
+    "112118": {
+      "id": 112118,
+      "name": "迷光的蜷叶之心",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112118",
+      "rank": 4,
+      "route": "Illusory Leafcoil"
+    },
     "113001": {
       "id": 113001,
       "name": "飓风之种",
@@ -4923,6 +4973,16 @@
       "icon": "UI_ItemIcon_113066",
       "rank": 4,
       "route": "Gold-Inscribed Secret Source Core"
+    },
+    "113067": {
+      "id": 113067,
+      "name": "深邃纠缠的凝视",
+      "type": "characterLevelUpMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113067",
+      "rank": 4,
+      "route": "Ensnaring Gaze"
     },
     "114001": {
       "id": 114001,
@@ -5843,6 +5903,16 @@
       "icon": "UI_FlycloakIcon_Firebrand",
       "rank": 4,
       "route": "Wings of Soaring Flame"
+    },
+    "140016": {
+      "id": 140016,
+      "name": "命轨爻错之翼",
+      "type": "windGlider",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_FlycloakIcon_EmeraldFlash",
+      "rank": 4,
+      "route": "Wings of Fate's Course Intertwined"
     },
     "220001": {
       "id": 220001,
