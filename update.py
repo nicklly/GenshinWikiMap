@@ -56,21 +56,21 @@ def update_constant():
         print('>>>圣遗物套装列表raw更新失败')
     time.sleep(2)
 
-    # # 更新角色曲线
-    # if data := ambr_requests(AVATAR_CURVE_API):
-    #     save_json(data, RAW / 'avatar_curve.json')
-    #     print('>>>角色曲线raw更新完成')
-    # else:
-    #     print('>>>角色曲线raw更新失败')
-    # time.sleep(2)
-    # # 更新武器曲线
-    # if data := ambr_requests(WEAPON_CURVE_API):
-    #     save_json(data, RAW / 'weapon_curve.json')
-    #     print('>>>武器曲线raw更新完成')
-    # else:
-    #     print('>>>武器曲线raw更新失败')
-    # time.sleep(2)
-    # # 更新属性map
+    # 更新角色曲线
+    if data := ambr_requests(AVATAR_CURVE_API):
+        save_json(data, RAW / 'avatar_curve.json')
+        print('>>>角色曲线raw更新完成')
+    else:
+        print('>>>角色曲线raw更新失败')
+    time.sleep(2)
+    # 更新武器曲线
+    if data := ambr_requests(WEAPON_CURVE_API):
+        save_json(data, RAW / 'weapon_curve.json')
+        print('>>>武器曲线raw更新完成')
+    else:
+        print('>>>武器曲线raw更新失败')
+    time.sleep(2)
+    # 更新属性map
     # if data := ambr_requests(属性Map_API):
     #     # 手动修正单手剑
     #     data.update({'WEAPON_SWORD_ONE_HAND': '单手剑'})
