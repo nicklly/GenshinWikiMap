@@ -28,7 +28,7 @@ def update_constant():
     time.sleep(2)
 
     if avatar_detail := github_requests(
-            'https://raw.gitmirror.com/DGP-Studio/Snap.Metadata/main/Genshin/CHS/Avatar.json'):
+            'https://hub.gitmirror.com/DGP-Studio/Snap.Metadata/main/Genshin/CHS/Avatar.json'):
         save_json(avatar_detail, RAW / 'Avatar.json')
         print('>>>角色信息raw更新完成')
     else:
@@ -69,6 +69,13 @@ def update_constant():
         print('>>>武器曲线raw更新完成')
     else:
         print('>>>武器曲线raw更新失败')
+    time.sleep(2)
+    # 更新原魔曲线
+    if data := ambr_requests(MONSTER_CURVE_API):
+        save_json(data, RAW / "monster_curve.json")
+        print(">>>原魔曲线raw更新完成")
+    else:
+        print(">>>原魔曲线raw更新失败")
     time.sleep(2)
     # 更新属性map
     # if data := ambr_requests(属性Map_API):

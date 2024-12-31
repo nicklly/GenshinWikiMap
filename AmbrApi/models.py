@@ -124,6 +124,8 @@ class Talent(BaseModel):
     def get_promote_list(self) -> Optional[dict[str, list[str]]]:
         if self.promote is None:
             return None
+        if "1" not in self.promote:
+            return None
         new_dict = {item.split("|")[0]: [] for item in self.promote["1"].description}
         for promote in self.promote.values():
             for desc in promote.description:

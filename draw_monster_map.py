@@ -3,7 +3,7 @@ import re
 from AmbrApi import Monster, download_from_ambr
 
 from image_utils import PMImage, load_font
-from utils import load_json
+from utils import load_json, get_id_by_name
 from path import *
 
 import warnings
@@ -114,6 +114,7 @@ def draw_monster_map(monster: Monster):
         if materials:
             img.stretch((1134 + 20, 1713 - 20), len(materials * 190) - 40, 'height')
             material_info = load_json(DATA / '材料列表.json')
+            avatar_list = load_json(RAW / 'avatar_list.json')
 
             for i, material in enumerate(materials):
                 img.paste(CHARACTER_MAP_RESOURCES / '圆框.png', (81, 1190 + i * 181))
@@ -133,7 +134,11 @@ def draw_monster_map(monster: Monster):
                         charas = charas[:8]
                     for j, chara in enumerate(charas):
                         img.paste(CHARACTER_MAP_RESOURCES / '圆框橙.png', (258 + j * 148, 1172 + i * 181))
-                        chara_icon = PMImage(RESOURCES / 'avatar_new' / f'{chara}.png')
+
+                        chara_id = get_id_by_name(chara)
+                        character = avatar_list[chara_id]['icon']
+
+                        chara_icon = PMImage(RESOURCES / 'avatar' / f'{character}.png')
                         chara_icon.resize((116, 116))
                         chara_icon.to_circle('circle')
                         img.paste(chara_icon, (262 + j * 148, 1176 + i * 181))

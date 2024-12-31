@@ -2091,5 +2091,298 @@
     "type": "BOSS",
     "icon": "UI_MonsterIcon_Nada",
     "route": "Shouki no Kami, the Prodigal"
+  }, "26140101": {
+  "id": 26140101,
+  "name": "魔像督军",
+  "type": "BEAST",
+  "icon": "UI_MonsterIcon_Golem_Centaur",
+  "route": "Legatus Golem"
+},
+  "26140201": {
+    "id": 26140201,
+    "name": "魔像禁卫",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Golem_Legion",
+    "route": "Praetorian Golem"
+  },
+  "26151001": {
+    "id": 26151001,
+    "name": "猎刀鳐",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_MantaRay_Larva_01",
+    "route": "Hunter's Ray"
+  },
+  "26151101": {
+    "id": 26151101,
+    "name": "猎刀鳐",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_MantaRay_Larva_02",
+    "route": "Hunter's Ray"
+  },
+  "26152101": {
+    "id": 26152101,
+    "name": "重甲蟹",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_HermitCrab_Larva_01",
+    "route": "Armored Crab"
+  },
+  "26152201": {
+    "id": 26152201,
+    "name": "重甲蟹",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_HermitCrab_Larva_02",
+    "route": "Armored Crab"
+  },
+  "26153101": {
+    "id": 26153101,
+    "name": "膨膨兽",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Seal_Larva_01",
+    "route": "Blubberbeast"
+  },
+  "26154101": {
+    "id": 26154101,
+    "name": "帽子水母",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_JellyFish_Larva_01",
+    "route": "Hat Jellyfish"
+  },
+  "26154201": {
+    "id": 26154201,
+    "name": "帽子水母",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_JellyFish_Larva_02",
+    "route": "Hat Jellyfish"
+  },
+  "26155101": {
+    "id": 26155101,
+    "name": "泡泡海马",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_SeaHorse_Larva_01",
+    "route": "Bubbly Seahorse"
+  },
+  "26155201": {
+    "id": 26155201,
+    "name": "泡泡海马",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_SeaHorse_Larva_02",
+    "route": "Bubbly Seahorse"
+  },
+  "26155301": {
+    "id": 26155301,
+    "name": "泡泡海马",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_SeaHorse_Larva_03",
+    "route": "Bubbly Seahorse"
+  },
+  "26156101": {
+    "id": 26156101,
+    "name": "球球章鱼",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Octopus_Larva_01",
+    "route": "Ball Octopus"
+  },
+  "26156201": {
+    "id": 26156201,
+    "name": "球球章鱼",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Octopus_Larva_02",
+    "route": "Ball Octopus"
+  },
+  "26157101": {
+    "id": 26157101,
+    "name": "天使海兔",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Aplysia_Larva_01",
+    "route": "Angelic Sea Hare"
+  },
+  "26157201": {
+    "id": 26157201,
+    "name": "天使海兔",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Aplysia_Larva_02",
+    "route": "Angelic Sea Hare"
+  },
+  "26160101": {
+    "id": 26160101,
+    "name": "坚盾重甲蟹",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_HermitCrab_Mature",
+    "route": "Sternshield Crab"
+  },
+  "26160201": {
+    "id": 26160201,
+    "name": "大天使海兔",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Aplysia_Mature",
+    "route": "Cherubic Sea Hare"
+  },
+  "26160301": {
+    "id": 26160301,
+    "name": "泡泡雄海马",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_SeaHorse_Mature",
+    "route": "Bubbler Seahorse"
+  },
+  "26160302": {
+    "id": 26160302,
+    "name": "铁甲熔火帝皇",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_HermitCrab_Primo",
+    "route": "Emperor of Fire and Iron"
+  },
+  "26180101": {
+    "id": 26180101,
+    "name": "千年珍珠骏麟",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_SeaHorse_Primo_Electric",
+    "route": "Millennial Pearl Seahorse"
+  },
+  "26190101": {
+    "id": 26190101,
+    "name": "隐山猊兽",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Hermit",
+    "route": "Solitary Suanni"
+  },
+  "26190201": {
+    "id": 26190201,
+    "name": "玄文兽",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Striped",
+    "route": "Xuanwen Beast"
+  },
+  "26200101": {
+    "id": 26200101,
+    "name": "幼嵴锋龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small",
+    "route": "Tepetlisaur Whelp"
+  },
+  "26200201": {
+    "id": 26200201,
+    "name": "嵴锋龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal",
+    "route": "Tepetlisaurus"
+  },
+  "26210101": {
+    "id": 26210101,
+    "name": "幼鳍游龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Small",
+    "route": "Koholasaur Whelp"
+  },
+  "26210201": {
+    "id": 26210201,
+    "name": "鳍游龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal",
+    "route": "Koholasaurus"
+  },
+  "26220101": {
+    "id": 26220101,
+    "name": "幼匿叶龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small",
+    "route": "Yumkasaur Whelp"
+  },
+  "26220201": {
+    "id": 26220201,
+    "name": "匿叶龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal",
+    "route": "Yumkasaurus"
+  },
+  "26220301": {
+    "id": 26220301,
+    "name": "贪食匿叶龙山王",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Primo",
+    "route": "Gluttonous Yumkasaur Mountain King"
+  },
+  "26230101": {
+    "id": 26230101,
+    "name": "幼绒翼龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Flamingo_Small",
+    "route": "Qucusaurus Chick"
+  },
+  "26230201": {
+    "id": 26230201,
+    "name": "绒翼龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Flamingo_Normal",
+    "route": "Qucusaurus"
+  },
+  "26230301": {
+    "id": 26230301,
+    "name": "金焰绒翼龙暴君",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Flamingo_Primo",
+    "route": "Goldflame Qucusaur Tyrant"
+  },
+  "26240101": {
+    "id": 26240101,
+    "name": "幼暝视龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Shamansaurus_Small",
+    "route": "Iktomisaurus Chick"
+  },
+  "26240201": {
+    "id": 26240201,
+    "name": "暝视龙",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Natsaurus_Shamansaurus_Normal",
+    "route": "Iktomisaurus"
+  },
+  "26260101": {
+    "id": 26260101,
+    "name": "窟岩·大灵显化身",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Wayob_Drillhead",
+    "route": "Rock-Cavernous Wayob Manifestation"
+  },
+  "26260201": {
+    "id": 26260201,
+    "name": "溯流·大灵显化身",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+    "route": "Flow-Inverted Wayob Manifestation"
+  },
+  "26260301": {
+    "id": 26260301,
+    "name": "疾叶·大灵显化身",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Wayob_Hookwalker",
+    "route": "Foliar-Swift Wayob Manifestation"
+  },
+  "26260801": {
+    "id": 26260801,
+    "name": "凛冽·大灵显化身",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Wayob_Shamansaurus",
+    "route": "Biting-Cold Wayob Manifestation"
+  },
+  "26260901": {
+    "id": 26260901,
+    "name": "焚燃·大灵显化身",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Wayob_Flamingo",
+    "route": "Burning-Aflame Wayob Manifestation"
+  },
+  "26270101": {
+    "id": 26270101,
+    "name": "熔岩游像·流燃体",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Lava_Liquid",
+    "route": "Fluid Avatar of Lava"
+  },
+  "26270201": {
+    "id": 26270201,
+    "name": "熔岩游像·蚀土者",
+    "type": "BEAST",
+    "icon": "UI_MonsterIcon_Lava_Solid",
+    "route": "Eroding Avatar of Lava"
   }
 }

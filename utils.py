@@ -6,6 +6,7 @@ from typing import Any, Optional
 import httpx
 import ujson
 import re
+from path import *
 from PIL import Image
 
 
@@ -58,3 +59,15 @@ def download_img(url: str, path: Path):
         f.write(content)
     time.sleep(1)  # 安柏网有访问频率限制
     return img
+
+
+def get_id_by_name(name: str) -> Optional[str]:
+    """
+    根据角色名字获取角色的id
+        :param name: 角色名
+        :return: id字符串
+    """
+    name_list = load_json(RAW / 'avatar_list.json')
+    for role_id, alias in name_list.items():
+        if name in alias['name']:
+            return role_id

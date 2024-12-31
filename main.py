@@ -6,7 +6,6 @@ from update import (
     update_artifact,
     update_weapon)
 
-
 def main():
     update_constant()
     update_character()
@@ -18,3 +17,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
