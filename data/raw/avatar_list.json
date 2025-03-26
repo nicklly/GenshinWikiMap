@@ -1580,6 +1580,57 @@
     "release": 1737475200,
     "route": "Lan Yan"
   },
+  "10000109": {
+    "id": 10000109,
+    "rank": 5,
+    "name": "梦见月瑞希",
+    "element": "Wind",
+    "weaponType": "WEAPON_CATALYST",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Mizuki",
+    "birthday": [
+      3,
+      16
+    ],
+    "release": 1739224800,
+    "route": "Yumemizuki Mizuki"
+  },
+  "10000110": {
+    "id": 10000110,
+    "rank": 4,
+    "name": "伊安珊",
+    "element": "Electric",
+    "weaponType": "WEAPON_POLE",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "LOLI",
+    "icon": "UI_AvatarIcon_Iansan",
+    "birthday": [
+      8,
+      8
+    ],
+    "release": 1742853600,
+    "route": "Iansan"
+  },
+  "10000111": {
+    "id": 10000111,
+    "rank": 5,
+    "name": "瓦雷莎",
+    "element": "Electric",
+    "weaponType": "WEAPON_CATALYST",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Varesa",
+    "birthday": [
+      11,
+      15
+    ],
+    "release": 1742853600,
+    "route": "Varesa"
+  },
   "10000005-pyro": {
     "id": "10000005-pyro",
     "rank": 5,

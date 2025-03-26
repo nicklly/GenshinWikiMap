@@ -29,7 +29,7 @@
       "prop": [
         {
           "propType": "FIGHT_PROP_BASE_HP",
-          "initValue": 190.17599,
+          "initValue": 190.176,
           "type": "GROW_CURVE_HP_2"
         },
         {
@@ -45,15 +45,15 @@
       ],
       "resistance": {
         "fireSubHurt": 0.25,
-        "grassSubHurt": 0.25,
+        "grassSubHurt": 0.6,
         "waterSubHurt": 0.25,
         "elecSubHurt": 0.25,
-        "windSubHurt": 0.6,
+        "windSubHurt": 0.25,
         "iceSubHurt": 0.25,
         "rockSubHurt": 0.25,
         "physicalSubHurt": 0.25
       },
-      "fundamentalForce": null,
+      "fundamentalForce": "None",
       "reward": {
         "102": {
           "name": "冒险阅历",

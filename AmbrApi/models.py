@@ -122,13 +122,13 @@ class Talent(BaseModel):
     cost: Optional[int] = None
 
     def get_promote_list(self) -> Optional[dict[str, list[str]]]:
-        if self.promote is None:
-            return None
-        if "1" not in self.promote:
+        if self.promote is None or "1" not in self.promote:
             return None
         new_dict = {item.split("|")[0]: [] for item in self.promote["1"].description}
         for promote in self.promote.values():
             for desc in promote.description:
+                if "|" not in desc:
+                    return None
                 desc_name, param_str = desc.split("|")
                 desc_name = "点按拍照伤害" if desc_name == "点按相机伤害" else desc_name
                 for param in re.findall(r"{param\d+:(?:F1P|F1|P|I|F2P|F2)}", param_str):

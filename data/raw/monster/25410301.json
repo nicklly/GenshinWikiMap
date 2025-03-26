@@ -53,7 +53,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": -0.2
       },
-      "fundamentalForce": null,
+      "fundamentalForce": "None",
       "reward": null
     },
     "25410391": {
@@ -74,12 +74,12 @@
         {
           "propType": "FIGHT_PROP_BASE_HP",
           "initValue": 62.73,
-          "type": "GrowCurveType_Unknown_5202"
+          "type": "GROW_CURVE_ACTIVITY_HP_1"
         },
         {
           "propType": "FIGHT_PROP_BASE_ATTACK",
           "initValue": 66.3,
-          "type": "GrowCurveType_Unknown_5201"
+          "type": "GROW_CURVE_ACTIVITY_ATTACK_1"
         },
         {
           "propType": "FIGHT_PROP_BASE_DEFENSE",
@@ -97,7 +97,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
-      "fundamentalForce": null,
+      "fundamentalForce": "None",
       "reward": null
     }
   },

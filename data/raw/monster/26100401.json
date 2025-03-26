@@ -49,7 +49,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
-      "fundamentalForce": null,
+      "fundamentalForce": "None",
       "reward": {
         "202": {
           "name": "摩拉",
@@ -129,12 +129,12 @@
         {
           "propType": "FIGHT_PROP_BASE_HP",
           "initValue": 91.8,
-          "type": "GrowCurveType_Unknown_5202"
+          "type": "GROW_CURVE_ACTIVITY_HP_1"
         },
         {
           "propType": "FIGHT_PROP_BASE_ATTACK",
           "initValue": 75.225,
-          "type": "GrowCurveType_Unknown_5201"
+          "type": "GROW_CURVE_ACTIVITY_ATTACK_1"
         },
         {
           "propType": "FIGHT_PROP_BASE_DEFENSE",
@@ -152,7 +152,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
-      "fundamentalForce": null,
+      "fundamentalForce": "None",
       "reward": null
     }
   },
