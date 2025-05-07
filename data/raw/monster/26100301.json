@@ -49,7 +49,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
-      "fundamentalForce": "None",
+      "fundamentalForce": null,
       "reward": {
         "202": {
           "name": "摩拉",
@@ -152,7 +152,7 @@
         "rockSubHurt": 0.1,
         "physicalSubHurt": 0.1
       },
-      "fundamentalForce": "None",
+      "fundamentalForce": null,
       "reward": null
     }
   },

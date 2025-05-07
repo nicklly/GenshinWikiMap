@@ -44,8 +44,8 @@
         }
       ],
       "resistance": {
-        "fireSubHurt": 0.25,
-        "grassSubHurt": 0.6,
+        "fireSubHurt": 0.6,
+        "grassSubHurt": 0.25,
         "waterSubHurt": 0.25,
         "elecSubHurt": 0.25,
         "windSubHurt": 0.25,
@@ -53,7 +53,7 @@
         "rockSubHurt": 0.25,
         "physicalSubHurt": 0.25
       },
-      "fundamentalForce": "None",
+      "fundamentalForce": null,
       "reward": {
         "102": {
           "name": "冒险阅历",
