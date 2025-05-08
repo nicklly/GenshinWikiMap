@@ -12,6 +12,7 @@ AVATAR_LIST_API = AMBR_API + '/api/v2/chs/avatar?vh=42F2'
 AVATAR_INFO_API = AMBR_API + '/api/v2/chs/avatar/{}?vh=42F2'
 """角色信息接口"""
 
+
 WEAPON_CURVE_API = AMBR_API + '/api/v2/static/weaponCurve?vh=42F2'
 """武器曲线接口"""
 WEAPON_LIST_API = AMBR_API + '/api/v2/chs/weapon?vh=42F2'
