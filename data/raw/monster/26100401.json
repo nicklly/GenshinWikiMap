@@ -129,12 +129,12 @@
         {
           "propType": "FIGHT_PROP_BASE_HP",
           "initValue": 91.8,
-          "type": "GROW_CURVE_ACTIVITY_HP_1"
+          "type": "GrowCurveType_Unknown_5202"
         },
         {
           "propType": "FIGHT_PROP_BASE_ATTACK",
           "initValue": 75.225,
-          "type": "GROW_CURVE_ACTIVITY_ATTACK_1"
+          "type": "GrowCurveType_Unknown_5201"
         },
         {
           "propType": "FIGHT_PROP_BASE_DEFENSE",

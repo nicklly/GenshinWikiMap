@@ -19,6 +19,12 @@
           "name": "玛拉妮",
           "rank": 5,
           "icon": "UI_AvatarIcon_Mualani"
+        },
+        {
+          "id": 10000105,
+          "name": "欧洛伦",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Olorun"
         }
       ]
     },

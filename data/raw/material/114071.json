@@ -16,11 +16,7 @@
   "mapMark": null,
   "source": [
     {
-      "name": "合成获得",
-      "type": "single"
-    },
-    {
-      "name": "练武秘境：测度",
+      "name": "炼武秘境：测度",
       "type": "domain",
       "days": [
         "wednesday",
@@ -33,6 +29,12 @@
     "requiredBy": {
       "weapon": [
         {
+          "id": 12430,
+          "name": "硕果钩",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Umpakati"
+        },
+        {
           "id": 14427,
           "name": "苍纹角杯",
           "rank": 4,
@@ -43,6 +45,24 @@
           "name": "碎链",
           "rank": 4,
           "icon": "UI_EquipIcon_Bow_Isikhulu"
+        },
+        {
+          "id": 15430,
+          "name": "缀花之翎",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_Umpakati"
+        },
+        {
+          "id": 11516,
+          "name": "岩峰巡歌",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_XochitlsTube"
+        },
+        {
+          "id": 15514,
+          "name": "星鹫赤羽",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Bow_Qoyllorsnova"
         }
       ]
     },

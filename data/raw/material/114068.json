@@ -16,11 +16,7 @@
   "mapMark": null,
   "source": [
     {
-      "name": "合成获得",
-      "type": "single"
-    },
-    {
-      "name": "练武秘境：究观",
+      "name": "炼武秘境：究观",
       "type": "domain",
       "days": [
         "tuesday",
@@ -33,10 +29,22 @@
     "requiredBy": {
       "weapon": [
         {
+          "id": 11432,
+          "name": "厄水之祸",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_SacrificialNgombe"
+        },
+        {
           "id": 13431,
           "name": "虹的行迹",
           "rank": 4,
           "icon": "UI_EquipIcon_Pole_Isikhulu"
+        },
+        {
+          "id": 13430,
+          "name": "镇山之钉",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Umpakati"
         },
         {
           "id": 14431,

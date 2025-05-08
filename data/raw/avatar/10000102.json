@@ -1884,6 +1884,18 @@
             "verticalForce": "0"
           },
           "bluntAttack": false
+        },
+        {
+          "name": "Surfing Collision (Damageless)",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "25",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
         }
       ]
     },

@@ -19,10 +19,22 @@
     "requiredBy": {
       "weapon": [
         {
+          "id": 11430,
+          "name": "弥坚骨",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Umpakati"
+        },
+        {
           "id": 14431,
           "name": "木棉之环",
           "rank": 4,
           "icon": "UI_EquipIcon_Catalyst_Isikhulu"
+        },
+        {
+          "id": 14430,
+          "name": "乘浪的回旋",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Umpakati"
         },
         {
           "id": 14516,

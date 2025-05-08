@@ -16,10 +16,6 @@
   "mapMark": null,
   "source": [
     {
-      "name": "合成获得",
-      "type": "single"
-    },
-    {
       "name": "60级以上纳塔龙众掉落",
       "type": "single"
     }
@@ -32,6 +28,18 @@
           "name": "基尼奇",
           "rank": 5,
           "icon": "UI_AvatarIcon_Kinich"
+        },
+        {
+          "id": 10000104,
+          "name": "恰斯卡",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Chasca"
+        },
+        {
+          "id": 10000105,
+          "name": "欧洛伦",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Olorun"
         }
       ],
       "weapon": [
@@ -42,16 +50,34 @@
           "icon": "UI_EquipIcon_Sword_Isikhulu"
         },
         {
+          "id": 12430,
+          "name": "硕果钩",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Umpakati"
+        },
+        {
           "id": 14427,
           "name": "苍纹角杯",
           "rank": 4,
           "icon": "UI_EquipIcon_Catalyst_ConchSprayer"
         },
         {
+          "id": 14430,
+          "name": "乘浪的回旋",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Umpakati"
+        },
+        {
           "id": 15431,
           "name": "碎链",
           "rank": 4,
           "icon": "UI_EquipIcon_Bow_Isikhulu"
+        },
+        {
+          "id": 11516,
+          "name": "岩峰巡歌",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_XochitlsTube"
         },
         {
           "id": 14516,

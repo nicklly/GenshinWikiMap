@@ -307,7 +307,7 @@
             "瞄准射击|{param4:F1P}",
             "满蓄力瞄准射击|{param5:P}",
             "下坠期间伤害|{param6:F1P}",
-            "低空/高空坠地冲击伤害|{param7:P}/{param8:P}",
+            "低空\/高空坠地冲击伤害|{param7:P}\/{param8:P}",
             "",
             "",
             "",
@@ -1884,6 +1884,16 @@
       ]
     },
     "3": {
+      "type": 0,
+      "name": "特殊跳跃",
+      "description": "如果角色在纳塔地区，长按后可以消耗燃素进行二段火箭跳，当燃素耗尽时将转为消耗体力进行二段跳跃。",
+      "icon": "Skill_E_Olorun_03",
+      "promote": {},
+      "cooldown": 0,
+      "cost": 0,
+      "linkedConstellations": null
+    },
+    "4": {
       "type": 1,
       "name": "黯声回响",
       "description": "欧洛伦唤起远古的秘仪，造成具有夜魂性质的<color=#FFACFFFF>雷元素范围伤害<\/color>，并召唤出「超音灵眼」。\\n\\n<color=#FFD780FF>超音灵眼<\/color>\\n·持续嘲讽周围的敌人，吸引敌人攻击；\\n·持续旋转并发射音波，对附近的敌人造成具有夜魂性质的<color=#FFACFFFF>雷元素伤害<\/color>。\\n\\n<i>拥有足够感知的人，能够听见万物细微的声响。那样即便是在无光的长夜，也不会失去行路的方向。<\/i>",
@@ -2655,15 +2665,6 @@
           "bluntAttack": false
         }
       ]
-    },
-    "4": {
-      "type": 0,
-      "name": "特殊跳跃",
-      "description": "如果角色在纳塔地区，长按后可以消耗燃素进行二段火箭跳，当燃素耗尽时将转为消耗体力进行二段跳跃。",
-      "icon": "Skill_E_Olorun_03",
-      "cooldown": 0,
-      "cost": 0,
-      "linkedConstellations": null
     },
     "5": {
       "type": 2,

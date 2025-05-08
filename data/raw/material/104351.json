@@ -16,10 +16,6 @@
   "mapMark": null,
   "source": [
     {
-      "name": "合成获得",
-      "type": "single"
-    },
-    {
       "name": "精通秘境：空华",
       "type": "domain",
       "days": [
@@ -37,6 +33,18 @@
           "name": "基尼奇",
           "rank": 5,
           "icon": "UI_AvatarIcon_Kinich"
+        },
+        {
+          "id": 10000103,
+          "name": "希诺宁",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Xilonen"
+        },
+        {
+          "id": 10000105,
+          "name": "欧洛伦",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Olorun"
         }
       ]
     },

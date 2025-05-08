@@ -21,13 +21,13 @@
         77.8,
         103.7,
         129.7,
-        155.6
+        155.60001
       ]
     },
     {
       "base": {
         "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
-        "initValue": 0.066667,
+        "initValue": 0.06667,
         "type": "GROW_CURVE_CRITICAL_201"
       }
     }

@@ -10,7 +10,7 @@ def main():
     update_constant()
     update_character()
     update_weapon()
-#   update_monster()
+    update_monster()
     update_artifact()
     update_material()
 

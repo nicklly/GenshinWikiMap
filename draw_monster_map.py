@@ -127,15 +127,16 @@ def draw_monster_map(monster: Monster):
                 else:
                     charas = material_info[material['name']]['适用角色']
                 if charas:
-                    if '旅行者' in charas:
-                        charas.remove('旅行者')
-                        charas.append('荧')
+                    # if '旅行者' in charas:
+                    #     charas.remove('旅行者')
+                    #     charas.append('荧')
                     if len(charas) > 8:
                         charas = charas[:8]
                     for j, chara in enumerate(charas):
                         img.paste(CHARACTER_MAP_RESOURCES / '圆框橙.png', (258 + j * 148, 1172 + i * 181))
 
                         chara_id = get_id_by_name(chara)
+                        print(chara)
                         character = avatar_list[chara_id]['icon']
 
                         chara_icon = PMImage(RESOURCES / 'avatar' / f'{character}.png')

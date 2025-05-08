@@ -48,6 +48,12 @@
           "name": "艾梅莉埃",
           "rank": 5,
           "icon": "UI_AvatarIcon_Emilie"
+        },
+        {
+          "id": 10000104,
+          "name": "恰斯卡",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Chasca"
         }
       ]
     },

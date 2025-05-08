@@ -16,10 +16,6 @@
   "mapMark": null,
   "source": [
     {
-      "name": "合成获得",
-      "type": "single"
-    },
-    {
       "name": "精通秘境：转竟",
       "type": "domain",
       "days": [

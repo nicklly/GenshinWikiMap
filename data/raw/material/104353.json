@@ -28,6 +28,12 @@
           "name": "卡齐娜",
           "rank": 4,
           "icon": "UI_AvatarIcon_Kachina"
+        },
+        {
+          "id": 10000104,
+          "name": "恰斯卡",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Chasca"
         }
       ]
     },

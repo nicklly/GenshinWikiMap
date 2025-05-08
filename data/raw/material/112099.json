@@ -16,10 +16,6 @@
   "mapMark": null,
   "source": [
     {
-      "name": "合成获得",
-      "type": "single"
-    },
-    {
       "name": "40级以上魔像禁卫掉落",
       "type": "single"
     },

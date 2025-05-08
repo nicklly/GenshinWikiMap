@@ -31,14 +31,14 @@
     ],
     "prop": [
       {
-        "type": "GROW_CURVE_ATTACK_304",
         "propType": "FIGHT_PROP_BASE_ATTACK",
-        "initValue": 44.3358
+        "initValue": 44.3358,
+        "type": "GROW_CURVE_ATTACK_304"
       },
       {
-        "type": "GROW_CURVE_CRITICAL_301",
         "propType": "FIGHT_PROP_ELEMENT_MASTERY",
-        "initValue": 57.6
+        "initValue": 57.6,
+        "type": "GROW_CURVE_CRITICAL_301"
       }
     ],
     "promote": [
@@ -55,10 +55,14 @@
         },
         "coinCost": 10000,
         "addProps": {
-          "FIGHT_PROP_BASE_ATTACK": 31.1
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
         },
-        "requiredPlayerLevel": 15,
-        "unlockMaxLevel": 40
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
       },
       {
         "promoteLevel": 2,
@@ -69,10 +73,14 @@
         },
         "coinCost": 20000,
         "addProps": {
-          "FIGHT_PROP_BASE_ATTACK": 62.2
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
         },
-        "requiredPlayerLevel": 25,
-        "unlockMaxLevel": 50
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
       },
       {
         "promoteLevel": 3,
@@ -83,10 +91,14 @@
         },
         "coinCost": 30000,
         "addProps": {
-          "FIGHT_PROP_BASE_ATTACK": 93.4
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
         },
-        "requiredPlayerLevel": 30,
-        "unlockMaxLevel": 60
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
       },
       {
         "promoteLevel": 4,
@@ -97,10 +109,14 @@
         },
         "coinCost": 45000,
         "addProps": {
-          "FIGHT_PROP_BASE_ATTACK": 124.5
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
         },
-        "requiredPlayerLevel": 35,
-        "unlockMaxLevel": 70
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
       },
       {
         "promoteLevel": 5,
@@ -111,10 +127,14 @@
         },
         "coinCost": 55000,
         "addProps": {
-          "FIGHT_PROP_BASE_ATTACK": 155.6
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
         },
-        "requiredPlayerLevel": 40,
-        "unlockMaxLevel": 80
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
       },
       {
         "promoteLevel": 6,
@@ -125,10 +145,14 @@
         },
         "coinCost": 65000,
         "addProps": {
-          "FIGHT_PROP_BASE_ATTACK": 186.7
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
         },
-        "requiredPlayerLevel": 50,
-        "unlockMaxLevel": 90
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
       }
     ]
   },

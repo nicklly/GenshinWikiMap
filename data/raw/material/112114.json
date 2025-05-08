@@ -16,10 +16,6 @@
   "mapMark": null,
   "source": [
     {
-      "name": "合成获得",
-      "type": "single"
-    },
-    {
       "name": "40级以上秘源机兵·寻捕械掉落",
       "type": "single"
     },
@@ -32,6 +28,12 @@
     "requiredBy": {
       "weapon": [
         {
+          "id": 12430,
+          "name": "硕果钩",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Umpakati"
+        },
+        {
           "id": 13431,
           "name": "虹的行迹",
           "rank": 4,
@@ -42,6 +44,12 @@
           "name": "苍纹角杯",
           "rank": 4,
           "icon": "UI_EquipIcon_Catalyst_ConchSprayer"
+        },
+        {
+          "id": 11516,
+          "name": "岩峰巡歌",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_XochitlsTube"
         }
       ]
     },

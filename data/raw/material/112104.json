@@ -29,9 +29,27 @@
           "name": "玛拉妮",
           "rank": 5,
           "icon": "UI_AvatarIcon_Mualani"
+        },
+        {
+          "id": 10000103,
+          "name": "希诺宁",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Xilonen"
         }
       ],
       "weapon": [
+        {
+          "id": 11430,
+          "name": "弥坚骨",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Umpakati"
+        },
+        {
+          "id": 11432,
+          "name": "厄水之祸",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_SacrificialNgombe"
+        },
         {
           "id": 12431,
           "name": "撼地者",
@@ -45,10 +63,22 @@
           "icon": "UI_EquipIcon_Pole_Isikhulu"
         },
         {
+          "id": 15430,
+          "name": "缀花之翎",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_Umpakati"
+        },
+        {
           "id": 12513,
           "name": "山王长牙",
           "rank": 5,
           "icon": "UI_EquipIcon_Claymore_EmeraldSword"
+        },
+        {
+          "id": 15514,
+          "name": "星鹫赤羽",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Bow_Qoyllorsnova"
         }
       ]
     },

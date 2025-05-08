@@ -1006,7 +1006,177 @@
       },
       "cooldown": 0,
       "cost": 0,
-      "linkedConstellations": null
+      "linkedConstellations": null,
+      "advancedProps": [
+        {
+          "name": "Normal Attack 1-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "16.7",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 2-Hit",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "15.6",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit A",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "10.35",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 3-Hit B",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "10.35",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit A",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "8.9",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit B",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "8.9",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Normal Attack 4-Hit C",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "8.9",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Shake",
+            "horizontalForce": "0",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Aimed Shot",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "10",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Aimed Shot (Hit Weak Spot)",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Fully-Charged Aimed Shot",
+          "elementalGaugeTheory": "1U(w\/ Dropoff)",
+          "internalCooldown": null,
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Fully-Charged Aimed Shot (Hit Weak Spot)",
+          "elementalGaugeTheory": "1U(w\/ Dropoff)",
+          "internalCooldown": null,
+          "interruptionResistance": "60",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "480",
+            "verticalForce": "600"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Plunging Attack Collision",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "10",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Low Plunge",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "High Plunge",
+          "elementalGaugeTheory": "—",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Heavy",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "1": {
       "type": 0,
@@ -1740,7 +1910,75 @@
             "type": "normal"
           }
         ]
-      }
+      },
+      "advancedProps": [
+        {
+          "name": "Resonance DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "50",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Multitarget Fire Tap DMG DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Shadowhunt Shell DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Shadowhunt Shell"
+            },
+            "type": {
+              "span": null,
+              "text": ""
+            }
+          },
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Shining Shadowhunt Shell DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "Shining Shadowhunt Shell"
+            },
+            "type": {
+              "span": null,
+              "text": ""
+            }
+          },
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "3": {
       "type": 1,
@@ -2470,7 +2708,54 @@
             "type": "level"
           }
         ]
-      }
+      },
+      "advancedProps": [
+        {
+          "name": "Galesplitting Soulseeker Shell DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "100",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Air",
+            "horizontalForce": "0",
+            "verticalForce": "500"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Soulseeker Shell DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": "2",
+              "text": "Elemental Burst"
+            },
+            "type": {
+              "span": "2",
+              "text": ""
+            }
+          },
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "Radiant Soulseeker Shell DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": "rowspan",
+          "interruptionResistance": "30",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "type": 2,
@@ -2530,7 +2815,21 @@
       "name": "枪口，灼烧的轻烟",
       "description": "恰斯卡登场时，获得一层固有天赋「子弹的戏法」的「焕影之灵」。该效果需要解锁固有天赋「子弹的戏法」。\\n此外，施放元素战技<color=#FFD780FF>灵缰追影<\/color>中的<color=#FFD780FF>多重瞄准<\/color>时，恰斯卡的<color=#FFD780FF>焕光追影弹<\/color>命中敌人时，会根据<color=#FFD780FF>焕光追影弹<\/color>的元素类型，造成相当于恰斯卡攻击力400%的对应元素范围伤害，该伤害视为重击伤害。每次施放<color=#FFD780FF>多重瞄准<\/color>至多触发一次该效果。",
       "extraData": null,
-      "icon": "UI_Talent_S_Chasca_02"
+      "icon": "UI_Talent_S_Chasca_02",
+      "advancedProps": [
+        {
+          "name": "AoE DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "2": {
       "id": 2,
@@ -2550,7 +2849,21 @@
       "name": "星火，瞬息的击发",
       "description": "元素爆发<color=#FFD780FF>索魂命袭<\/color>中的<color=#FFD780FF>溢光索魂弹<\/color>命中敌人时，将为恰斯卡恢复1.5点元素能量，并会根据<color=#FFD780FF>溢光索魂弹<\/color>的元素类型，造成相当于恰斯卡攻击力400%的对应元素范围伤害，该伤害视为重击伤害。\\n上述造成对应元素范围伤害的效果，每次施放<color=#FFD780FF>索魂命袭<\/color>至多触发1次该效果。",
       "extraData": null,
-      "icon": "UI_Talent_S_Chasca_03"
+      "icon": "UI_Talent_S_Chasca_03",
+      "advancedProps": [
+        {
+          "name": "AoE DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": null,
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     },
     "4": {
       "id": 4,
@@ -2570,7 +2883,51 @@
       "name": "相决，斗争的荣光",
       "description": "恰斯卡进行<color=#FFD780FF>多重瞄准<\/color>所需的蓄力时间减少，且触发固有天赋「子弹的戏法」中的「附灵转化」后，恰斯卡将获得「命袭」状态，在接下来的3秒内，恰斯卡下一次施放元素战技<color=#FFD780FF>灵缰追影<\/color>中的<color=#FFD780FF>多重瞄准<\/color>时，会立即完成蓄力，并且本次<color=#FFD780FF>多重瞄准<\/color>中的<color=#FFD780FF>追影弹<\/color>和<color=#FFD780FF>焕光追影弹<\/color>的暴击伤害提升120%。每3秒至多获得一次「命袭」效果。\\n\\n上述效果需要解锁固有天赋「子弹的戏法」。",
       "extraData": null,
-      "icon": "UI_Talent_S_Chasca_04"
+      "icon": "UI_Talent_S_Chasca_04",
+      "advancedProps": [
+        {
+          "name": "C6 Shadowhunt Shell DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "C6 Shadowhunt Shell"
+            },
+            "type": {
+              "span": null,
+              "text": ""
+            }
+          },
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        },
+        {
+          "name": "C6 Shining Shadowhunt Shell DMG",
+          "elementalGaugeTheory": "1U",
+          "internalCooldown": {
+            "tag": {
+              "span": null,
+              "text": "C6 Shining Shadowhunt Shell"
+            },
+            "type": {
+              "span": null,
+              "text": ""
+            }
+          },
+          "interruptionResistance": "20",
+          "interruptionResistanceStagger": {
+            "staggerLevel": "Light",
+            "horizontalForce": "200",
+            "verticalForce": "0"
+          },
+          "bluntAttack": false
+        }
+      ]
     }
   }
 }
