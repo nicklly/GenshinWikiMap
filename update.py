@@ -27,8 +27,7 @@ def update_constant():
         print('>>>角色列表raw更新失败')
     time.sleep(2)
 
-    if avatar_detail := github_requests(
-            'https://hub.gitmirror.com/DGP-Studio/Snap.Metadata/main/Genshin/CHS/Avatar.json'):
+    if avatar_detail := github_requests():
         save_json(avatar_detail, RAW / 'Avatar.json')
         print('>>>角色信息raw更新完成')
     else:

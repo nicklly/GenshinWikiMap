@@ -67,12 +67,7 @@ def ambr_requests(api: str):
     return None
 
 
-def github_requests(url: str):
-    """
-    向github发送请求获取数据。
-        :param url: github url
-        :return: 数据
-    """
+def github_requests():
     re = []
     data = httpx.get(
         "https://api.github.com/repositories/506863564/contents/Genshin/CHS/Avatar",
@@ -82,7 +77,7 @@ def github_requests(url: str):
     for i in data:
         try:
             url = (
-                    "https://cf.ghproxy.cc/https://raw.githubusercontent.com/DGP-Studio/Snap.Metadata/main/Genshin/CHS/Avatar/"
+                    "https://hub.gitmirror.com/https://raw.githubusercontent.com/DGP-Studio/Snap.Metadata/main/Genshin/CHS/Avatar/"
                     + i["name"]
             )
             resp = httpx.get(url, timeout=10, verify=False)
