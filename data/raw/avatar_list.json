@@ -1665,6 +1665,57 @@
     "release": 1746478800,
     "route": "Ifa"
   },
+  "10000114": {
+    "id": 10000114,
+    "rank": 5,
+    "name": "丝柯克",
+    "element": "Ice",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "OMNI_SCOURGE",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_SkirkNew",
+    "birthday": [
+      11,
+      5
+    ],
+    "release": 1750107600,
+    "route": "Skirk"
+  },
+  "10000115": {
+    "id": 10000115,
+    "rank": 4,
+    "name": "塔利雅",
+    "element": "Water",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "BOY",
+    "icon": "UI_AvatarIcon_Dahlia",
+    "birthday": [
+      5,
+      25
+    ],
+    "release": 1750107600,
+    "route": "Dahlia"
+  },
+  "10000116": {
+    "id": 10000116,
+    "rank": 5,
+    "name": "伊涅芙",
+    "element": "Electric",
+    "weaponType": "WEAPON_POLE",
+    "region": "NODKRAI",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Ineffa",
+    "birthday": [
+      4,
+      2
+    ],
+    "release": 1753736400,
+    "route": "Ineffa"
+  },
   "10000005-pyro": {
     "id": "10000005-pyro",
     "rank": 5,

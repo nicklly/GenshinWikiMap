@@ -136,7 +136,6 @@ def draw_monster_map(monster: Monster):
                         img.paste(CHARACTER_MAP_RESOURCES / '圆框橙.png', (258 + j * 148, 1172 + i * 181))
 
                         chara_id = get_id_by_name(chara)
-                        print(chara)
                         character = avatar_list[chara_id]['icon']
 
                         chara_icon = PMImage(RESOURCES / 'avatar' / f'{character}.png')

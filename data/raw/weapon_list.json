@@ -422,6 +422,15 @@
     "icon": "UI_EquipIcon_Sword_XochitlsTube",
     "route": "Peak Patrol Song"
   },
+  "11517": {
+    "id": 11517,
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "苍耀",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "icon": "UI_EquipIcon_Sword_OuterSword",
+    "route": "Azurelight"
+  },
   "12101": {
     "id": 12101,
     "rank": 1,
@@ -691,6 +700,15 @@
     "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Claymore_Isikhulu",
     "route": "Earth Shaker"
+  },
+  "12432": {
+    "id": 12432,
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "name": "拾慧铸熔",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "icon": "UI_EquipIcon_Claymore_Polilith",
+    "route": "Flame-Forged Insight"
   },
   "12501": {
     "id": 12501,
@@ -1096,6 +1114,15 @@
     "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Pole_Trident",
     "route": "Symphonist of Scents"
+  },
+  "13515": {
+    "id": 13515,
+    "rank": 5,
+    "type": "WEAPON_POLE",
+    "name": "支离轮光",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Pole_Perdix",
+    "route": "Fractured Halo"
   },
   "14101": {
     "id": 14101,
@@ -1879,5 +1906,105 @@
     "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Bow_Qoyllorsnova",
     "route": "Astral Vulture's Crimson Plumage"
+  },
+  "310001": {
+    "id": 310001,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "蛇噬",
+    "specialProp": "NONE",
+    "isWeaponSkin": true,
+    "icon": "UI_EquipIcon_Sword_MorphVinces_Wind",
+    "route": "Serpent Devourer"
+  },
+  "310002": {
+    "id": 310002,
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "蛇噬·真化",
+    "specialProp": "NONE",
+    "isWeaponSkin": true,
+    "icon": "UI_EquipIcon_Sword_MorphVinces_Great_Wind",
+    "route": "Serpent Devourer - Sublimation"
+  },
+  "320001": {
+    "id": 320001,
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "name": "赫烈",
+    "specialProp": "NONE",
+    "isWeaponSkin": true,
+    "icon": "UI_EquipIcon_Claymore_MorphGravitas_Wind",
+    "route": "Ardent Storm"
+  },
+  "320002": {
+    "id": 320002,
+    "rank": 5,
+    "type": "WEAPON_CLAYMORE",
+    "name": "赫烈·真化",
+    "specialProp": "NONE",
+    "isWeaponSkin": true,
+    "icon": "UI_EquipIcon_Claymore_MorphGravitas_Great_Wind",
+    "route": "Ardent Storm - Sublimation"
+  },
+  "330001": {
+    "id": 330001,
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "name": "碎月",
+    "specialProp": "NONE",
+    "isWeaponSkin": true,
+    "icon": "UI_EquipIcon_Pole_MorphSpinifer_Wind",
+    "route": "Shattered Moon"
+  },
+  "330002": {
+    "id": 330002,
+    "rank": 5,
+    "type": "WEAPON_POLE",
+    "name": "碎月·真化",
+    "specialProp": "NONE",
+    "isWeaponSkin": true,
+    "icon": "UI_EquipIcon_Pole_MorphSpinifer_Great_Wind",
+    "route": "Shattered Moon - Sublimation"
+  },
+  "340001": {
+    "id": 340001,
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "name": "圣缚",
+    "specialProp": "NONE",
+    "isWeaponSkin": true,
+    "icon": "UI_EquipIcon_Catalyst_MorphIlia_Wind",
+    "route": "Hallowed Fetters"
+  },
+  "340002": {
+    "id": 340002,
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "name": "圣缚·真化",
+    "specialProp": "NONE",
+    "isWeaponSkin": true,
+    "icon": "UI_EquipIcon_Catalyst_MorphIlia_Great_Wind",
+    "route": "Hallowed Fetters - Sublimation"
+  },
+  "350001": {
+    "id": 350001,
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "name": "贯星",
+    "specialProp": "NONE",
+    "isWeaponSkin": true,
+    "icon": "UI_EquipIcon_Bow_MorphChrod_Wind",
+    "route": "Starpiercer"
+  },
+  "350002": {
+    "id": 350002,
+    "rank": 5,
+    "type": "WEAPON_BOW",
+    "name": "贯星·真化",
+    "specialProp": "NONE",
+    "isWeaponSkin": true,
+    "icon": "UI_EquipIcon_Bow_MorphChrod_Great_Wind",
+    "route": "Starpiercer - Sublimation"
   }
 }

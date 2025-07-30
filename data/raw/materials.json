@@ -60,7 +60,7 @@
       "type": "challengeResultItem",
       "recipe": null,
       "mapMark": false,
-      "icon": "UI_ItemIcon_210",
+      "icon": "UI_ItemIcon_106",
       "rank": 3,
       "route": "Original Resin"
     },
@@ -6753,6 +6753,36 @@
       "icon": "UI_ItemIcon_220112",
       "rank": 4,
       "route": "Ukulele"
+    },
+    "220115": {
+      "id": 220115,
+      "name": "新式终端浮叶型",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220115",
+      "rank": 4,
+      "route": "Neo Terminal: Floating Leaf Model"
+    },
+    "220116": {
+      "id": 220116,
+      "name": "「余音」",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220116",
+      "rank": 4,
+      "route": "\"Lingering Euphonia\""
+    },
+    "220117": {
+      "id": 220117,
+      "name": "跃律琴",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220117",
+      "rank": 4,
+      "route": "Leaping Spirit Piano"
     }
   }
 }
