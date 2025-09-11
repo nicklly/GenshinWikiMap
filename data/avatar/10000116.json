@@ -1,0 +1,132 @@
+{
+  "id": 10000116,
+  "name": "伊涅芙",
+  "element": "雷",
+  "weapon": "长柄武器",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Ineffa",
+    "side": "UI_AvatarIcon_Side_Ineffa",
+    "card": "UI_AvatarIcon_Ineffa_Card",
+    "splash": "UI_Gacha_AvatarImg_Ineffa",
+    "slice": "UI_Gacha_AvatarIcon_Ineffa"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 981.9196,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        841.9073,
+        1440.1045,
+        2237.701,
+        2835.8982,
+        3434.0955,
+        4032.2927
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 25.6956,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.030045,
+        37.68297,
+        58.55354,
+        74.20647,
+        89.85939,
+        105.512314
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 64.43691,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        55.2501,
+        94.50675,
+        146.84895,
+        186.1056,
+        225.36224,
+        264.6189
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        22.030045,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "11161": {
+      "name": "除尘旋刃",
+      "icon": "Skill_A_03"
+    },
+    "11162": {
+      "name": "涤净模式·稳态载频",
+      "icon": "Skill_S_Ineffa_01"
+    },
+    "11165": {
+      "name": "至高律令·全域扫灭",
+      "icon": "Skill_E_Ineffa_01"
+    },
+    "1162101": {
+      "name": "频率超限回路",
+      "icon": "UI_Talent_S_Ineffa_05"
+    },
+    "1162201": {
+      "name": "全相重构协议",
+      "icon": "UI_Talent_S_Ineffa_06"
+    },
+    "1162301": {
+      "name": "月兆祝赐·象拟中继",
+      "icon": "UI_Talent_S_Ineffa_07"
+    },
+    "1162501": {
+      "name": "美味合成单元",
+      "icon": "UI_Talent_S_Ineffa_08"
+    }
+  },
+  "constellation": {
+    "1161": {
+      "name": "循环整流引擎",
+      "icon": "UI_Talent_S_Ineffa_01"
+    },
+    "1162": {
+      "name": "辅助清理模块",
+      "icon": "UI_Talent_S_Ineffa_02"
+    },
+    "1163": {
+      "name": "高阶情感固件",
+      "icon": "UI_Talent_U_Ineffa_01"
+    },
+    "1164": {
+      "name": "敕谕未至之路",
+      "icon": "UI_Talent_S_Ineffa_03"
+    },
+    "1165": {
+      "name": "超越镜影之梦",
+      "icon": "UI_Talent_U_Ineffa_02"
+    },
+    "1166": {
+      "name": "献予你的明晨",
+      "icon": "UI_Talent_S_Ineffa_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

@@ -1,0 +1,132 @@
+{
+  "id": 10000121,
+  "name": "爱诺",
+  "element": "水",
+  "weapon": "双手剑",
+  "rank": 4,
+  "region": "挪德卡莱",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Aino",
+    "side": "UI_AvatarIcon_Side_Aino",
+    "card": "UI_AvatarIcon_Aino_Card",
+    "splash": "UI_Gacha_AvatarImg_Aino",
+    "slice": "UI_Gacha_AvatarIcon_Aino"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 939.1447,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        701.5892,
+        1200.0868,
+        1864.7502,
+        2363.2478,
+        2861.7454,
+        3360.243
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 20.30112,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        15.166332,
+        25.94241,
+        40.310513,
+        51.086594,
+        61.86267,
+        72.63875
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 50.93025,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        38.0475,
+        65.08125,
+        101.12625,
+        128.16,
+        155.19376,
+        182.2275
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ELEMENT_MASTERY",
+      "promote": [
+        15.166332,
+        24,
+        48,
+        48,
+        72,
+        96
+      ]
+    }
+  ],
+  "talent": {
+    "11211": {
+      "name": "敲打修理法",
+      "icon": "Skill_A_04"
+    },
+    "11212": {
+      "name": "妙思捕手",
+      "icon": "Skill_S_Aino_01"
+    },
+    "11215": {
+      "name": "精密水冷仪",
+      "icon": "Skill_E_Aino_01"
+    },
+    "1212101": {
+      "name": "模块式高效运作",
+      "icon": "UI_Talent_S_Aino_05"
+    },
+    "1212201": {
+      "name": "结构化功率提升",
+      "icon": "UI_Talent_S_Aino_06"
+    },
+    "1212301": {
+      "name": "月兆祝赐·力极演算",
+      "icon": "UI_Talent_S_Aino_07"
+    },
+    "1212501": {
+      "name": "小型识别侦测器",
+      "icon": "UI_Talent_S_Aino_08"
+    }
+  },
+  "constellation": {
+    "1211": {
+      "name": "灰与力场的平衡理论",
+      "icon": "UI_Talent_S_Aino_03"
+    },
+    "1212": {
+      "name": "齿轮差分的进位原理",
+      "icon": "UI_Talent_S_Aino_02"
+    },
+    "1213": {
+      "name": "蛋糕与机关维修艺术",
+      "icon": "UI_Talent_U_Aino_01"
+    },
+    "1214": {
+      "name": "黄油与猫与供能法则",
+      "icon": "UI_Talent_S_Aino_01"
+    },
+    "1215": {
+      "name": "金属与光的不朽涡轮",
+      "icon": "UI_Talent_U_Aino_02"
+    },
+    "1216": {
+      "name": "天才之为构造之责任",
+      "icon": "UI_Talent_S_Aino_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

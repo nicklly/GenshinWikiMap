@@ -1,0 +1,48 @@
+{
+  "name": "「乐园」的哲学",
+  "description": "天赋培养素材。\\n「乐园」是月下之地的狂想。\\n乐园的定义因人而异。对那些从不安于现状的人而言，再也没有比挪德卡莱更适合称作乐园的地方了。但对剩下的人来说，情况则恰恰相反。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13040": {
+      "104360": {
+        "name": "「乐园」的指引",
+        "icon": "UI_ItemIcon_104360",
+        "rank": 3,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：遗荫",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000121,
+          "name": "爱诺",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Aino"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_104361",
+  "rank": 4,
+  "route": "Philosophies of Elysium"
+}

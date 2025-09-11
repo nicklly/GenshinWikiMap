@@ -1552,5 +1552,65 @@
     "suit_id": 15040,
     "suit_name": "深廊终曲",
     "part": "理之冠"
+  },
+  "UI_RelicIcon_15041_4": {
+    "name": "渴真之花",
+    "suit_id": 15041,
+    "suit_name": "穹境示现之夜",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15041_2": {
+    "name": "深罪之羽",
+    "suit_id": 15041,
+    "suit_name": "穹境示现之夜",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15041_5": {
+    "name": "谕告之钟",
+    "suit_id": 15041,
+    "suit_name": "穹境示现之夜",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15041_1": {
+    "name": "满溢之壶",
+    "suit_id": 15041,
+    "suit_name": "穹境示现之夜",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15041_3": {
+    "name": "永劫之冕",
+    "suit_id": 15041,
+    "suit_name": "穹境示现之夜",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15042_4": {
+    "name": "流离者的晶泪",
+    "suit_id": 15042,
+    "suit_name": "纺月的夜歌",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15042_2": {
+    "name": "受福者的白羽",
+    "suit_id": 15042,
+    "suit_name": "纺月的夜歌",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15042_5": {
+    "name": "祭霜者的迷狂",
+    "suit_id": 15042,
+    "suit_name": "纺月的夜歌",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15042_1": {
+    "name": "至纯者的欢荣",
+    "suit_id": 15042,
+    "suit_name": "纺月的夜歌",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15042_3": {
+    "name": "司信者的圣冕",
+    "suit_id": 15042,
+    "suit_name": "纺月的夜歌",
+    "part": "理之冠"
   }
 }

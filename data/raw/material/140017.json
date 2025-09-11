@@ -1,0 +1,23 @@
+{
+  "name": "夜驻月停之翼",
+  "description": "风之翼款式。因为得到空月的认可与嘉许，而获赠的礼物。",
+  "type": "风之翼",
+  "recipe": null,
+  "storyId": [
+    "140017"
+  ],
+  "mapMark": null,
+  "source": [
+    {
+      "name": "完成「伴月纪闻·其三」下所有任务获取",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_FlycloakIcon_Nodkrai",
+  "rank": 4,
+  "route": "Wings of the Silent Moon"
+}

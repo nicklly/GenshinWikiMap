@@ -1,0 +1,60 @@
+{
+  "name": "长夜燧火的残照",
+  "description": "赋予武器突破之力的材料。\\n正如点亮灯盏便能驱散黑暗，边地的人们深信，只要执灯人的燧火长明，卑污的邪祟便不会沾染生者的家园。\\n誓言守望长夜的战士亦曾如此相信。正因如此，如灯蛾赴火那般，男人以铁胄中脆弱的血肉迎向如山的灾厄。\\n直至漆黑的荒潮噬尽他的血肉，亦或他的血肉将污浊的黑潮吞噬，二者再也无从界别。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12058": {
+      "114077": {
+        "name": "长夜燧火的余烬",
+        "icon": "UI_ItemIcon_114077",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：祷颂",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 13433,
+          "name": "掘金之锹",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Ilmarinen"
+        },
+        {
+          "id": 15433,
+          "name": "罗网勾针",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_Ilmarinen"
+        },
+        {
+          "id": 13516,
+          "name": "血染荒城",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Pole_TummaLyhty"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114078",
+  "rank": 3,
+  "route": "Afterglow of Long Night Flint"
+}

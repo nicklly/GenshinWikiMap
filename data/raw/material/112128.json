@@ -1,0 +1,67 @@
+{
+  "name": "霜夜的残照",
+  "description": "击败霜夜灵嗣后，从其角冠上取得的残片。\\n传说在遥远的过去，这些高贵的生灵亦是黄金之城的侍仆，辉映于其瞳中的乃是至圣至耀的天光。如今那缕残光早已熄灭，而失却了旧主的灵嗣依然漫行于月下的霜夜，守望无人铭记的誓言。",
+  "type": "角色与武器培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "霜夜灵嗣掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11433,
+          "name": "谧音吹哨",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Ilmarinen"
+        },
+        {
+          "id": 14433,
+          "name": "乌髓孑灯",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Ilmarinen"
+        },
+        {
+          "id": 14520,
+          "name": "纺夜天镜",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Catalyst_MenulisRing"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 20080301,
+        "name": "灼烜·霜夜灵嗣",
+        "icon": "UI_MonsterIcon_Moonbeast_Fire"
+      },
+      {
+        "id": 20080101,
+        "name": "辉电·霜夜灵嗣",
+        "icon": "UI_MonsterIcon_Moonbeast_Electric"
+      },
+      {
+        "id": 20080201,
+        "name": "蔓结·霜夜灵嗣",
+        "icon": "UI_MonsterIcon_Moonbeast_Grass"
+      },
+      {
+        "id": 20080401,
+        "name": "凌晶·霜夜灵嗣",
+        "icon": "UI_MonsterIcon_Moonbeast_Ice"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112128",
+  "rank": 2,
+  "route": "Frostnight's Glimmer"
+}

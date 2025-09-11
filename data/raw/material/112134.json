@@ -1,0 +1,57 @@
+{
+  "name": "幽雾化形",
+  "description": "在狂猎的迷雾中寻得的碎块。\\n如同雪花一般，是由来自异界的漆黑力量显化凝结而成的。",
+  "type": "角色与武器培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "荒野狂猎掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 13433,
+          "name": "掘金之锹",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Ilmarinen"
+        },
+        {
+          "id": 15433,
+          "name": "罗网勾针",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_Ilmarinen"
+        },
+        {
+          "id": 13516,
+          "name": "血染荒城",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Pole_TummaLyhty"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 22130001,
+        "name": "荒野幽徒",
+        "icon": "UI_MonsterIcon_WildHunt"
+      },
+      {
+        "id": 22131001,
+        "name": "荒野狂狩士",
+        "icon": "UI_MonsterIcon_WildHunt_Elite"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112134",
+  "rank": 2,
+  "route": "Mistshroud Manifestation"
+}

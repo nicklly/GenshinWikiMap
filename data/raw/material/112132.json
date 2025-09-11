@@ -1,0 +1,75 @@
+{
+  "name": "稀光遗骼",
+  "description": "自蕴光的魔兽体表，取下的散发微光的骨块。\\n仍然残留一部分古老月之力的外骨遗骸，在其中能看到因月之力浸润已久，即使已脱离了本体许久仍无法褪去的深邃颜色。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11077": {
+      "112131": {
+        "name": "失光块骨",
+        "icon": "UI_ItemIcon_112131",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "40级以上蕴光异兽掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    },
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11434,
+          "name": "织月者的曙色",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Miekka"
+        },
+        {
+          "id": 12433,
+          "name": "万能钥匙",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Ilmarinen"
+        },
+        {
+          "id": 14432,
+          "name": "天光的纺琴",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_SeeliesLute"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 26300101,
+        "name": "蕴光奇羊",
+        "icon": "UI_MonsterIcon_Magbeast_Argali"
+      },
+      {
+        "id": 26300201,
+        "name": "蕴光刃犀",
+        "icon": "UI_MonsterIcon_Magbeast_Rhino"
+      },
+      {
+        "id": 26300301,
+        "name": "蕴光璇蛸",
+        "icon": "UI_MonsterIcon_Magbeast_Squid"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112132",
+  "rank": 3,
+  "route": "Glowing Remains"
+}

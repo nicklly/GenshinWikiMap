@@ -1,0 +1,60 @@
+{
+  "name": "奇巧秘器的模本",
+  "description": "赋予武器突破之力的材料。\\n正如其工具曾被无数人仿制，大盗的名讳也曾被无数人仿用。\\n从某种意义上来说，并非是渴求得到什么的人们窃走了雷德·米勒的名字，而是大盗雷德·米勒窃走了原本只属于他们自己的「身份」。这两件事之间，原本便没有什么区别。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12055": {
+      "114073": {
+        "name": "奇巧秘器的残件",
+        "icon": "UI_ItemIcon_114073",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：明辉",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11433,
+          "name": "谧音吹哨",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Ilmarinen"
+        },
+        {
+          "id": 14433,
+          "name": "乌髓孑灯",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Ilmarinen"
+        },
+        {
+          "id": 14520,
+          "name": "纺夜天镜",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Catalyst_MenulisRing"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114074",
+  "rank": 3,
+  "route": "Artful Device Replica"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "繁光躯外骸",
+  "description": "自蕴光的魔兽体表，取下的散发着清凉光芒的巨大骨块。\\n曾受古老月之力恩赐的魔兽，能够通过这种在漫长岁月中浸入深髓中的光亮，操纵生长而出的外骨，对它们来说，即使并未完全在生理结构上连接，但浮于体表的外骨仍然是可随心念驱使的身躯的一部分吧。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11078": {
+      "112132": {
+        "name": "稀光遗骼",
+        "icon": "UI_ItemIcon_112132",
+        "rank": 3,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "60级以上蕴光异兽掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换：兑换后合成",
+      "type": "single"
+    },
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11434,
+          "name": "织月者的曙色",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Miekka"
+        },
+        {
+          "id": 12433,
+          "name": "万能钥匙",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Ilmarinen"
+        },
+        {
+          "id": 14432,
+          "name": "天光的纺琴",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_SeeliesLute"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 26300101,
+        "name": "蕴光奇羊",
+        "icon": "UI_MonsterIcon_Magbeast_Argali"
+      },
+      {
+        "id": 26300201,
+        "name": "蕴光刃犀",
+        "icon": "UI_MonsterIcon_Magbeast_Rhino"
+      },
+      {
+        "id": 26300301,
+        "name": "蕴光璇蛸",
+        "icon": "UI_MonsterIcon_Magbeast_Squid"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112133",
+  "rank": 4,
+  "route": "Radiant Exoskeleton"
+}

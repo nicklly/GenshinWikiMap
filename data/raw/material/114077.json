@@ -1,0 +1,51 @@
+{
+  "name": "长夜燧火的余烬",
+  "description": "赋予武器突破之力的材料。\\n在尘世的诗歌中，灯火常为希望的譬喻。燃薪在寂静中焚尽，只为让人们在黎明前的黑夜中望见前行的旅路。\\n话虽如此，无论是最初的铸灯者，还是年幼时与他共同描绘乐园的挚友，直至灯火熄灭的时刻，也未曾知晓那被照亮的道路究竟通往何方。",
+  "type": "武器突破素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "礼包商城兑换",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：祷颂",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 13433,
+          "name": "掘金之锹",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_Ilmarinen"
+        },
+        {
+          "id": 15433,
+          "name": "罗网勾针",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_Ilmarinen"
+        },
+        {
+          "id": 13516,
+          "name": "血染荒城",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Pole_TummaLyhty"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114077",
+  "rank": 2,
+  "route": "Ember of Long Night Flint"
+}

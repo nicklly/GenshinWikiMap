@@ -1,0 +1,119 @@
+{
+  "name": "精致的执凭",
+  "description": "配发给愚人众特辖队的执凭。\\n精致造型的背后，或许也有执凭的主人为了晋升所付出的代价吧。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11211": {
+      "112125": {
+        "name": "磨损的执凭",
+        "icon": "UI_ItemIcon_112125",
+        "rank": 1,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "40级以上愚人众特辖队掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    },
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000119,
+          "name": "菈乌玛",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Lauma"
+        }
+      ],
+      "weapon": [
+        {
+          "id": 11433,
+          "name": "谧音吹哨",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Ilmarinen"
+        },
+        {
+          "id": 14432,
+          "name": "天光的纺琴",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_SeeliesLute"
+        },
+        {
+          "id": 14433,
+          "name": "乌髓孑灯",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Ilmarinen"
+        },
+        {
+          "id": 13516,
+          "name": "血染荒城",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Pole_TummaLyhty"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 23070101,
+        "name": "愚人众特辖队·线列军",
+        "icon": "UI_MonsterIcon_NodKrai_Oprichnik_Male"
+      },
+      {
+        "id": 23072101,
+        "name": "愚人众特辖队·支援兵",
+        "icon": "UI_MonsterIcon_NodKrai_Oprichnik_MuscleMan"
+      },
+      {
+        "id": 23073101,
+        "name": "愚人众特辖队·榴铳手",
+        "icon": "UI_MonsterIcon_NodKrai_Oprichnik_Female"
+      },
+      {
+        "id": 23074101,
+        "name": "愚人众特辖队·先锋士",
+        "icon": "UI_MonsterIcon_NodKrai_Oprichnik_Male"
+      },
+      {
+        "id": 23076101,
+        "name": "愚人众特辖队·疗愈师",
+        "icon": "UI_MonsterIcon_NodKrai_Oprichnik_Male"
+      },
+      {
+        "id": 23078101,
+        "name": "愚人众特辖队·掷弹兵",
+        "icon": "UI_MonsterIcon_NodKrai_Oprichnik_Male"
+      },
+      {
+        "id": 23079101,
+        "name": "愚人众特辖队·火刃突击队",
+        "icon": "UI_MonsterIcon_Oprichnik_Male_Strong_LanceArquebus"
+      },
+      {
+        "id": 23079201,
+        "name": "愚人众特辖队·冰雹重炮手",
+        "icon": "UI_MonsterIcon_Oprichnik_Male_Fat_CannonShield"
+      },
+      {
+        "id": 23079301,
+        "name": "愚人众特辖队·雷霰近卫军",
+        "icon": "UI_MonsterIcon_Oprichnik_Female_Slim_MachineGun"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112126",
+  "rank": 2,
+  "route": "Immaculate Warrant"
+}

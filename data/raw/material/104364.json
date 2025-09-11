@@ -1,0 +1,48 @@
+{
+  "name": "「浪迹」的哲学",
+  "description": "天赋培养素材。\\n「浪迹」是月下之地的生活。\\n穿越雷霆与风暴，跨过山峦和雪原，即便遍体鳞伤，也绝不就此驻足。浪迹之人之所以还没有停下脚步，是因为他们还没有找到可以称之为「家」的地方。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13042": {
+      "104363": {
+        "name": "「浪迹」的指引",
+        "icon": "UI_ItemIcon_104363",
+        "rank": 3,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：覆巢",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000120,
+          "name": "菲林斯",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Flins"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_104364",
+  "rank": 4,
+  "route": "Philosophies of Vagrancy"
+}

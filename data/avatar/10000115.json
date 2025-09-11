@@ -1,0 +1,128 @@
+{
+  "id": 10000115,
+  "name": "塔利雅",
+  "element": "水",
+  "weapon": "单手剑",
+  "rank": 4,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Dahlia",
+    "side": "UI_AvatarIcon_Side_Dahlia",
+    "card": "UI_AvatarIcon_Dahlia_Card",
+    "splash": "UI_Gacha_AvatarImg_Dahlia",
+    "slice": "UI_Gacha_AvatarIcon_Dahlia"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1048.56,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        783.328,
+        1339.903,
+        2082.003,
+        2638.578,
+        3195.153,
+        3751.727
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 15.849,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        11.84,
+        20.253,
+        31.47,
+        39.883,
+        48.296,
+        56.709
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 46.925,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        35.055,
+        59.962,
+        93.172,
+        118.08,
+        142.988,
+        167.895
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HP_PERCENT",
+      "promote": [
+        11.84,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "11151": {
+      "name": "西风剑术·祭仪",
+      "icon": "Skill_A_01"
+    },
+    "11152": {
+      "name": "圣浸的礼典",
+      "icon": "Skill_S_Dahlia_01"
+    },
+    "11155": {
+      "name": "纯耀的祷咏",
+      "icon": "Skill_E_Dahlia_01"
+    },
+    "1152101": {
+      "name": "风色柔愿的眷宠",
+      "icon": "UI_Talent_S_Dahlia_05"
+    },
+    "1152201": {
+      "name": "黠巧欢愉的祈颂",
+      "icon": "UI_Talent_S_Dahlia_06"
+    },
+    "1152301": {
+      "name": "归风相随的巡礼",
+      "icon": "UI_Talent_S_Dehya_07"
+    }
+  },
+  "constellation": {
+    "1151": {
+      "name": "无瑕之引",
+      "icon": "UI_Talent_S_Dahlia_01"
+    },
+    "1152": {
+      "name": "眷怜启应",
+      "icon": "UI_Talent_S_Dahlia_02"
+    },
+    "1153": {
+      "name": "风花之奉",
+      "icon": "UI_Talent_U_Dahlia_01"
+    },
+    "1154": {
+      "name": "众愿的集祷",
+      "icon": "UI_Talent_S_Dahlia_03"
+    },
+    "1155": {
+      "name": "遂成的狡意",
+      "icon": "UI_Talent_U_Dahlia_02"
+    },
+    "1156": {
+      "name": "愿一切欢睦陪伴你",
+      "icon": "UI_Talent_S_Dahlia_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

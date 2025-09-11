@@ -1,0 +1,48 @@
+{
+  "name": "「浪迹」的指引",
+  "description": "天赋培养素材。\\n「浪迹」是月下之地的生活。\\n生命与流浪本身并无差别，无人在世间永远驻留，不过是暂作停歇。值得纪念的不是抵达终点的时刻，而是沿途留下的足迹。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13041": {
+      "104362": {
+        "name": "「浪迹」的教导",
+        "icon": "UI_ItemIcon_104362",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：覆巢",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000120,
+          "name": "菲林斯",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Flins"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_104363",
+  "rank": 3,
+  "route": "Guide to Vagrancy"
+}

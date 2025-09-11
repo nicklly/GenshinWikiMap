@@ -1,0 +1,25 @@
+{
+  "name": "黑麦",
+  "description": "灰褐色的穗子，是大地的馈赠。要经过研磨与烘烤，才能化为醇厚的滋味。",
+  "type": "食材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "挪德卡莱杂货店购买",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101268",
+  "rank": 1,
+  "route": "Rye"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "霜夜的柔辉",
+  "description": "击败霜夜灵嗣后，从其角冠上取得的碎块。\\n在霜月之子最古老的口头传承祷歌中，这些高贵生灵的辉光曾被终北的哲人称作神使无垢的垂怜。尽管垂怜最终未能阻止黄金城的覆灭，也未能让她的后裔免于流离于荒野的命运，但那柔辉依然流淌在角冠上，等待着也许不会再度降临的梦。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11075": {
+      "112128": {
+        "name": "霜夜的残照",
+        "icon": "UI_ItemIcon_112128",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "40级以上霜夜灵嗣掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    },
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11433,
+          "name": "谧音吹哨",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Ilmarinen"
+        },
+        {
+          "id": 14433,
+          "name": "乌髓孑灯",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Ilmarinen"
+        },
+        {
+          "id": 14520,
+          "name": "纺夜天镜",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Catalyst_MenulisRing"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 20080301,
+        "name": "灼烜·霜夜灵嗣",
+        "icon": "UI_MonsterIcon_Moonbeast_Fire"
+      },
+      {
+        "id": 20080101,
+        "name": "辉电·霜夜灵嗣",
+        "icon": "UI_MonsterIcon_Moonbeast_Electric"
+      },
+      {
+        "id": 20080201,
+        "name": "蔓结·霜夜灵嗣",
+        "icon": "UI_MonsterIcon_Moonbeast_Grass"
+      },
+      {
+        "id": 20080401,
+        "name": "凌晶·霜夜灵嗣",
+        "icon": "UI_MonsterIcon_Moonbeast_Ice"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112129",
+  "rank": 3,
+  "route": "Frostnight's Glow"
+}

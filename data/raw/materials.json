@@ -9,6 +9,7 @@
     "localSpecialtySumeru": "须弥区域特产",
     "localSpecialtyFontaine": "枫丹区域特产",
     "localSpecialtyNatlan": "纳塔区域特产",
+    "localSpecialtyNodKrai": "挪德卡莱区域特产",
     "potion": "药剂",
     "characterLevelUpMaterial": "角色培养素材",
     "characterAscensionMaterial": "角色突破素材",
@@ -824,6 +825,16 @@
       "rank": 1,
       "route": "Fermented Juice"
     },
+    "100100": {
+      "id": 100100,
+      "name": "黑麦",
+      "type": "cookingIngredient",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101268",
+      "rank": 1,
+      "route": "Rye"
+    },
     "100584": {
       "id": 100584,
       "name": "深邃之血",
@@ -943,6 +954,16 @@
       "icon": "UI_ItemIcon_101009",
       "rank": 1,
       "route": "Condessence Crystal"
+    },
+    "101010": {
+      "id": 101010,
+      "name": "虹滴晶",
+      "type": "forgingOre",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101258",
+      "rank": 1,
+      "route": "Rainbowdrop Crystal"
     },
     "101101": {
       "id": 101101,
@@ -1604,6 +1625,76 @@
       "rank": 1,
       "route": "Red Berryshroom"
     },
+    "101257": {
+      "id": 101257,
+      "name": "便携轴承",
+      "type": "localSpecialtyNodKrai",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101257",
+      "rank": 1,
+      "route": "Portable Bearing"
+    },
+    "101259": {
+      "id": 101259,
+      "name": "寒涌石",
+      "type": "material",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101259",
+      "rank": 1,
+      "route": "Icy Pebble"
+    },
+    "101261": {
+      "id": 101261,
+      "name": "霜盏花",
+      "type": "localSpecialtyNodKrai",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101261",
+      "rank": 1,
+      "route": "Frostlamp Flower"
+    },
+    "101262": {
+      "id": 101262,
+      "name": "宿影花",
+      "type": "material",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101262",
+      "rank": 1,
+      "route": "Nocturnal Blossom"
+    },
+    "101263": {
+      "id": 101263,
+      "name": "月落银",
+      "type": "localSpecialtyNodKrai",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101263",
+      "rank": 1,
+      "route": "Moonfall Silver"
+    },
+    "101264": {
+      "id": 101264,
+      "name": "白灵果",
+      "type": "cookingIngredient",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101264",
+      "rank": 1,
+      "route": "Lakkaberry"
+    },
+    "101265": {
+      "id": 101265,
+      "name": "夏槲果",
+      "type": "cookingIngredient",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101265",
+      "rank": 1,
+      "route": "Midsommar Berry"
+    },
     "101301": {
       "id": 101301,
       "name": "桦木",
@@ -1853,6 +1944,46 @@
       "icon": "UI_ItemIcon_101326",
       "rank": 1,
       "route": "Peach Palm Wood"
+    },
+    "101327": {
+      "id": 101327,
+      "name": "银冷杉木",
+      "type": "material",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101327",
+      "rank": 1,
+      "route": "Silver Fir Wood"
+    },
+    "101328": {
+      "id": 101328,
+      "name": "榛木",
+      "type": "material",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101328",
+      "rank": 1,
+      "route": "Hazelnut Wood"
+    },
+    "101329": {
+      "id": 101329,
+      "name": "夏栎木",
+      "type": "material",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101329",
+      "rank": 1,
+      "route": "Pedunculate Oak Wood"
+    },
+    "101330": {
+      "id": 101330,
+      "name": "桤木",
+      "type": "material",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101330",
+      "rank": 1,
+      "route": "Alder Wood"
     },
     "101401": {
       "id": 101401,
@@ -2834,6 +2965,96 @@
       "rank": 4,
       "route": "Philosophies of Conflict"
     },
+    "104356": {
+      "id": 104356,
+      "name": "「月光」的教导",
+      "type": "characterTalentMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104356",
+      "rank": 2,
+      "route": "Teachings of Moonlight"
+    },
+    "104357": {
+      "id": 104357,
+      "name": "「月光」的指引",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104357",
+      "rank": 3,
+      "route": "Guide to Moonlight"
+    },
+    "104358": {
+      "id": 104358,
+      "name": "「月光」的哲学",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104358",
+      "rank": 4,
+      "route": "Philosophies of Moonlight"
+    },
+    "104359": {
+      "id": 104359,
+      "name": "「乐园」的教导",
+      "type": "characterTalentMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104359",
+      "rank": 2,
+      "route": "Teachings of Elysium"
+    },
+    "104360": {
+      "id": 104360,
+      "name": "「乐园」的指引",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104360",
+      "rank": 3,
+      "route": "Guide to Elysium"
+    },
+    "104361": {
+      "id": 104361,
+      "name": "「乐园」的哲学",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104361",
+      "rank": 4,
+      "route": "Philosophies of Elysium"
+    },
+    "104362": {
+      "id": 104362,
+      "name": "「浪迹」的教导",
+      "type": "characterTalentMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104362",
+      "rank": 2,
+      "route": "Teachings of Vagrancy"
+    },
+    "104363": {
+      "id": 104363,
+      "name": "「浪迹」的指引",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104363",
+      "rank": 3,
+      "route": "Guide to Vagrancy"
+    },
+    "104364": {
+      "id": 104364,
+      "name": "「浪迹」的哲学",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104364",
+      "rank": 4,
+      "route": "Philosophies of Vagrancy"
+    },
     "107001": {
       "id": 107001,
       "name": "散失的风神瞳",
@@ -2923,6 +3144,16 @@
       "icon": "UI_ItemIcon_107028",
       "rank": 1,
       "route": "Pyroculus"
+    },
+    "107030": {
+      "id": 107030,
+      "name": "散失的月神瞳",
+      "type": "adventureItem",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_107030",
+      "rank": 1,
+      "route": "Lunoculus"
     },
     "110001": {
       "id": 110001,
@@ -3033,6 +3264,26 @@
       "icon": "UI_ItemIcon_110014",
       "rank": 1,
       "route": "Spice"
+    },
+    "110015": {
+      "id": 110015,
+      "name": "酸奶油",
+      "type": "cookingIngredient",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_110015",
+      "rank": 1,
+      "route": "Smetana"
+    },
+    "110016": {
+      "id": 110016,
+      "name": "黑麦粉",
+      "type": "cookingIngredient",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_110016",
+      "rank": 1,
+      "route": "Rye Flour"
     },
     "111006": {
       "id": 111006,
@@ -4374,6 +4625,156 @@
       "rank": 4,
       "route": "Blazing Prismshell"
     },
+    "112122": {
+      "id": 112122,
+      "name": "毁损机轴",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112122",
+      "rank": 1,
+      "route": "Broken Drive Shaft"
+    },
+    "112123": {
+      "id": 112123,
+      "name": "加固机轴",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112123",
+      "rank": 2,
+      "route": "Reinforced Drive Shaft"
+    },
+    "112124": {
+      "id": 112124,
+      "name": "精制机轴",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112124",
+      "rank": 3,
+      "route": "Precision Drive Shaft"
+    },
+    "112125": {
+      "id": 112125,
+      "name": "磨损的执凭",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112125",
+      "rank": 1,
+      "route": "Tattered Warrant"
+    },
+    "112126": {
+      "id": 112126,
+      "name": "精致的执凭",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112126",
+      "rank": 2,
+      "route": "Immaculate Warrant"
+    },
+    "112127": {
+      "id": 112127,
+      "name": "霜镌的执凭",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112127",
+      "rank": 3,
+      "route": "Frost-Etched Warrant"
+    },
+    "112128": {
+      "id": 112128,
+      "name": "霜夜的残照",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112128",
+      "rank": 2,
+      "route": "Frostnight's Glimmer"
+    },
+    "112129": {
+      "id": 112129,
+      "name": "霜夜的柔辉",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112129",
+      "rank": 3,
+      "route": "Frostnight's Glow"
+    },
+    "112130": {
+      "id": 112130,
+      "name": "霜夜的煌荣",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112130",
+      "rank": 4,
+      "route": "Frostnight's Glory"
+    },
+    "112131": {
+      "id": 112131,
+      "name": "失光块骨",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112131",
+      "rank": 2,
+      "route": "Lightless Bone"
+    },
+    "112132": {
+      "id": 112132,
+      "name": "稀光遗骼",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112132",
+      "rank": 3,
+      "route": "Glowing Remains"
+    },
+    "112133": {
+      "id": 112133,
+      "name": "繁光躯外骸",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112133",
+      "rank": 4,
+      "route": "Radiant Exoskeleton"
+    },
+    "112134": {
+      "id": 112134,
+      "name": "幽雾化形",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112134",
+      "rank": 2,
+      "route": "Mistshroud Manifestation"
+    },
+    "112135": {
+      "id": 112135,
+      "name": "幽雾片甲",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112135",
+      "rank": 3,
+      "route": "Mistshroud Plate"
+    },
+    "112136": {
+      "id": 112136,
+      "name": "幽雾兜盔",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112136",
+      "rank": 4,
+      "route": "Mistshroud Helmet"
+    },
     "113001": {
       "id": 113001,
       "name": "飓风之种",
@@ -5134,6 +5535,26 @@
       "rank": 4,
       "route": "Secret Source Airflow Accumulator"
     },
+    "113077": {
+      "id": 113077,
+      "name": "精密型月矩力冲鸭模具",
+      "type": "characterLevelUpMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113077",
+      "rank": 4,
+      "route": "Precision Kuuvahki Stamping Die"
+    },
+    "113078": {
+      "id": 113078,
+      "name": "承光的鳞羽",
+      "type": "characterLevelUpMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113078",
+      "rank": 4,
+      "route": "Lightbearing Scale-Feather"
+    },
     "114001": {
       "id": 114001,
       "name": "高塔孤王的破瓦",
@@ -5854,6 +6275,126 @@
       "rank": 5,
       "route": "Night-Wind's Mystic Revelation"
     },
+    "114073": {
+      "id": 114073,
+      "name": "奇巧秘器的残件",
+      "type": "weaponAscensionMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114073",
+      "rank": 2,
+      "route": "Artful Device Fragment"
+    },
+    "114074": {
+      "id": 114074,
+      "name": "奇巧秘器的模本",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114074",
+      "rank": 3,
+      "route": "Artful Device Replica"
+    },
+    "114075": {
+      "id": 114075,
+      "name": "奇巧秘器的继业",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114075",
+      "rank": 4,
+      "route": "Artful Device Inheritance"
+    },
+    "114076": {
+      "id": 114076,
+      "name": "奇巧秘器的真愿",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114076",
+      "rank": 5,
+      "route": "Artful Device Wish"
+    },
+    "114077": {
+      "id": 114077,
+      "name": "长夜燧火的余烬",
+      "type": "weaponAscensionMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114077",
+      "rank": 2,
+      "route": "Ember of Long Night Flint"
+    },
+    "114078": {
+      "id": 114078,
+      "name": "长夜燧火的残照",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114078",
+      "rank": 3,
+      "route": "Afterglow of Long Night Flint"
+    },
+    "114079": {
+      "id": 114079,
+      "name": "长夜燧火的明焰",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114079",
+      "rank": 4,
+      "route": "Flare of Long Night Flint"
+    },
+    "114080": {
+      "id": 114080,
+      "name": "长夜燧火的烈辉",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114080",
+      "rank": 5,
+      "route": "Blaze of Long Night Flint"
+    },
+    "114081": {
+      "id": 114081,
+      "name": "终北遗嗣的哀荣",
+      "type": "weaponAscensionMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114081",
+      "rank": 2,
+      "route": "Sundered Glory of the Far-North Scions"
+    },
+    "114082": {
+      "id": 114082,
+      "name": "终北遗嗣的迷顽",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114082",
+      "rank": 3,
+      "route": "Unyielding Delusion of the Far-North Scions"
+    },
+    "114083": {
+      "id": 114083,
+      "name": "终北遗嗣的祷献",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114083",
+      "rank": 4,
+      "route": "Oblation of the Far-North Scions"
+    },
+    "114084": {
+      "id": 114084,
+      "name": "终北遗嗣的煌熠",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114084",
+      "rank": 5,
+      "route": "Aureate Radiance of the Far-North Scions"
+    },
     "120011": {
       "id": 120011,
       "name": "枯萎的苦舍桓",
@@ -6083,6 +6624,26 @@
       "icon": "UI_FlycloakIcon_EmeraldFlash",
       "rank": 4,
       "route": "Wings of Fate's Course Intertwined"
+    },
+    "140017": {
+      "id": 140017,
+      "name": "夜驻月停之翼",
+      "type": "windGlider",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_FlycloakIcon_Nodkrai",
+      "rank": 4,
+      "route": "Wings of the Silent Moon"
+    },
+    "140018": {
+      "id": 140018,
+      "name": "暇生一聚之翼",
+      "type": "windGlider",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_FlycloakIcon_Bakery",
+      "rank": 4,
+      "route": "Wings of Leisurely Moments"
     },
     "220001": {
       "id": 220001,
@@ -6783,6 +7344,56 @@
       "icon": "UI_ItemIcon_220117",
       "rank": 4,
       "route": "Leaping Spirit Piano"
+    },
+    "220120": {
+      "id": 220120,
+      "name": "尤约拉猫",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220120",
+      "rank": 4,
+      "route": "Ujola Cat"
+    },
+    "220121": {
+      "id": 220121,
+      "name": "旋翼浮空憩榻",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220121",
+      "rank": 4,
+      "route": "Rotor Hovering Daybed"
+    },
+    "220123": {
+      "id": 220123,
+      "name": "月之寻宝罗盘",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220123",
+      "rank": 4,
+      "route": "Luna Treasure Compass"
+    },
+    "220124": {
+      "id": 220124,
+      "name": "游逸旅账",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220124",
+      "rank": 5,
+      "route": "Travel Accounts"
+    },
+    "220125": {
+      "id": 220125,
+      "name": "月谕之匣",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220125",
+      "rank": 4,
+      "route": "Lunar Arcana Case"
     }
   }
 }

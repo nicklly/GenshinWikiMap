@@ -1,0 +1,62 @@
+{
+  "name": "失光块骨",
+  "description": "自蕴光的魔兽体表，取下的黯淡骨块。\\n浸润古老月之力的魔兽生长出来的外骨的碎块，已经失去其中蕴藏的隐秘与一度显曜的光亮。",
+  "type": "角色与武器培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "蕴光异兽掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11434,
+          "name": "织月者的曙色",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Miekka"
+        },
+        {
+          "id": 12433,
+          "name": "万能钥匙",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_Ilmarinen"
+        },
+        {
+          "id": 14432,
+          "name": "天光的纺琴",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_SeeliesLute"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 26300101,
+        "name": "蕴光奇羊",
+        "icon": "UI_MonsterIcon_Magbeast_Argali"
+      },
+      {
+        "id": 26300201,
+        "name": "蕴光刃犀",
+        "icon": "UI_MonsterIcon_Magbeast_Rhino"
+      },
+      {
+        "id": 26300301,
+        "name": "蕴光璇蛸",
+        "icon": "UI_MonsterIcon_Magbeast_Squid"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112131",
+  "rank": 2,
+  "route": "Lightless Bone"
+}

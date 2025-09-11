@@ -77,7 +77,7 @@ def github_requests():
     for i in data:
         try:
             url = (
-                    "https://hub.gitmirror.com/https://raw.githubusercontent.com/DGP-Studio/Snap.Metadata/main/Genshin/CHS/Avatar/"
+                    "https://gh.sakuno.top/https://raw.githubusercontent.com/DGP-Studio/Snap.Metadata/main/Genshin/CHS/Avatar/"
                     + i["name"]
             )
             resp = httpx.get(url, timeout=10, verify=False)

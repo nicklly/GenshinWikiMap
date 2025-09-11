@@ -1716,6 +1716,57 @@
     "release": 1753736400,
     "route": "Ineffa"
   },
+  "10000119": {
+    "id": 10000119,
+    "rank": 5,
+    "name": "菈乌玛",
+    "element": "Grass",
+    "weaponType": "WEAPON_CATALYST",
+    "region": "NODKRAI",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "LADY",
+    "icon": "UI_AvatarIcon_Lauma",
+    "birthday": [
+      3,
+      1
+    ],
+    "release": 1757365200,
+    "route": "Lauma"
+  },
+  "10000120": {
+    "id": 10000120,
+    "rank": 5,
+    "name": "菲林斯",
+    "element": "Electric",
+    "weaponType": "WEAPON_POLE",
+    "region": "NODKRAI",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "MALE",
+    "icon": "UI_AvatarIcon_Flins",
+    "birthday": [
+      10,
+      31
+    ],
+    "release": 1759244400,
+    "route": "Flins"
+  },
+  "10000121": {
+    "id": 10000121,
+    "rank": 4,
+    "name": "爱诺",
+    "element": "Water",
+    "weaponType": "WEAPON_CLAYMORE",
+    "region": "NODKRAI",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "LOLI",
+    "icon": "UI_AvatarIcon_Aino",
+    "birthday": [
+      9,
+      21
+    ],
+    "release": 1757365200,
+    "route": "Aino"
+  },
   "10000005-pyro": {
     "id": "10000005-pyro",
     "rank": 5,

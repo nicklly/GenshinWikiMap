@@ -1,0 +1,135 @@
+{
+  "id": 10000120,
+  "name": "菲林斯",
+  "element": "雷",
+  "weapon": "长柄武器",
+  "rank": 5,
+  "region": "挪德卡莱",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Flins",
+    "side": "UI_AvatarIcon_Side_Flins",
+    "card": "UI_AvatarIcon_Flins_Card",
+    "splash": "UI_Gacha_AvatarImg_Flins",
+    "slice": "UI_Gacha_AvatarIcon_Flins"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 972.3864,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        833.7334,
+        1426.1229,
+        2215.9756,
+        2808.3652,
+        3400.7546,
+        3993.1443
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 27.3714,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        23.466785,
+        40.140556,
+        62.372246,
+        79.04601,
+        95.71979,
+        112.393555
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 62.94116,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        53.9676,
+        92.313,
+        143.4402,
+        181.7856,
+        220.131,
+        258.4764
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        23.466785,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "11201": {
+      "name": "扈圣魔枪",
+      "icon": "Skill_A_03"
+    },
+    "11202": {
+      "name": "古律·孤灯遗秘",
+      "icon": "Skill_S_Flins_01"
+    },
+    "11205": {
+      "name": "旧仪·夜客致访",
+      "icon": "Skill_E_Flins_01"
+    },
+    "1202101": {
+      "name": "寒冬的交响",
+      "icon": "UI_Talent_S_Flins_05"
+    },
+    "1202201": {
+      "name": "幽焰的呢喃",
+      "icon": "UI_Talent_S_Flins_06"
+    },
+    "1202301": {
+      "name": "月兆祝赐·旧世潜藏",
+      "icon": "UI_Talent_S_Flins_07"
+    },
+    "1202501": {
+      "name": "掌灯暗行",
+      "icon": "UI_Talent_S_Flins_08"
+    }
+  },
+  "constellation": {
+    "1201": {
+      "name": "拨开雪翳之幕",
+      "icon": "UI_Talent_S_Flins_01"
+    },
+    "1202": {
+      "name": "渡越魍魉之墙",
+      "icon": "UI_Talent_S_Flins_02"
+    },
+    "1203": {
+      "name": "夜访陌客之沼",
+      "icon": "UI_Talent_U_Flins_02"
+    },
+    "1204": {
+      "name": "荒山嘶啭之夜",
+      "icon": "UI_Talent_S_Flins_03"
+    },
+    "1205": {
+      "name": "逐远避世之影",
+      "icon": "UI_Talent_U_Flins_01"
+    },
+    "1206": {
+      "name": "歌与亡者之舞",
+      "icon": "UI_Talent_S_Flins_04"
+    }
+  },
+  "talent_fix": {
+    "11205": "旧仪·夜客致访",
+    "11202": "古律·孤灯遗秘"
+  },
+  "damage": [],
+  "buff": []
+}

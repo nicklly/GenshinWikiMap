@@ -1,0 +1,80 @@
+{
+  "name": "霜夜的煌荣",
+  "description": "击败霜夜灵嗣后，从其角冠上取得的骨甲。\\n其上萦缠着如月光般柔润的温存，即便是在寒夜最深之时亦不会消退。从某种意义上来说，与霜月之子一样，这是这些高贵的生灵最后的坚守。它们侍奉的旧主已经殒入尘埃，它们的梦中却依然辉耀着金色的煌荣。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11076": {
+      "112129": {
+        "name": "霜夜的柔辉",
+        "icon": "UI_ItemIcon_112129",
+        "rank": 3,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "60级以上霜夜灵嗣掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换：兑换后合成",
+      "type": "single"
+    },
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11433,
+          "name": "谧音吹哨",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_Ilmarinen"
+        },
+        {
+          "id": 14433,
+          "name": "乌髓孑灯",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_Ilmarinen"
+        },
+        {
+          "id": 14520,
+          "name": "纺夜天镜",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Catalyst_MenulisRing"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 20080301,
+        "name": "灼烜·霜夜灵嗣",
+        "icon": "UI_MonsterIcon_Moonbeast_Fire"
+      },
+      {
+        "id": 20080101,
+        "name": "辉电·霜夜灵嗣",
+        "icon": "UI_MonsterIcon_Moonbeast_Electric"
+      },
+      {
+        "id": 20080201,
+        "name": "蔓结·霜夜灵嗣",
+        "icon": "UI_MonsterIcon_Moonbeast_Grass"
+      },
+      {
+        "id": 20080401,
+        "name": "凌晶·霜夜灵嗣",
+        "icon": "UI_MonsterIcon_Moonbeast_Ice"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112130",
+  "rank": 4,
+  "route": "Frostnight's Glory"
+}

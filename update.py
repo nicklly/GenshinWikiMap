@@ -280,6 +280,8 @@ def update_weapon():
     # weapon_info_file = load_json(DATA / '武器信息.json')
     weapon_list_file = load_json(DATA / '武器列表.json')
     for weapon_id, weapon_data in weapon_list.items():
+        if weapon_id in ['310001', '310002', '320001', '320002', '330001', '330002', '340001', '340002', '350001', '350002']:
+            return
         if not weapon_data['name']:
             continue
         if not (weapon_icon := RESOURCES / 'weapon' / f"{weapon_data['icon']}.png").exists():

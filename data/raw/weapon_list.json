@@ -305,6 +305,24 @@
     "icon": "UI_EquipIcon_Sword_SacrificialNgombe",
     "route": "Calamity of Eshu"
   },
+  "11433": {
+    "id": 11433,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "谧音吹哨",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "icon": "UI_EquipIcon_Sword_Ilmarinen",
+    "route": "Serenity's Call"
+  },
+  "11434": {
+    "id": 11434,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "织月者的曙色",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "icon": "UI_EquipIcon_Sword_Miekka",
+    "route": "Moonweaver's Dawn"
+  },
   "11501": {
     "id": 11501,
     "rank": 5,
@@ -710,6 +728,15 @@
     "icon": "UI_EquipIcon_Claymore_Polilith",
     "route": "Flame-Forged Insight"
   },
+  "12433": {
+    "id": 12433,
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "name": "万能钥匙",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "icon": "UI_EquipIcon_Claymore_Ilmarinen",
+    "route": "Master Key"
+  },
   "12501": {
     "id": 12501,
     "rank": 5,
@@ -1025,6 +1052,15 @@
     "icon": "UI_EquipIcon_Pole_Aoandon",
     "route": "Tamayuratei no Ohanashi"
   },
+  "13433": {
+    "id": 13433,
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "name": "掘金之锹",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "icon": "UI_EquipIcon_Pole_Ilmarinen",
+    "route": "Prospector's Shovel"
+  },
   "13501": {
     "id": 13501,
     "rank": 5,
@@ -1123,6 +1159,15 @@
     "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Pole_Perdix",
     "route": "Fractured Halo"
+  },
+  "13516": {
+    "id": 13516,
+    "rank": 5,
+    "type": "WEAPON_POLE",
+    "name": "血染荒城",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "icon": "UI_EquipIcon_Pole_TummaLyhty",
+    "route": "Bloodsoaked Ruins"
   },
   "14101": {
     "id": 14101,
@@ -1385,6 +1430,24 @@
     "icon": "UI_EquipIcon_Catalyst_Isikhulu",
     "route": "Ring of Yaxche"
   },
+  "14432": {
+    "id": 14432,
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "name": "天光的纺琴",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "icon": "UI_EquipIcon_Catalyst_SeeliesLute",
+    "route": "Etherlight Spindlelute"
+  },
+  "14433": {
+    "id": 14433,
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "name": "乌髓孑灯",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "icon": "UI_EquipIcon_Catalyst_Ilmarinen",
+    "route": "Blackmarrow Lantern"
+  },
   "14501": {
     "id": 14501,
     "rank": 5,
@@ -1519,6 +1582,15 @@
     "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Catalyst_VaresaTransformer",
     "route": "Vivid Notions"
+  },
+  "14520": {
+    "id": 14520,
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "name": "纺夜天镜",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "icon": "UI_EquipIcon_Catalyst_MenulisRing",
+    "route": "Nightweaver's Looking Glass"
   },
   "15101": {
     "id": 15101,
@@ -1816,6 +1888,15 @@
     "specialProp": "FIGHT_PROP_HP_PERCENT",
     "icon": "UI_EquipIcon_Bow_Stinger",
     "route": "Sequence of Solitude"
+  },
+  "15433": {
+    "id": 15433,
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "name": "罗网勾针",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "icon": "UI_EquipIcon_Bow_Ilmarinen",
+    "route": "Snare Hook"
   },
   "15501": {
     "id": 15501,
