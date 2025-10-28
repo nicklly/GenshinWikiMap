@@ -1061,6 +1061,15 @@
     "icon": "UI_EquipIcon_Pole_Ilmarinen",
     "route": "Prospector's Shovel"
   },
+  "13434": {
+    "id": 13434,
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "name": "圣祭者的辉杖",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "icon": "UI_EquipIcon_Pole_Krivule",
+    "route": "Sacrificer's Staff"
+  },
   "13501": {
     "id": 13501,
     "rank": 5,
@@ -1448,6 +1457,15 @@
     "icon": "UI_EquipIcon_Catalyst_Ilmarinen",
     "route": "Blackmarrow Lantern"
   },
+  "14434": {
+    "id": 14434,
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "name": "霜辰",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Catalyst_Ziedas",
+    "route": "Dawning Frost"
+  },
   "14501": {
     "id": 14501,
     "rank": 5,
@@ -1591,6 +1609,15 @@
     "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
     "icon": "UI_EquipIcon_Catalyst_MenulisRing",
     "route": "Nightweaver's Looking Glass"
+  },
+  "14521": {
+    "id": 14521,
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "name": "真语秘匣",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Catalyst_Sistrum",
+    "route": "Reliquary of Truth"
   },
   "15101": {
     "id": 15101,

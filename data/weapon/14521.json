@@ -1,0 +1,36 @@
+{
+  "id": "14521",
+  "name": "真语秘匣",
+  "rank": 5,
+  "type": "法器",
+  "icon": {
+    "icon": "UI_EquipIcon_Catalyst_Sistrum",
+    "awaken": "UI_EquipIcon_Catalyst_Sistrum_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Catalyst_Sistrum"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 44.3358,
+        "type": "GROW_CURVE_ATTACK_304"
+      },
+      "promote": [
+        31.1,
+        62.2,
+        93.4,
+        124.5,
+        155.6,
+        186.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CRITICAL_HURT",
+        "initValue": 0.192,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    }
+  ],
+  "buff": []
+}

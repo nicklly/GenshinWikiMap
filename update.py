@@ -27,12 +27,12 @@ def update_constant():
         print('>>>角色列表raw更新失败')
     time.sleep(2)
 
-    if avatar_detail := github_requests():
-        save_json(avatar_detail, RAW / 'Avatar.json')
-        print('>>>角色信息raw更新完成')
-    else:
-        print('>>>角色信息raw更新失败')
-    time.sleep(1)
+    # if avatar_detail := github_requests():
+    #     save_json(avatar_detail, RAW / 'Avatar.json')
+    #     print('>>>角色信息raw更新完成')
+    # else:
+    #     print('>>>角色信息raw更新失败')
+    # time.sleep(1)
 
     if material_list := ambr_requests(MATERIAL_LIST_API):
         save_json(material_list, RAW / 'materials.json')
@@ -93,7 +93,12 @@ def update_character():
     weapon_type_data = load_json(DATA / '武器类型.json')
     prop_map = load_json(DATA / '属性Map.json')
 
+    skip_ids = {'10000117', '10000118'}
+
     for avatar_id, avatar_data in avatar_list.items():
+        if avatar_id in skip_ids:
+            print(f'>>>>>>跳过角色[{avatar_data["name"]}](ID: {avatar_id})')
+            continue
         # if avatar_id.startswith(('10000005', '10000007')):
         #     continue
         ambr_data_file_path = AVATAR_RAW / f'{avatar_id}.json'
@@ -101,7 +106,6 @@ def update_character():
         map_img_path = CHARACTER_MAP_RESULT / f'{avatar_data["name"]}.jpg'
 
         need_update = False
-
         # 更新角色别名数据
         if avatar_id not in avatar_alias_file:
             avatar_alias_file[avatar_id] = [avatar_data['name']]
@@ -142,6 +146,9 @@ def update_character():
     avatar_detail_file = load_json(RAW / 'Avatar.json')
     region_data = load_json(DATA / '角色地区.json')
     for avatar_detail in avatar_detail_file:
+        if avatar_id in skip_ids:
+            print(f'>>>>>>跳过角色详情处理[{avatar_detail["Name"]}](ID: {avatar_id})')
+            continue
         ambr_data = load_json(AVATAR_RAW / f"{avatar_detail['Id']}.json")
         save_file = DATA / 'avatar' / f"{avatar_detail['Id']}.json"
         if save_file.exists():
@@ -244,13 +251,18 @@ def update_material():
     """
     更新材料信息
     """
+    avatar_list_data = load_json(RAW / 'avatar_list.json')
+    skip_ids = {'10000117', '10000118'}
     material_dict: dict[str, dict] = {item['name']: {'id':     item['id'],
                                                      '名称':   item['name'],
                                                      '稀有度': item['rank'],
                                                      '图标':   item['icon'],
                                                      } for item in load_json(RAW / 'materials.json')['items'].values()}
-    avatar_infos = [Character.parse_file(AVATAR_RAW / f'{avatar_id}.json') for avatar_id in
-                    load_json(RAW / 'avatar_list.json')]
+    avatar_infos = [
+        Character.parse_file(AVATAR_RAW / f'{avatar_id}.json')
+        for avatar_id in avatar_list_data
+        if avatar_id not in skip_ids
+    ]
     avatar_materials: dict[str, list[int]] = {avatar.name: avatar.get_material_ids() for avatar in avatar_infos}
     for material in material_dict.values():
         if (MATERIAL_RAW / f'{material["id"]}.json').exists():

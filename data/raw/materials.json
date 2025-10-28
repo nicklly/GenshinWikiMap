@@ -5555,6 +5555,16 @@
       "rank": 4,
       "route": "Lightbearing Scale-Feather"
     },
+    "113079": {
+      "id": 113079,
+      "name": "漫光的辉角",
+      "type": "characterLevelUpMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113079",
+      "rank": 4,
+      "route": "Radiant Antler"
+    },
     "114001": {
       "id": 114001,
       "name": "高塔孤王的破瓦",
@@ -6437,13 +6447,13 @@
     },
     "121234": {
       "id": 121234,
-      "name": "绮灿而神秘的赠礼",
+      "name": "奇域枢景球",
       "type": "questItem",
       "recipe": null,
       "mapMark": false,
       "icon": "UI_ItemIcon_121234",
       "rank": 5,
-      "route": "Dazzling, Mysterious Gift"
+      "route": "Wonderland Cosmosphere"
     },
     "129001": {
       "id": 129001,

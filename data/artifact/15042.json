@@ -1,0 +1,33 @@
+{
+  "id": "15042",
+  "name": "纺月的夜歌",
+  "short_name": "纺月",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15042_4",
+  "part_list": {
+    "UI_RelicIcon_15042_4": {
+      "name": "流离者的晶泪",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15042_2": {
+      "name": "受福者的白羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15042_5": {
+      "name": "祭霜者的迷狂",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15042_1": {
+      "name": "至纯者的欢荣",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15042_3": {
+      "name": "司信者的圣冕",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

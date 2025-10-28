@@ -1,0 +1,132 @@
+{
+  "id": 10000122,
+  "name": "奈芙尔",
+  "element": "草",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Nefer",
+    "side": "UI_AvatarIcon_Side_Nefer",
+    "card": "UI_AvatarIcon_Nefer_Card",
+    "splash": "UI_Gacha_AvatarImg_Nefer",
+    "slice": "UI_Gacha_AvatarIcon_Nefer"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 988.9742,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        847.95593,
+        1450.4509,
+        2253.7776,
+        2856.2727,
+        3458.7676,
+        4061.2627
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.8128,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.987871,
+        39.32136,
+        61.099342,
+        77.43283,
+        93.76632,
+        110.09981
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 62.2232,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        53.352,
+        91.26,
+        141.804,
+        179.712,
+        217.62,
+        255.528
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        22.987871,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "11221": {
+      "name": "游虵吐信",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "11222": {
+      "name": "弈术·千夜一舞",
+      "icon": "Skill_S_Nefer_01"
+    },
+    "11225": {
+      "name": "圣约·真眸幻戏",
+      "icon": "Skill_E_Nefer_01"
+    },
+    "1222101": {
+      "name": "月下的豪赌",
+      "icon": "UI_Talent_S_Nefer_05"
+    },
+    "1222201": {
+      "name": "尘沙的女儿",
+      "icon": "UI_Talent_S_Nefer_06"
+    },
+    "1222301": {
+      "name": "月兆祝赐·廊下暮影",
+      "icon": "UI_Talent_S_Nefer_07"
+    },
+    "1222501": {
+      "name": "金室的密谋",
+      "icon": "UI_Talent_S_Nefer_08"
+    }
+  },
+  "constellation": {
+    "1221": {
+      "name": "谋篇乃成败之始",
+      "icon": "UI_Talent_S_Nefer_01"
+    },
+    "1222": {
+      "name": "明察为筹算之先",
+      "icon": "UI_Talent_S_Nefer_02"
+    },
+    "1223": {
+      "name": "诳言掩虚实之迹",
+      "icon": "UI_Talent_U_Nefer_01"
+    },
+    "1224": {
+      "name": "眩惑入谜局之网",
+      "icon": "UI_Talent_S_Nefer_03"
+    },
+    "1225": {
+      "name": "见机在忽微之间",
+      "icon": "UI_Talent_U_Nefer_02"
+    },
+    "1226": {
+      "name": "决胜于逆转之时",
+      "icon": "UI_Talent_S_Nefer_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

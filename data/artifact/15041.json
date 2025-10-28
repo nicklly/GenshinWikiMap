@@ -1,0 +1,33 @@
+{
+  "id": "15041",
+  "name": "穹境示现之夜",
+  "short_name": "穹境",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15041_4",
+  "part_list": {
+    "UI_RelicIcon_15041_4": {
+      "name": "渴真之花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15041_2": {
+      "name": "深罪之羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15041_5": {
+      "name": "谕告之钟",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15041_1": {
+      "name": "满溢之壶",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15041_3": {
+      "name": "永劫之冕",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}
