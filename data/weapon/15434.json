@@ -1,0 +1,36 @@
+{
+  "id": "15434",
+  "name": "虹蛇的雨弦",
+  "rank": 4,
+  "type": "弓",
+  "icon": {
+    "icon": "UI_EquipIcon_Bow_ElegguaBow",
+    "awaken": "UI_EquipIcon_Bow_ElegguaBow_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Bow_ElegguaBow"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 42.401,
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      "promote": [
+        25.9,
+        51.9,
+        77.8,
+        103.7,
+        129.7,
+        155.6
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "initValue": 0.1,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    }
+  ],
+  "buff": []
+}

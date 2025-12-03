@@ -116,7 +116,8 @@
       9
     ],
     "release": 1601244000,
-    "route": "Razor"
+    "route": "Razor",
+    "buff": true
   },
   "10000021": {
     "id": 10000021,
@@ -150,7 +151,8 @@
       16
     ],
     "release": 1601244000,
-    "route": "Venti"
+    "route": "Venti",
+    "buff": true
   },
   "10000023": {
     "id": 10000023,
@@ -252,7 +254,8 @@
       27
     ],
     "release": 1601244000,
-    "route": "Klee"
+    "route": "Klee",
+    "buff": true
   },
   "10000030": {
     "id": 10000030,
@@ -286,7 +289,8 @@
       27
     ],
     "release": 1601244000,
-    "route": "Fischl"
+    "route": "Fischl",
+    "buff": true
   },
   "10000032": {
     "id": 10000032,
@@ -405,7 +409,8 @@
       13
     ],
     "release": 1608588000,
-    "route": "Albedo"
+    "route": "Albedo",
+    "buff": true
   },
   "10000039": {
     "id": 10000039,
@@ -439,7 +444,8 @@
       31
     ],
     "release": 1601244000,
-    "route": "Mona"
+    "route": "Mona",
+    "buff": true
   },
   "10000042": {
     "id": 10000042,
@@ -473,7 +479,8 @@
       26
     ],
     "release": 1601244000,
-    "route": "Sucrose"
+    "route": "Sucrose",
+    "buff": true
   },
   "10000044": {
     "id": 10000044,
@@ -1817,6 +1824,40 @@
     ],
     "release": 1760994000,
     "route": "Nefer"
+  },
+  "10000123": {
+    "id": 10000123,
+    "rank": 5,
+    "name": "杜林",
+    "element": "Fire",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "BOY",
+    "icon": "UI_AvatarIcon_Durin",
+    "birthday": [
+      3,
+      14
+    ],
+    "release": 1764626400,
+    "route": "Durin"
+  },
+  "10000124": {
+    "id": 10000124,
+    "rank": 4,
+    "name": "雅珂达",
+    "element": "Wind",
+    "weaponType": "WEAPON_BOW",
+    "region": "NODKRAI",
+    "specialProp": "FIGHT_PROP_HEAL_ADD",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Jahoda",
+    "birthday": [
+      1,
+      5
+    ],
+    "release": 1764626400,
+    "route": "Jahoda"
   },
   "10000005-pyro": {
     "id": "10000005-pyro",

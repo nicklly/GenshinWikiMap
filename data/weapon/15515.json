@@ -1,0 +1,36 @@
+{
+  "id": "15515",
+  "name": "黎明破晓之史",
+  "rank": 5,
+  "type": "弓",
+  "icon": {
+    "icon": "UI_EquipIcon_Bow_Arianna",
+    "awaken": "UI_EquipIcon_Bow_Arianna_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Bow_Arianna"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 47.537,
+        "type": "GROW_CURVE_ATTACK_302"
+      },
+      "promote": [
+        31.1,
+        62.2,
+        93.4,
+        124.5,
+        155.6,
+        186.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CRITICAL_HURT",
+        "initValue": 0.096,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    }
+  ],
+  "buff": []
+}

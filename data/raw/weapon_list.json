@@ -449,6 +449,15 @@
     "icon": "UI_EquipIcon_Sword_OuterSword",
     "route": "Azurelight"
   },
+  "11518": {
+    "id": 11518,
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "黑蚀",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "icon": "UI_EquipIcon_Sword_Motsognir",
+    "route": "Athame Artis"
+  },
   "12101": {
     "id": 12101,
     "rank": 1,
@@ -1925,6 +1934,15 @@
     "icon": "UI_EquipIcon_Bow_Ilmarinen",
     "route": "Snare Hook"
   },
+  "15434": {
+    "id": 15434,
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "name": "虹蛇的雨弦",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "icon": "UI_EquipIcon_Bow_ElegguaBow",
+    "route": "Rainbow Serpent's Rain Bow"
+  },
   "15501": {
     "id": 15501,
     "rank": 5,
@@ -2014,6 +2032,15 @@
     "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Bow_Qoyllorsnova",
     "route": "Astral Vulture's Crimson Plumage"
+  },
+  "15515": {
+    "id": 15515,
+    "rank": 5,
+    "type": "WEAPON_BOW",
+    "name": "黎明破晓之史",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Bow_Arianna",
+    "route": "The Daybreak Chronicles"
   },
   "310001": {
     "id": 310001,

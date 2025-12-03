@@ -5565,6 +5565,16 @@
       "rank": 4,
       "route": "Radiant Antler"
     },
+    "113080": {
+      "id": 113080,
+      "name": "循环式军用月矩核心",
+      "type": "characterLevelUpMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113080",
+      "rank": 4,
+      "route": "Cyclic Military Kuuvahki Core"
+    },
     "114001": {
       "id": 114001,
       "name": "高塔孤王的破瓦",
@@ -7404,6 +7414,16 @@
       "icon": "UI_ItemIcon_220125",
       "rank": 4,
       "route": "Lunar Arcana Case"
+    },
+    "220126": {
+      "id": 220126,
+      "name": "小魔女辞典",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220126",
+      "rank": 5,
+      "route": "The Little Witch's Dictionary"
     }
   }
 }
