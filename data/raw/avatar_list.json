@@ -1859,6 +1859,57 @@
     "release": 1764626400,
     "route": "Jahoda"
   },
+  "10000125": {
+    "id": 10000125,
+    "rank": 5,
+    "name": "哥伦比娅",
+    "element": "Water",
+    "weaponType": "WEAPON_CATALYST",
+    "region": "NODKRAI",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Columbina",
+    "birthday": [
+      1,
+      14
+    ],
+    "release": 1768255200,
+    "route": "Columbina"
+  },
+  "10000126": {
+    "id": 10000126,
+    "rank": 5,
+    "name": "兹白",
+    "element": "Rock",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "NODKRAI_ZIBAI",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "LADY",
+    "icon": "UI_AvatarIcon_Zibai",
+    "birthday": [
+      5,
+      15
+    ],
+    "release": 1770134400,
+    "route": "Zibai"
+  },
+  "10000127": {
+    "id": 10000127,
+    "rank": 4,
+    "name": "叶洛亚",
+    "element": "Rock",
+    "weaponType": "WEAPON_POLE",
+    "region": "NODKRAI",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "BOY",
+    "icon": "UI_AvatarIcon_Illuga",
+    "birthday": [
+      12,
+      23
+    ],
+    "release": 1770134400,
+    "route": "Illuga"
+  },
   "10000005-pyro": {
     "id": "10000005-pyro",
     "rank": 5,

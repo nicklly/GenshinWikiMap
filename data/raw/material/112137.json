@@ -1,0 +1,40 @@
+{
+  "name": "深黯的裂眼",
+  "description": "自异界侵入的钓客，在形体消散后留下的残屑。\\n表壳碎裂后，寄宿在其中的恶意也随之消泯。",
+  "type": "角色与武器培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "深黯钓客掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 14522,
+          "name": "帷间夜曲",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Catalyst_Brisingamen"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 22140101,
+        "name": "深黯钓客",
+        "icon": "UI_MonsterIcon_Lloigor_Sub"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112137",
+  "rank": 2,
+  "route": "Fractured Eye of the Deep Shadow"
+}

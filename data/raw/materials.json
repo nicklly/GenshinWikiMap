@@ -1695,6 +1695,26 @@
       "rank": 1,
       "route": "Midsommar Berry"
     },
+    "101268": {
+      "id": 101268,
+      "name": "冬凌草",
+      "type": "localSpecialtyNodKrai",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101266",
+      "rank": 1,
+      "route": "Winter Icelea"
+    },
+    "101269": {
+      "id": 101269,
+      "name": "松珀香",
+      "type": "localSpecialtyNodKrai",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101269",
+      "rank": 1,
+      "route": "Pine Amber"
+    },
     "101301": {
       "id": 101301,
       "name": "桦木",
@@ -4775,6 +4795,36 @@
       "rank": 4,
       "route": "Mistshroud Helmet"
     },
+    "112137": {
+      "id": 112137,
+      "name": "深黯的裂眼",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112137",
+      "rank": 2,
+      "route": "Fractured Eye of the Deep Shadow"
+    },
+    "112138": {
+      "id": 112138,
+      "name": "深黯的怪核",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112138",
+      "rank": 3,
+      "route": "Aberrant Core of the Deep Shadow"
+    },
+    "112139": {
+      "id": 112139,
+      "name": "深黯的钩喙",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112139",
+      "rank": 4,
+      "route": "Hooked Beak of the Deep Shadow"
+    },
     "113001": {
       "id": 113001,
       "name": "飓风之种",
@@ -5574,6 +5624,46 @@
       "icon": "UI_ItemIcon_113080",
       "rank": 4,
       "route": "Cyclic Military Kuuvahki Core"
+    },
+    "113081": {
+      "id": 113081,
+      "name": "贤医的假面",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113081",
+      "rank": 5,
+      "route": "Mask of the Virtuous Doctor"
+    },
+    "113082": {
+      "id": 113082,
+      "name": "狂人的约束",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113082",
+      "rank": 5,
+      "route": "Madman's Restraint"
+    },
+    "113083": {
+      "id": 113083,
+      "name": "异端的瓶剂",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113083",
+      "rank": 5,
+      "route": "Elixir of the Heretic"
+    },
+    "113084": {
+      "id": 113084,
+      "name": "魇翼枯骸",
+      "type": "characterLevelUpMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113084",
+      "rank": 4,
+      "route": "Remnant of the Dreadwing"
     },
     "114001": {
       "id": 114001,
@@ -6485,6 +6575,16 @@
       "rank": 5,
       "route": "Obsidian Ancient Name"
     },
+    "129003": {
+      "id": 129003,
+      "name": "哥伦比娅赠予你的祈月之花",
+      "type": "questItem",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_129003",
+      "rank": 5,
+      "route": "Moon-Prayer Blossom From Columbina"
+    },
     "140001": {
       "id": 140001,
       "name": "初始之翼",
@@ -6664,6 +6764,16 @@
       "icon": "UI_FlycloakIcon_Bakery",
       "rank": 4,
       "route": "Wings of Leisurely Moments"
+    },
+    "200007": {
+      "id": 200007,
+      "name": "霄灯飞阵谱",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_200007",
+      "rank": 4,
+      "route": "Xiao Lantern Flight Manual"
     },
     "220001": {
       "id": 220001,
@@ -7424,6 +7534,16 @@
       "icon": "UI_ItemIcon_220126",
       "rank": 5,
       "route": "The Little Witch's Dictionary"
+    },
+    "220127": {
+      "id": 220127,
+      "name": "「青玄乘阳华盖」",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220127",
+      "rank": 4,
+      "route": "Jadelight Canopy"
     }
   }
 }

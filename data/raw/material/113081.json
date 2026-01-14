@@ -1,0 +1,69 @@
+{
+  "name": "贤医的假面",
+  "description": "战胜僭月的伪神后，自异端的试验场内拾得的面具。\\n所谓医疗的目的在于消除躯体上的病症，然而俗世的医者却对真正致死的疾病视而不见。苦弱的血肉之躯，经由贤医之手不再囿于生老病死，展现出超越常理的力量。",
+  "type": "角色培养素材",
+  "recipe": {
+    "61201": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113082": {
+        "name": "狂人的约束",
+        "icon": "UI_ItemIcon_113082",
+        "rank": 5,
+        "count": 1
+      }
+    },
+    "61202": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113083": {
+        "name": "异端的瓶剂",
+        "icon": "UI_ItemIcon_113083",
+        "rank": 5,
+        "count": 1
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "70级以上「博士」挑战奖励",
+      "type": "single"
+    },
+    {
+      "name": "合成台-转化页签：转化获取",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000125,
+          "name": "哥伦比娅",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Columbina"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 29130201,
+        "name": "「博士」",
+        "icon": "UI_MonsterIcon_Dotorre_Moon"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_113081",
+  "rank": 5,
+  "route": "Mask of the Virtuous Doctor"
+}

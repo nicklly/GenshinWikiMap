@@ -458,6 +458,15 @@
     "icon": "UI_EquipIcon_Sword_Motsognir",
     "route": "Athame Artis"
   },
+  "11519": {
+    "id": 11519,
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "朏魄含光",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Sword_SilverwareSaw",
+    "route": "Lightbearing Moonshard"
+  },
   "12101": {
     "id": 12101,
     "rank": 1,
@@ -1627,6 +1636,15 @@
     "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Catalyst_Sistrum",
     "route": "Reliquary of Truth"
+  },
+  "14522": {
+    "id": 14522,
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "name": "帷间夜曲",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Catalyst_Brisingamen",
+    "route": "Nocturne's Curtain Call"
   },
   "15101": {
     "id": 15101,

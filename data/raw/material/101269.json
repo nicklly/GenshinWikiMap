@@ -1,0 +1,42 @@
+{
+  "name": "松珀香",
+  "description": "古时覆盖挪德卡莱的参天巨木，流淌下的树脂凝结而成的宝石，散发着璀璨的色彩。",
+  "type": "挪德卡莱区域特产",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "噩影泽地采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：西风戍垒附近采集",
+      "type": "single"
+    },
+    {
+      "name": "尘歌壶种植",
+      "type": "single"
+    },
+    {
+      "name": "前往采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000127,
+          "name": "叶洛亚",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Illuga"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101269",
+  "rank": 1,
+  "route": "Pine Amber"
+}
