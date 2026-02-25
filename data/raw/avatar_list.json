@@ -1910,6 +1910,23 @@
     "release": 1770134400,
     "route": "Illuga"
   },
+  "10000128": {
+    "id": 10000128,
+    "rank": 5,
+    "name": "法尔伽",
+    "element": "Wind",
+    "weaponType": "WEAPON_CLAYMORE",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "MALE",
+    "icon": "UI_AvatarIcon_Varka",
+    "birthday": [
+      2,
+      17
+    ],
+    "release": 1771884000,
+    "route": "Varka"
+  },
   "10000005-pyro": {
     "id": "10000005-pyro",
     "rank": 5,

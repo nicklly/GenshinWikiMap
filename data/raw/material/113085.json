@@ -1,0 +1,36 @@
+{
+  "name": "棱光的断尾",
+  "description": "击败蕴光月守宫之后，其试图逃脱时遗留下的晶化尾椎。\\n以常理而言，演化至如此强大的蜥类本不应再受到天敌的威胁，然而它却依旧保留了断尾求生的本能。或许是因为在月光遍照大地的时代，此地曾存在着更加可怕的掠食者吧。",
+  "type": "角色培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "30级以上蕴光月守宫掉落",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000128,
+          "name": "法尔伽",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Varka"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 26302101,
+        "name": "蕴光月守宫",
+        "icon": "UI_MonsterIcon_Magbeast_Gecko"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_113085",
+  "rank": 4,
+  "route": "Prismatic Severed Tail"
+}

@@ -836,6 +836,15 @@
     "icon": "UI_EquipIcon_Claymore_RadianceSword",
     "route": "A Thousand Blazing Suns"
   },
+  "12515": {
+    "id": 12515,
+    "rank": 5,
+    "type": "WEAPON_CLAYMORE",
+    "name": "狼的武功歌",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "icon": "UI_EquipIcon_Claymore_EnsisAquilonis",
+    "route": "Gest of the Mighty Wolf"
+  },
   "13101": {
     "id": 13101,
     "rank": 1,
@@ -2159,5 +2168,25 @@
     "isWeaponSkin": true,
     "icon": "UI_EquipIcon_Bow_MorphChrod_Great_Wind",
     "route": "Starpiercer - Sublimation"
+  },
+  "380001": {
+    "id": 380001,
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "name": "幻礼·星兆",
+    "specialProp": "NONE",
+    "isWeaponSkin": true,
+    "icon": "UI_EquipIcon_Catalyst_Kristall",
+    "route": "Phantasmal Gift: Star Omen"
+  },
+  "390001": {
+    "id": 390001,
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "name": "无毁·督兰嘉德",
+    "specialProp": "NONE",
+    "isWeaponSkin": true,
+    "icon": "UI_EquipIcon_Claymore_VarkaTunkeldegen",
+    "route": "Unbreakable: Durandarte"
   }
 }

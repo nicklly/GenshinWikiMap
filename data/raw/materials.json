@@ -5665,6 +5665,16 @@
       "rank": 4,
       "route": "Remnant of the Dreadwing"
     },
+    "113085": {
+      "id": 113085,
+      "name": "棱光的断尾",
+      "type": "characterLevelUpMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113085",
+      "rank": 4,
+      "route": "Prismatic Severed Tail"
+    },
     "114001": {
       "id": 114001,
       "name": "高塔孤王的破瓦",
@@ -7544,6 +7554,16 @@
       "icon": "UI_ItemIcon_220127",
       "rank": 4,
       "route": "Jadelight Canopy"
+    },
+    "220129": {
+      "id": 220129,
+      "name": "谐律键琴",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220129",
+      "rank": 4,
+      "route": "Harmonic Keys"
     }
   }
 }
