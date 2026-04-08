@@ -1,0 +1,36 @@
+{
+  "name": "堕天的落羽",
+  "description": "击败堕天的守望者后，于尘世一隅拾得的落羽。\\n与真正的天之御使相比，拥有羽毛的守望者在形象上似乎与通常意义的天使更为肖似。这或许是因为它们侍奉的造主也并不理解天上有翼者的神圣规划，只能拙劣地摹仿其理念投射出的影子。",
+  "type": "角色培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "30级以上守望者·堕天掉落",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000130,
+          "name": "莉奈娅",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Linnea"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 24111101,
+        "name": "守望者·堕天",
+        "icon": "UI_MonsterIcon_Watcher_Primo_01"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_113086",
+  "rank": 4,
+  "route": "Plume of the Fallen Watcher"
+}

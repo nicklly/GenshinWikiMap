@@ -1,0 +1,38 @@
+{
+  "name": "空羽蛾",
+  "description": "闪耀着神圣金色光辉的奇异生命，如飞蛾般游曳在同样奇异的隙间。",
+  "type": "蒙德区域特产",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "推荐：风息山、空之神殿采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：风车镇、柱殿中央区采集",
+      "type": "single"
+    },
+    {
+      "name": "前往采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000130,
+          "name": "莉奈娅",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Linnea"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101272",
+  "rank": 1,
+  "route": "Etherwing Moth"
+}

@@ -2069,6 +2069,15 @@
     "icon": "UI_EquipIcon_Bow_Arianna",
     "route": "The Daybreak Chronicles"
   },
+  "15516": {
+    "id": 15516,
+    "rank": 5,
+    "type": "WEAPON_BOW",
+    "name": "霜结的誓金枝",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Bow_Alkonost",
+    "route": "Golden Frostbound Oath"
+  },
   "310001": {
     "id": 310001,
     "rank": 4,

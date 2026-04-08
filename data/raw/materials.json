@@ -1715,6 +1715,16 @@
       "rank": 1,
       "route": "Pine Amber"
     },
+    "101272": {
+      "id": 101272,
+      "name": "空羽蛾",
+      "type": "localSpecialtyMondstadt",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101272",
+      "rank": 1,
+      "route": "Etherwing Moth"
+    },
     "101301": {
       "id": 101301,
       "name": "桦木",
@@ -4825,6 +4835,36 @@
       "rank": 4,
       "route": "Hooked Beak of the Deep Shadow"
     },
+    "112140": {
+      "id": 112140,
+      "name": "失色的焰剑",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112140",
+      "rank": 2,
+      "route": "Faded Flaming Hilt"
+    },
+    "112141": {
+      "id": 112141,
+      "name": "残失的焰剑",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112141",
+      "rank": 3,
+      "route": "Fractured Flaming Hilt"
+    },
+    "112142": {
+      "id": 112142,
+      "name": "宝饰的焰剑",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112142",
+      "rank": 4,
+      "route": "Jeweled Flaming Hilt"
+    },
     "113001": {
       "id": 113001,
       "name": "飓风之种",
@@ -5674,6 +5714,16 @@
       "icon": "UI_ItemIcon_113085",
       "rank": 4,
       "route": "Prismatic Severed Tail"
+    },
+    "113086": {
+      "id": 113086,
+      "name": "堕天的落羽",
+      "type": "characterLevelUpMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113086",
+      "rank": 4,
+      "route": "Plume of the Fallen Watcher"
     },
     "114001": {
       "id": 114001,
@@ -7564,6 +7614,26 @@
       "icon": "UI_ItemIcon_220129",
       "rank": 4,
       "route": "Harmonic Keys"
+    },
+    "220130": {
+      "id": 220130,
+      "name": "切片辖域寻宝罗盘",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220130",
+      "rank": 4,
+      "route": "Segment-Domain Treasure Compass"
+    },
+    "220131": {
+      "id": 220131,
+      "name": "莉奈娅的博物图鉴",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220131",
+      "rank": 4,
+      "route": "Linnea's Naturalist Archive"
     }
   }
 }

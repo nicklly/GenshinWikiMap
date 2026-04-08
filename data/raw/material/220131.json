@@ -1,0 +1,16 @@
+{
+  "name": "莉奈娅的博物图鉴",
+  "description": "莉奈娅亲手制作的博物图鉴，记录了她的观察发现。",
+  "type": "小道具",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": null,
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_220131",
+  "rank": 4,
+  "route": "Linnea's Naturalist Archive"
+}

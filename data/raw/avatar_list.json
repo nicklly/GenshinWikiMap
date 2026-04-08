@@ -1927,6 +1927,23 @@
     "release": 1771884000,
     "route": "Varka"
   },
+  "10000130": {
+    "id": 10000130,
+    "rank": 5,
+    "name": "莉奈娅",
+    "element": "Rock",
+    "weaponType": "WEAPON_BOW",
+    "region": "NODKRAI",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Linnea",
+    "birthday": [
+      5,
+      23
+    ],
+    "release": 1775509200,
+    "route": "Linnea"
+  },
   "10000005-pyro": {
     "id": "10000005-pyro",
     "rank": 5,

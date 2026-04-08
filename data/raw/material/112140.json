@@ -1,0 +1,40 @@
+{
+  "name": "失色的焰剑",
+  "description": "辖域守护者所持的焰剑熄灭后遗留下的剑柄。\\n发火焰的宝剑是守护的象征，依仗「空」之权柄，封锁了永恒与须臾的边界。",
+  "type": "角色与武器培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "辖域守护者掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 15516,
+          "name": "霜结的誓金枝",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Bow_Alkonost"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 24110101,
+        "name": "辖域守护者",
+        "icon": "UI_MonsterIcon_Watcher_Normal_01"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112140",
+  "rank": 2,
+  "route": "Faded Flaming Hilt"
+}
