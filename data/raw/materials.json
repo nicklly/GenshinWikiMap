@@ -1715,6 +1715,16 @@
       "rank": 1,
       "route": "Pine Amber"
     },
+    "101271": {
+      "id": 101271,
+      "name": "风息花",
+      "type": "cookingIngredient",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101271",
+      "rank": 1,
+      "route": "Windrest Flower"
+    },
     "101272": {
       "id": 101272,
       "name": "空羽蛾",
@@ -5724,6 +5734,36 @@
       "icon": "UI_ItemIcon_113086",
       "rank": 4,
       "route": "Plume of the Fallen Watcher"
+    },
+    "113087": {
+      "id": 113087,
+      "name": "赝作的树脂",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113087",
+      "rank": 5,
+      "route": "Counterfeit Resin"
+    },
+    "113088": {
+      "id": 113088,
+      "name": "扭曲的枯枝",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113088",
+      "rank": 5,
+      "route": "Twisted Withered Branch"
+    },
+    "113089": {
+      "id": 113089,
+      "name": "亵渎的新芽",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113089",
+      "rank": 5,
+      "route": "Profaned Sprout"
     },
     "114001": {
       "id": 114001,

@@ -1,0 +1,25 @@
+{
+  "name": "风息花",
+  "description": "瑰秀却不失清润的花朵，主要生长在蒙德北方。\\n花香明澈悠长，是用来调香的主要原料之一。",
+  "type": "食材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：风车镇采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101271",
+  "rank": 1,
+  "route": "Windrest Flower"
+}

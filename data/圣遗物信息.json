@@ -1583,11 +1583,11 @@
     "suit_name": "穹境示现之夜",
     "part": "理之冠"
   },
-  "UI_RelicIcon_15042_4": {
-    "name": "流离者的晶泪",
+  "UI_RelicIcon_15042_1": {
+    "name": "至纯者的欢荣",
     "suit_id": 15042,
     "suit_name": "纺月的夜歌",
-    "part": "生之花"
+    "part": "空之杯"
   },
   "UI_RelicIcon_15042_2": {
     "name": "受福者的白羽",
@@ -1595,22 +1595,142 @@
     "suit_name": "纺月的夜歌",
     "part": "死之羽"
   },
+  "UI_RelicIcon_15042_3": {
+    "name": "司信者的圣冕",
+    "suit_id": 15042,
+    "suit_name": "纺月的夜歌",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15042_4": {
+    "name": "流离者的晶泪",
+    "suit_id": 15042,
+    "suit_name": "纺月的夜歌",
+    "part": "生之花"
+  },
   "UI_RelicIcon_15042_5": {
     "name": "祭霜者的迷狂",
     "suit_id": 15042,
     "suit_name": "纺月的夜歌",
     "part": "时之沙"
   },
-  "UI_RelicIcon_15042_1": {
-    "name": "至纯者的欢荣",
-    "suit_id": 15042,
-    "suit_name": "纺月的夜歌",
+  "UI_RelicIcon_15043_1": {
+    "name": "献与月的酹祭",
+    "suit_id": 15043,
+    "suit_name": "晨星与月的晓歌",
     "part": "空之杯"
   },
-  "UI_RelicIcon_15042_3": {
-    "name": "司信者的圣冕",
-    "suit_id": 15042,
-    "suit_name": "纺月的夜歌",
+  "UI_RelicIcon_15043_2": {
+    "name": "献与月的离光",
+    "suit_id": 15043,
+    "suit_name": "晨星与月的晓歌",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15043_3": {
+    "name": "献与月的银冕",
+    "suit_id": 15043,
+    "suit_name": "晨星与月的晓歌",
     "part": "理之冠"
+  },
+  "UI_RelicIcon_15043_4": {
+    "name": "献与月的华梦",
+    "suit_id": 15043,
+    "suit_name": "晨星与月的晓歌",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15043_5": {
+    "name": "献与月的终时",
+    "suit_id": 15043,
+    "suit_name": "晨星与月的晓歌",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15044_1": {
+    "name": "未言的宴话",
+    "suit_id": 15044,
+    "suit_name": "风起之日",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15044_2": {
+    "name": "晨光的明誓",
+    "suit_id": 15044,
+    "suit_name": "风起之日",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15044_3": {
+    "name": "哀慕的恋歌",
+    "suit_id": 15044,
+    "suit_name": "风起之日",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15044_4": {
+    "name": "风花的箴铭",
+    "suit_id": 15044,
+    "suit_name": "风起之日",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15044_5": {
+    "name": "春律的片刻",
+    "suit_id": 15044,
+    "suit_name": "风起之日",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15045_1": {
+    "name": "天授之禄",
+    "suit_id": 15045,
+    "suit_name": "天之美赐",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15045_2": {
+    "name": "天授之殁",
+    "suit_id": 15045,
+    "suit_name": "天之美赐",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15045_3": {
+    "name": "天授之冕",
+    "suit_id": 15045,
+    "suit_name": "天之美赐",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15045_4": {
+    "name": "天授之馨",
+    "suit_id": 15045,
+    "suit_name": "天之美赐",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15045_5": {
+    "name": "天授之令",
+    "suit_id": 15045,
+    "suit_name": "天之美赐",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15046_1": {
+    "name": "止于祝庆的喝礼",
+    "suit_id": 15046,
+    "suit_name": "影中沉凝的幻灭",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15046_2": {
+    "name": "止于妙想成型的锋毫",
+    "suit_id": 15045,
+    "suit_name": "影中沉凝的幻灭",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15046_3": {
+    "name": "止于阔步跌坠的灵摆",
+    "suit_id": 15046,
+    "suit_name": "影中沉凝的幻灭",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15046_4": {
+    "name": "止于荣礼的缎彩",
+    "suit_id": 15046,
+    "suit_name": "影中沉凝的幻灭",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15046_5": {
+    "name": "止于宏伟梦醒的时刻",
+    "suit_id": 15046,
+    "suit_name": "影中沉凝的幻灭",
+    "part": "时之沙"
   }
 }

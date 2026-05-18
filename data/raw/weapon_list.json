@@ -1205,6 +1205,15 @@
     "icon": "UI_EquipIcon_Pole_TummaLyhty",
     "route": "Bloodsoaked Ruins"
   },
+  "13517": {
+    "id": 13517,
+    "rank": 5,
+    "type": "WEAPON_POLE",
+    "name": "灾悔",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "icon": "UI_EquipIcon_Pole_Carbine",
+    "route": "Disaster and Remorse"
+  },
   "14101": {
     "id": 14101,
     "rank": 1,
@@ -1654,6 +1663,15 @@
     "specialProp": "FIGHT_PROP_CRITICAL_HURT",
     "icon": "UI_EquipIcon_Catalyst_Brisingamen",
     "route": "Nocturne's Curtain Call"
+  },
+  "14523": {
+    "id": 14523,
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "name": "尘光七谕",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "icon": "UI_EquipIcon_Catalyst_FairyGarden",
+    "route": "Angelos' Heptades"
   },
   "15101": {
     "id": 15101,
@@ -2187,6 +2205,16 @@
     "isWeaponSkin": true,
     "icon": "UI_EquipIcon_Catalyst_Kristall",
     "route": "Phantasmal Gift: Star Omen"
+  },
+  "380002": {
+    "id": 380002,
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "name": "「超厉害魔法钥匙」",
+    "specialProp": "NONE",
+    "isWeaponSkin": true,
+    "icon": "UI_EquipIcon_Claymore_LoliFriend",
+    "route": "Super Awesome Magic Key"
   },
   "390001": {
     "id": 390001,

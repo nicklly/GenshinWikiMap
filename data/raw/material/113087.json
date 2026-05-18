@@ -1,0 +1,69 @@
+{
+  "name": "赝作的树脂",
+  "description": "战胜藏身于世界树中的异端者后，从残毁的地脉深处拾得的树脂。\\n本应承载着构成这个世界的诸多美好记忆的晶体，如今却被种种不属于此世的妄想与恶念所填满。",
+  "type": "角色培养素材",
+  "recipe": {
+    "61301": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113088": {
+        "name": "扭曲的枯枝",
+        "icon": "UI_ItemIcon_113088",
+        "rank": 5,
+        "count": 1
+      }
+    },
+    "61302": {
+      "113021": {
+        "name": "异梦溶媒",
+        "icon": "UI_ItemIcon_113021",
+        "rank": 4,
+        "count": 1
+      },
+      "113089": {
+        "name": "亵渎的新芽",
+        "icon": "UI_ItemIcon_113089",
+        "rank": 5,
+        "count": 1
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "70级以上多托雷挑战奖励",
+      "type": "single"
+    },
+    {
+      "name": "合成台-转化页签：转化获取",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000131,
+          "name": "尼可",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Nicole"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 29150101,
+        "name": "多托雷",
+        "icon": "UI_MonsterIcon_DrData"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_113087",
+  "rank": 5,
+  "route": "Counterfeit Resin"
+}

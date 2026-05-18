@@ -1927,6 +1927,23 @@
     "release": 1771884000,
     "route": "Varka"
   },
+  "10000129": {
+    "id": 10000129,
+    "rank": 5,
+    "name": "洛恩",
+    "element": "Ice",
+    "weaponType": "WEAPON_POLE",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "BOY",
+    "icon": "UI_AvatarIcon_Lohen",
+    "birthday": [
+      4,
+      3
+    ],
+    "release": 1781017200,
+    "route": "Lohen"
+  },
   "10000130": {
     "id": 10000130,
     "rank": 5,
@@ -1943,6 +1960,40 @@
     ],
     "release": 1775509200,
     "route": "Linnea"
+  },
+  "10000131": {
+    "id": 10000131,
+    "rank": 5,
+    "name": "尼可",
+    "element": "Fire",
+    "weaponType": "WEAPON_CATALYST",
+    "region": "HVISION",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "LADY",
+    "icon": "UI_AvatarIcon_Nicole",
+    "birthday": [
+      9,
+      29
+    ],
+    "release": 1779138000,
+    "route": "Nicole"
+  },
+  "10000132": {
+    "id": 10000132,
+    "rank": 4,
+    "name": "布伦妮",
+    "element": "Wind",
+    "weaponType": "WEAPON_CATALYST",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "LOLI",
+    "icon": "UI_AvatarIcon_Prune",
+    "birthday": [
+      11,
+      20
+    ],
+    "release": 1779138000,
+    "route": "Prune"
   },
   "10000005-pyro": {
     "id": "10000005-pyro",
