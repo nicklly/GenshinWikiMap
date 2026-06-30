@@ -845,6 +845,15 @@
     "icon": "UI_EquipIcon_Claymore_EnsisAquilonis",
     "route": "Gest of the Mighty Wolf"
   },
+  "12516": {
+    "id": 12516,
+    "rank": 5,
+    "type": "WEAPON_CLAYMORE",
+    "name": "超越之匙",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Claymore_CrystallineSword",
+    "route": "A Teaspoon of Transcendence"
+  },
   "13101": {
     "id": 13101,
     "rank": 1,

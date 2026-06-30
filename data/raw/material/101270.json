@@ -1,0 +1,25 @@
+{
+  "name": "凝月泪滴",
+  "description": "清湛而明耀的苍色凝晶，蕴藏着极度纯净的月矩力，对各类元素力的亲和性也堪称完美。",
+  "type": "挪德卡莱区域特产",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "霜月采集",
+      "type": "single"
+    },
+    {
+      "name": "前往采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101270",
+  "rank": 1,
+  "route": "Teardrop of the Moon"
+}

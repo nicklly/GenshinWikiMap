@@ -1,0 +1,40 @@
+{
+  "name": "残损的月铁",
+  "description": "击败游荡于月面的古老机关后，自其内部取得的残片。似乎与提瓦特常见的金属有所不同。\\n各国失落的古老民话中，往往有着英雄将空月赐予的「神铁」锻为无坚不摧的兵刃，战胜仇敌或魔怪的传说。",
+  "type": "角色与武器培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "先驱秘源统辖阵列掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 12516,
+          "name": "超越之匙",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Claymore_CrystallineSword"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 24090601,
+        "name": "先驱秘源统辖阵列",
+        "icon": "UI_MonsterIcon_Monitor_01"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112143",
+  "rank": 2,
+  "route": "Fractured Lunar Iron"
+}

@@ -1995,6 +1995,23 @@
     "release": 1779138000,
     "route": "Prune"
   },
+  "10000133": {
+    "id": 10000133,
+    "rank": 5,
+    "name": "桑多涅",
+    "element": "Ice",
+    "weaponType": "WEAPON_CLAYMORE",
+    "region": "SNEZHNAYA_STAR",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_MarionetteNew",
+    "birthday": [
+      1,
+      13
+    ],
+    "release": 1782766800,
+    "route": "Sandrone"
+  },
   "10000005-pyro": {
     "id": "10000005-pyro",
     "rank": 5,
