@@ -1,0 +1,34 @@
+{
+  "name": "植绒草",
+  "description": "一度被怀疑是植物与动物结合后的奇妙植株，但后来被证明只不过是单纯长着类似动物绒毛的植物罢了。",
+  "type": "至冬区域特产",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "推荐：霜殛寒峰采集",
+      "type": "single"
+    },
+    {
+      "name": "前往采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000148,
+          "name": "阿罗夏",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Alyosha"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101276",
+  "rank": 1,
+  "route": "Flockingweed"
+}

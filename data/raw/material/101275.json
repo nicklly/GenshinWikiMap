@@ -1,0 +1,38 @@
+{
+  "name": "霜仙花",
+  "description": "不管风雪多么严苛亦会绽放的圣洁花朵，总是散发着微弱的令人向往的光芒。",
+  "type": "至冬区域特产",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "推荐：至冬堡附近采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：白桦雪葬地采集",
+      "type": "single"
+    },
+    {
+      "name": "前往采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000150,
+          "name": "奥黛塔",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Odette"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101275",
+  "rank": 1,
+  "route": "Frostfairy Flower"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "「灰眸」",
+  "description": "在废弃的车站中遇到的奇怪机关，经常以单片眼镜的形式出现。\\n似乎拥有许多便捷的功能…",
+  "type": "小道具",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": null,
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_220133",
+  "rank": 4,
+  "route": "Eye of Graeae"
+}

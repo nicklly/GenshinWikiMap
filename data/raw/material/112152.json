@@ -1,0 +1,98 @@
+{
+  "name": "沉积残片",
+  "description": "力量强大的兽怪形成的残积物。\\n刚开始在体内器官或骨骼上附着的残积物，随着力量的增长，或许会完整覆盖某一片躯体或某一个器官吧。",
+  "type": "角色与武器培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "兽怪暴徒掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11436,
+          "name": "引火之源",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_GlintstoneSword"
+        },
+        {
+          "id": 13435,
+          "name": "寒息",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_FaesCrystalle"
+        },
+        {
+          "id": 14436,
+          "name": "寸心余响",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_GlintstoneCatalyst"
+        },
+        {
+          "id": 11521,
+          "name": "星锋剑",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 25131401,
+        "name": "兽怪捷掠者",
+        "icon": "UI_MonsterIcon_Vukodlak_Thin_Sword"
+      },
+      {
+        "id": 25131601,
+        "name": "兽怪瞄击者",
+        "icon": "UI_MonsterIcon_Vukodlak_Thin_Pistol"
+      },
+      {
+        "id": 25131001,
+        "name": "兽怪投掷者",
+        "icon": "UI_MonsterIcon_Vukodlak_Strong_NoWeapon"
+      },
+      {
+        "id": 25131201,
+        "name": "兽怪敲打者",
+        "icon": "UI_MonsterIcon_Vukodlak_Strong_Sword"
+      },
+      {
+        "id": 25132601,
+        "name": "狮獒护卫",
+        "icon": "UI_MonsterIcon_Volkodlak_Sheepdog"
+      },
+      {
+        "id": 25132701,
+        "name": "长耳强袭者",
+        "icon": "UI_MonsterIcon_Volkodlak_Arctichare"
+      },
+      {
+        "id": 25132801,
+        "name": "渠道联络人",
+        "icon": "UI_MonsterIcon_Volkodlak_Beaver"
+      },
+      {
+        "id": 25133601,
+        "name": "牙兽狂徒",
+        "icon": "UI_MonsterIcon_Volkodlak_Mammoth"
+      },
+      {
+        "id": 25133701,
+        "name": "嗥狼追猎者",
+        "icon": "UI_MonsterIcon_Volkodlak_Greyhound"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112152",
+  "rank": 2,
+  "route": "Accreted Fragment"
+}

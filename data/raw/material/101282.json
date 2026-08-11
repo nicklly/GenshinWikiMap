@@ -1,0 +1,25 @@
+{
+  "name": "幽光萤石",
+  "description": "受影域的力量影响而产生的奇怪萤石。",
+  "type": "素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "推荐：至冬采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：影域及附近区域采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101282",
+  "rank": 1,
+  "route": "Lumifluorite"
+}

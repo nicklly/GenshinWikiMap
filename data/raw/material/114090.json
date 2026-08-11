@@ -1,0 +1,54 @@
+{
+  "name": "藏窖灵浆的酩酊",
+  "description": "赋予武器突破之力的材料。\\n在别处仅作为食粮丰收的馀庆，对于行于严寒之中的诸氏来说则是生存的必须。\\n据说制酒技术最为精湛的矮灵们昔日就曾依靠此术为当时效忠的王者积累宝库中的财富。\\n如是，妖精的酿造借由氏族之间的交易，如淌毒的蜜一般流经了整个冻土。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12067": {
+      "114089": {
+        "name": "藏窖灵浆的斟酌",
+        "icon": "UI_ItemIcon_114089",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：链轨",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 13435,
+          "name": "寒息",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_FaesCrystalle"
+        },
+        {
+          "id": 11520,
+          "name": "白湖冬羽",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_Swanlake"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114090",
+  "rank": 3,
+  "route": "Intoxication of the Cellared Spiritual Nectar"
+}

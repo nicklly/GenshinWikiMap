@@ -1,0 +1,60 @@
+{
+  "name": "「慈爱」的指引",
+  "description": "天赋培养素材。\\n「慈爱」是冰之国土的救赎。\\n慈爱孕育对他人的怜悯。在风雪的国度里，谁若真心为灵魂的罪责悔过，便能得到以慈爱为名的宽恕。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13043": {
+      "104365": {
+        "name": "「慈爱」的教导",
+        "icon": "UI_ItemIcon_104365",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：默想",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000150,
+          "name": "奥黛塔",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Odette"
+        },
+        {
+          "id": "10000005-cryo",
+          "name": "旅行者",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_PlayerBoy"
+        },
+        {
+          "id": "10000007-cryo",
+          "name": "旅行者",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_PlayerGirl"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_104366",
+  "rank": 3,
+  "route": "Guide to Charity"
+}

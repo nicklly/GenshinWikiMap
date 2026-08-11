@@ -1,0 +1,76 @@
+{
+  "name": "灵生分蘖节",
+  "description": "树妖在回归沉寂前掉落的枝节。\\n生长出一定晶石的枝节，沉甸甸的，能从中感受到离开树妖的主体后尚未消失的生命力。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11089": {
+      "112155": {
+        "name": "灵生空根",
+        "icon": "UI_ItemIcon_112155",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "40级以上荒野树妖掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    },
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 12436,
+          "name": "救赎之斩",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_GlintstoneClaymore"
+        },
+        {
+          "id": 13436,
+          "name": "戍望谣歌",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_GlintstonePolearm"
+        },
+        {
+          "id": 15436,
+          "name": "霜雪誓约",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_GlintstoneBow"
+        },
+        {
+          "id": 11520,
+          "name": "白湖冬羽",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_Swanlake"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 25138001,
+        "name": "幼嫩的分节树",
+        "icon": "UI_MonsterIcon_Leshy_Normal_01"
+      },
+      {
+        "id": 25137001,
+        "name": "苍遒的木灵长",
+        "icon": "UI_MonsterIcon_Leshy_Mature_01"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112156",
+  "rank": 3,
+  "route": "Sprout Node of Life"
+}

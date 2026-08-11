@@ -1,0 +1,60 @@
+{
+  "name": "「坚忍」的指引",
+  "description": "天赋培养素材。\\n「坚忍」是冰之国土的品格。\\n坚忍带来生长的意志。即便寒潮摧折，羸弱的种子仍能借这意志破土而出，在风雪覆盖的大地上生出新芽。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13045": {
+      "104368": {
+        "name": "「坚忍」的教导",
+        "icon": "UI_ItemIcon_104368",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：隐修",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000148,
+          "name": "阿罗夏",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Alyosha"
+        },
+        {
+          "id": "10000005-cryo",
+          "name": "旅行者",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_PlayerBoy"
+        },
+        {
+          "id": "10000007-cryo",
+          "name": "旅行者",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_PlayerGirl"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_104369",
+  "rank": 3,
+  "route": "Guide to Fortitude"
+}

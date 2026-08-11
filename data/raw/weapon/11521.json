@@ -1,0 +1,219 @@
+{
+  "id": 11521,
+  "rank": 5,
+  "type": "单手剑",
+  "name": "星锋剑",
+  "description": "曾经闪耀着苍星辉光的长剑。在踏上旅途之人的手中，成为了不属于任何旧时代的崭新光芒。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
+  "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya",
+  "storyId": [
+    "11521"
+  ],
+  "affix": {
+    "111521": {
+      "name": "旅者之路",
+      "upgrade": {
+        "0": "旅行者装备时，命中敌人后，攻击力提升<color=#99FFFFFF>16%<\/color>，持续<color=#99FFFFFF>8<\/color>秒，并使旅行者恢复<color=#99FFFFFF>3<\/color>点元素能量。该效果每<color=#99FFFFFF>5<\/color>秒至多触发一次，角色处于队伍后台也能触发。",
+        "1": "旅行者装备时，每与一种元素共鸣过，旅行者的暴击伤害就会提升6%。此外，旅行者的攻击命中敌人后，攻击力提升<color=#99FFFFFF>20%<\/color>，持续8秒，并使旅行者恢复<color=#99FFFFFF>3<\/color>点元素能量。该效果每5秒至多触发一次，角色处于队伍后台也能触发。",
+        "2": "旅行者装备时，每与一种元素共鸣过，旅行者的暴击伤害就会提升6%。此外，旅行者的攻击命中敌人后，攻击力提升<color=#99FFFFFF>24%<\/color>，持续8秒，并使旅行者恢复<color=#99FFFFFF>5<\/color>点元素能量。该效果每5秒至多触发一次，角色处于队伍后台也能触发。",
+        "3": "旅行者装备时，每与一种元素共鸣过，旅行者的暴击伤害就会提升6%。此外，旅行者的攻击命中敌人后，攻击力提升<color=#99FFFFFF>32%<\/color>，持续8秒，并使旅行者恢复<color=#99FFFFFF>5<\/color>点元素能量。该效果每5秒至多触发一次，角色处于队伍后台也能触发。",
+        "4": "旅行者装备时，每与一种元素共鸣过，旅行者的暴击伤害就会提升6%。此外，旅行者的攻击命中敌人后，攻击力提升<color=#99FFFFFF>40%<\/color>，持续8秒，并使旅行者恢复<color=#99FFFFFF>5<\/color>点元素能量。该效果每5秒至多触发一次，角色处于队伍后台也能触发。"
+      }
+    }
+  },
+  "route": "Exaiphanes Blade",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.9364,
+        "type": "GROW_CURVE_ATTACK_301"
+      },
+      {
+        "propType": "FIGHT_PROP_CRITICAL",
+        "initValue": 0.072,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112146": 3,
+          "112152": 5,
+          "114093": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1
+        },
+        "requiredPlayerLevel": 15,
+        "unlockMaxLevel": 40
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112146": 12,
+          "112152": 18,
+          "114094": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2
+        },
+        "requiredPlayerLevel": 25,
+        "unlockMaxLevel": 50
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112147": 9,
+          "112153": 9,
+          "114094": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4
+        },
+        "requiredPlayerLevel": 30,
+        "unlockMaxLevel": 60
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112147": 14,
+          "112153": 18,
+          "114095": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5
+        },
+        "requiredPlayerLevel": 35,
+        "unlockMaxLevel": 70
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112148": 9,
+          "112154": 14,
+          "114095": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.6
+        },
+        "requiredPlayerLevel": 40,
+        "unlockMaxLevel": 80
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112148": 18,
+          "112154": 27,
+          "114096": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7
+        },
+        "requiredPlayerLevel": 50,
+        "unlockMaxLevel": 90
+      }
+    ]
+  },
+  "ascension": {
+    "112146": 1,
+    "112147": 2,
+    "112148": 3,
+    "112152": 2,
+    "112153": 3,
+    "112154": 4,
+    "114093": 2,
+    "114094": 3,
+    "114095": 4,
+    "114096": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112146": {
+      "name": "幻造萤屑",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112146"
+    },
+    "112147": {
+      "name": "幻造裂晶",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112147"
+    },
+    "112148": {
+      "name": "幻造晶鳞石",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112148"
+    },
+    "112152": {
+      "name": "沉积残片",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112152"
+    },
+    "112153": {
+      "name": "沉积结块",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112153"
+    },
+    "112154": {
+      "name": "沉积增生物",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112154"
+    },
+    "114093": {
+      "name": "凛雪帝皇的复生",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114093"
+    },
+    "114094": {
+      "name": "凛雪帝皇的庆仪",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114094"
+    },
+    "114095": {
+      "name": "凛雪帝皇的悲恤",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114095"
+    },
+    "114096": {
+      "name": "凛雪帝皇的辞决",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114096"
+    }
+  }
+}

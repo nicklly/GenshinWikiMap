@@ -1,0 +1,219 @@
+{
+  "id": 15436,
+  "rank": 4,
+  "type": "弓",
+  "name": "霜雪誓约",
+  "description": "为维系秩序所制的长弓，光泽冰冷，恰如最公允无私的法度。",
+  "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
+  "icon": "UI_EquipIcon_Bow_GlintstoneBow",
+  "storyId": [
+    "15436"
+  ],
+  "affix": {
+    "115436": {
+      "name": "法度的制衡",
+      "upgrade": {
+        "0": "装备者施放元素战技后的12秒内，元素精通提升<color=#99FFFFFF>120<\/color>点。",
+        "1": "装备者施放元素战技后的12秒内，元素精通提升<color=#99FFFFFF>150<\/color>点。",
+        "2": "装备者施放元素战技后的12秒内，元素精通提升<color=#99FFFFFF>180<\/color>点。",
+        "3": "装备者施放元素战技后的12秒内，元素精通提升<color=#99FFFFFF>210<\/color>点。",
+        "4": "装备者施放元素战技后的12秒内，元素精通提升<color=#99FFFFFF>240<\/color>点。"
+      }
+    }
+  },
+  "route": "Covenant of Frost and Snow",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 42.401,
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      {
+        "propType": "FIGHT_PROP_DEFENSE_PERCENT",
+        "initValue": 0.1126,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112149": 2,
+          "112155": 3,
+          "114085": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9
+        },
+        "requiredPlayerLevel": 15,
+        "unlockMaxLevel": 40
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112149": 8,
+          "112155": 12,
+          "114086": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9
+        },
+        "requiredPlayerLevel": 25,
+        "unlockMaxLevel": 50
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112150": 6,
+          "112156": 6,
+          "114086": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8
+        },
+        "requiredPlayerLevel": 30,
+        "unlockMaxLevel": 60
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112150": 9,
+          "112156": 12,
+          "114087": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7
+        },
+        "requiredPlayerLevel": 35,
+        "unlockMaxLevel": 70
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112151": 6,
+          "112157": 9,
+          "114087": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7
+        },
+        "requiredPlayerLevel": 40,
+        "unlockMaxLevel": 80
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112151": 12,
+          "112157": 18,
+          "114088": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.6
+        },
+        "requiredPlayerLevel": 50,
+        "unlockMaxLevel": 90
+      }
+    ]
+  },
+  "ascension": {
+    "112149": 1,
+    "112150": 2,
+    "112151": 3,
+    "112155": 2,
+    "112156": 3,
+    "112157": 4,
+    "114085": 2,
+    "114086": 3,
+    "114087": 4,
+    "114088": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112149": {
+      "name": "嵌合种",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112149"
+    },
+    "112150": {
+      "name": "并生嵌合胞",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112150"
+    },
+    "112151": {
+      "name": "源生嵌合体",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112151"
+    },
+    "112155": {
+      "name": "灵生空根",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112155"
+    },
+    "112156": {
+      "name": "灵生分蘖节",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112156"
+    },
+    "112157": {
+      "name": "灵生盘枝心",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112157"
+    },
+    "114085": {
+      "name": "苍星军势的始动",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114085"
+    },
+    "114086": {
+      "name": "苍星军势的集结",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114086"
+    },
+    "114087": {
+      "name": "苍星军势的鸣令",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114087"
+    },
+    "114088": {
+      "name": "苍星军势的征服",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114088"
+    }
+  }
+}

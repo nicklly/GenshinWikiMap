@@ -1,0 +1,39 @@
+{
+  "name": "「坚忍」的教导",
+  "description": "天赋培养素材。\\n「坚忍」是冰之国土的品格。\\n坚忍源自对生存的渴望。就算未被播撒在沃土中，羸弱的种子却也能凭借着这样的渴望，在冻原的土地下根系深扎。",
+  "type": "角色天赋素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "礼包商城兑换",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：隐修",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000148,
+          "name": "阿罗夏",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Alyosha"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_104368",
+  "rank": 2,
+  "route": "Teachings of Fortitude"
+}

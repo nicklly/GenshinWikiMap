@@ -186,7 +186,8 @@
       14
     ],
     "release": 1601244000,
-    "route": "Beidou"
+    "route": "Beidou",
+    "buff": true
   },
   "10000025": {
     "id": 10000025,
@@ -358,7 +359,8 @@
       3
     ],
     "release": 1601244000,
-    "route": "Qiqi"
+    "route": "Qiqi",
+    "buff": true
   },
   "10000036": {
     "id": 10000036,
@@ -427,7 +429,8 @@
       18
     ],
     "release": 1605060000,
-    "route": "Diona"
+    "route": "Diona",
+    "buff": true
   },
   "10000041": {
     "id": 10000041,
@@ -735,7 +738,8 @@
       27
     ],
     "release": 1644962400,
-    "route": "Yae Miko"
+    "route": "Yae Miko",
+    "buff": true
   },
   "10000059": {
     "id": 10000059,
@@ -956,7 +960,8 @@
       23
     ],
     "release": 1664226000,
-    "route": "Cyno"
+    "route": "Cyno",
+    "buff": true
   },
   "10000072": {
     "id": 10000072,
@@ -1211,7 +1216,8 @@
       23
     ],
     "release": 1697554800,
-    "route": "Wriothesley"
+    "route": "Wriothesley",
+    "buff": true
   },
   "10000087": {
     "id": 10000087,
@@ -1602,7 +1608,8 @@
       16
     ],
     "release": 1739224800,
-    "route": "Yumemizuki Mizuki"
+    "route": "Yumemizuki Mizuki",
+    "buff": true
   },
   "10000110": {
     "id": 10000110,
@@ -2012,6 +2019,40 @@
     "release": 1782766800,
     "route": "Sandrone"
   },
+  "10000148": {
+    "id": 10000148,
+    "rank": 4,
+    "name": "阿罗夏",
+    "element": "Electric",
+    "weaponType": "WEAPON_POLE",
+    "region": "SNEZHNAYA",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "bodyType": "BOY",
+    "icon": "UI_AvatarIcon_Alyosha",
+    "birthday": [
+      2,
+      9
+    ],
+    "release": 1786395600,
+    "route": "Alyosha"
+  },
+  "10000150": {
+    "id": 10000150,
+    "rank": 5,
+    "name": "奥黛塔",
+    "element": "Ice",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "SNEZHNAYA_STAR",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Odette",
+    "birthday": [
+      2,
+      20
+    ],
+    "release": 1786395600,
+    "route": "Odette"
+  },
   "10000005-pyro": {
     "id": "10000005-pyro",
     "rank": 5,
@@ -2062,6 +2103,23 @@
     ],
     "route": "Anemo Traveler Boy",
     "release": 1601244000
+  },
+  "10000005-cryo": {
+    "id": "10000005-cryo",
+    "rank": 5,
+    "name": "旅行者",
+    "element": "Ice",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "BOY",
+    "icon": "UI_AvatarIcon_PlayerBoy",
+    "birthday": [
+      0,
+      0
+    ],
+    "route": "Cryo Traveler Boy",
+    "release": 1786561200
   },
   "10000005-geo": {
     "id": "10000005-geo",
@@ -2164,6 +2222,23 @@
     ],
     "route": "Anemo Traveler Girl",
     "release": 1601244000
+  },
+  "10000007-cryo": {
+    "id": "10000007-cryo",
+    "rank": 5,
+    "name": "旅行者",
+    "element": "Ice",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_PlayerGirl",
+    "birthday": [
+      0,
+      0
+    ],
+    "route": "Cryo Traveler Girl",
+    "release": 1786561200
   },
   "10000007-geo": {
     "id": "10000007-geo",

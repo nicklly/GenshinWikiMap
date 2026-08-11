@@ -1,0 +1,54 @@
+{
+  "name": "凛雪帝皇的辞决",
+  "description": "赋予武器突破之力的材料。\\n在战争的前夕，不知何时也不知如何出现在桌上之物。\\n他知道那是他久未得见的友人亲手所制。\\n天地原如，他在此时才恍然，这就是一切厄难的开端，一切欲望的苦果，一切毁灭的先兆。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12072": {
+      "114095": {
+        "name": "凛雪帝皇的悲恤",
+        "icon": "UI_ItemIcon_114095",
+        "rank": 4,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：断钢",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 13436,
+          "name": "戍望谣歌",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_GlintstonePolearm"
+        },
+        {
+          "id": 11521,
+          "name": "星锋剑",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114096",
+  "rank": 5,
+  "route": "The Frost Emperor's Farewell"
+}

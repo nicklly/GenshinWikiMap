@@ -1,0 +1,60 @@
+{
+  "name": "「慈爱」的哲学",
+  "description": "天赋培养素材。\\n「慈爱」是冰之国土的救赎。\\n慈爱是对众生的关照，它消弭高低与贵贱，跨越血脉与国别。慈爱的目光往往注视着所有人，它施与不幸者以护佑，并应许众人以永恒的解放。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13044": {
+      "104366": {
+        "name": "「慈爱」的指引",
+        "icon": "UI_ItemIcon_104366",
+        "rank": 3,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：默想",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000150,
+          "name": "奥黛塔",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Odette"
+        },
+        {
+          "id": "10000005-cryo",
+          "name": "旅行者",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_PlayerBoy"
+        },
+        {
+          "id": "10000007-cryo",
+          "name": "旅行者",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_PlayerGirl"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_104367",
+  "rank": 4,
+  "route": "Philosophies of Charity"
+}

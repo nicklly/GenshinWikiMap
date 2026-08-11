@@ -1,0 +1,54 @@
+{
+  "name": "「荣光」的指引",
+  "description": "天赋培养素材。\\n「荣光」是冰之国土的信仰。\\n荣光是长夜中闪烁的火苗，跋涉于雪原上的众人始终注视着它的方向，如同确信风雪将息，黎明将至，他们确信自己仍行在应行的路上。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13047": {
+      "104371": {
+        "name": "「荣光」的教导",
+        "icon": "UI_ItemIcon_104371",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：共观",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": "10000005-cryo",
+          "name": "旅行者",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_PlayerBoy"
+        },
+        {
+          "id": "10000007-cryo",
+          "name": "旅行者",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_PlayerGirl"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_104372",
+  "rank": 3,
+  "route": "Guide to Glory"
+}

@@ -1,0 +1,219 @@
+{
+  "id": 11435,
+  "rank": 4,
+  "type": "单手剑",
+  "name": "熔猎异端之刃",
+  "description": "那是他在初次见到那位受众人祝福的火焰之神时再度拔出的，却已太久未曾使用的武器。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
+  "icon": "UI_EquipIcon_Sword_SerpentTooth",
+  "storyId": [
+    "11435"
+  ],
+  "affix": {
+    "111435": {
+      "name": "独光的赐坠",
+      "upgrade": {
+        "0": "装备者施放元素战技后，获得「映落瞳中的初光」：持续期间，将记录装备者的移动距离，每秒都将基于上一秒记录的移动距离，使装备者获得最低<color=#99FFFFFF>18%<\/color>、最高<color=#99FFFFFF>36%<\/color>的攻击力加成。该效果持续14秒，每14秒至多触发一次，并会在装备者退场时移除。",
+        "1": "装备者施放元素战技后，获得「映落瞳中的初光」：持续期间，将记录装备者的移动距离，每秒都将基于上一秒记录的移动距离，使装备者获得最低<color=#99FFFFFF>22.5%<\/color>、最高<color=#99FFFFFF>45%<\/color>的攻击力加成。该效果持续14秒，每14秒至多触发一次，并会在装备者退场时移除。",
+        "2": "装备者施放元素战技后，获得「映落瞳中的初光」：持续期间，将记录装备者的移动距离，每秒都将基于上一秒记录的移动距离，使装备者获得最低<color=#99FFFFFF>27%<\/color>、最高<color=#99FFFFFF>54%<\/color>的攻击力加成。该效果持续14秒，每14秒至多触发一次，并会在装备者退场时移除。",
+        "3": "装备者施放元素战技后，获得「映落瞳中的初光」：持续期间，将记录装备者的移动距离，每秒都将基于上一秒记录的移动距离，使装备者获得最低<color=#99FFFFFF>31.5%<\/color>、最高<color=#99FFFFFF>63%<\/color>的攻击力加成。该效果持续14秒，每14秒至多触发一次，并会在装备者退场时移除。",
+        "4": "装备者施放元素战技后，获得「映落瞳中的初光」：持续期间，将记录装备者的移动距离，每秒都将基于上一秒记录的移动距离，使装备者获得最低<color=#99FFFFFF>36%<\/color>、最高<color=#99FFFFFF>72%<\/color>的攻击力加成。该效果持续14秒，每14秒至多触发一次，并会在装备者退场时移除。"
+      }
+    }
+  },
+  "route": "Heretic's Molten Blade",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 42.401,
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      {
+        "propType": "FIGHT_PROP_CRITICAL",
+        "initValue": 0.06,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112104": 2,
+          "112119": 3,
+          "114061": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9
+        },
+        "requiredPlayerLevel": 15,
+        "unlockMaxLevel": 40
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112104": 8,
+          "112119": 12,
+          "114062": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9
+        },
+        "requiredPlayerLevel": 25,
+        "unlockMaxLevel": 50
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112105": 6,
+          "112120": 6,
+          "114062": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8
+        },
+        "requiredPlayerLevel": 30,
+        "unlockMaxLevel": 60
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112105": 9,
+          "112120": 12,
+          "114063": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7
+        },
+        "requiredPlayerLevel": 35,
+        "unlockMaxLevel": 70
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112106": 6,
+          "112121": 9,
+          "114063": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7
+        },
+        "requiredPlayerLevel": 40,
+        "unlockMaxLevel": 80
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112106": 12,
+          "112121": 18,
+          "114064": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.6
+        },
+        "requiredPlayerLevel": 50,
+        "unlockMaxLevel": 90
+      }
+    ]
+  },
+  "ascension": {
+    "112104": 1,
+    "112105": 2,
+    "112106": 3,
+    "112119": 2,
+    "112120": 3,
+    "112121": 4,
+    "114061": 2,
+    "114062": 3,
+    "114063": 4,
+    "114064": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112104": {
+      "name": "卫从的木哨",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112104"
+    },
+    "112105": {
+      "name": "战士的铁哨",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112105"
+    },
+    "112106": {
+      "name": "龙冠武士的金哨",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112106"
+    },
+    "112119": {
+      "name": "冷裂壳块",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112119"
+    },
+    "112120": {
+      "name": "蕴热的背壳",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112120"
+    },
+    "112121": {
+      "name": "明燃的棱状壳",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112121"
+    },
+    "114061": {
+      "name": "贡祭炽心的惶恐",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114061"
+    },
+    "114062": {
+      "name": "贡祭炽心的踌躇",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114062"
+    },
+    "114063": {
+      "name": "贡祭炽心的决绝",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114063"
+    },
+    "114064": {
+      "name": "贡祭炽心的荣膺",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114064"
+    }
+  }
+}

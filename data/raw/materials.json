@@ -10,6 +10,7 @@
     "localSpecialtyFontaine": "枫丹区域特产",
     "localSpecialtyNatlan": "纳塔区域特产",
     "localSpecialtyNodKrai": "挪德卡莱区域特产",
+    "localSpecialtySnezhnaya": "至冬区域特产",
     "potion": "药剂",
     "characterLevelUpMaterial": "角色培养素材",
     "characterAscensionMaterial": "角色突破素材",
@@ -1745,6 +1746,86 @@
       "rank": 1,
       "route": "Etherwing Moth"
     },
+    "101275": {
+      "id": 101275,
+      "name": "霜仙花",
+      "type": "localSpecialtySnezhnaya",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101275",
+      "rank": 1,
+      "route": "Frostfairy Flower"
+    },
+    "101276": {
+      "id": 101276,
+      "name": "植绒草",
+      "type": "localSpecialtySnezhnaya",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101276",
+      "rank": 1,
+      "route": "Flockingweed"
+    },
+    "101277": {
+      "id": 101277,
+      "name": "金蕨",
+      "type": "localSpecialtySnezhnaya",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101277",
+      "rank": 1,
+      "route": "Golden Fern"
+    },
+    "101278": {
+      "id": 101278,
+      "name": "红甜菜",
+      "type": "cookingIngredient",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101278",
+      "rank": 1,
+      "route": "Red Beet"
+    },
+    "101279": {
+      "id": 101279,
+      "name": "冰星果",
+      "type": "cookingIngredient",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101279",
+      "rank": 1,
+      "route": "Glaciafruit"
+    },
+    "101280": {
+      "id": 101280,
+      "name": "雪球花",
+      "type": "cookingIngredient",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101280",
+      "rank": 1,
+      "route": "Snowball Flower"
+    },
+    "101281": {
+      "id": 101281,
+      "name": "冰醋栗",
+      "type": "cookingIngredient",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101281",
+      "rank": 1,
+      "route": "Rimecurrant"
+    },
+    "101282": {
+      "id": 101282,
+      "name": "幽光萤石",
+      "type": "material",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101282",
+      "rank": 1,
+      "route": "Lumifluorite"
+    },
     "101301": {
       "id": 101301,
       "name": "桦木",
@@ -2034,6 +2115,46 @@
       "icon": "UI_ItemIcon_101330",
       "rank": 1,
       "route": "Alder Wood"
+    },
+    "101331": {
+      "id": 101331,
+      "name": "雪杨木",
+      "type": "material",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101332",
+      "rank": 1,
+      "route": "Snow Poplar Wood"
+    },
+    "101332": {
+      "id": 101332,
+      "name": "白桦木",
+      "type": "material",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101331",
+      "rank": 1,
+      "route": "White Birch Wood"
+    },
+    "101333": {
+      "id": 101333,
+      "name": "青榉木",
+      "type": "material",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101333",
+      "rank": 1,
+      "route": "Bluebeech Wood"
+    },
+    "101334": {
+      "id": 101334,
+      "name": "落叶松木",
+      "type": "material",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101334",
+      "rank": 1,
+      "route": "Larch Wood"
     },
     "101401": {
       "id": 101401,
@@ -3105,6 +3226,96 @@
       "rank": 4,
       "route": "Philosophies of Vagrancy"
     },
+    "104365": {
+      "id": 104365,
+      "name": "「慈爱」的教导",
+      "type": "characterTalentMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104365",
+      "rank": 2,
+      "route": "Teachings of Charity"
+    },
+    "104366": {
+      "id": 104366,
+      "name": "「慈爱」的指引",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104366",
+      "rank": 3,
+      "route": "Guide to Charity"
+    },
+    "104367": {
+      "id": 104367,
+      "name": "「慈爱」的哲学",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104367",
+      "rank": 4,
+      "route": "Philosophies of Charity"
+    },
+    "104368": {
+      "id": 104368,
+      "name": "「坚忍」的教导",
+      "type": "characterTalentMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104368",
+      "rank": 2,
+      "route": "Teachings of Fortitude"
+    },
+    "104369": {
+      "id": 104369,
+      "name": "「坚忍」的指引",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104369",
+      "rank": 3,
+      "route": "Guide to Fortitude"
+    },
+    "104370": {
+      "id": 104370,
+      "name": "「坚忍」的哲学",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104370",
+      "rank": 4,
+      "route": "Philosophies of Fortitude"
+    },
+    "104371": {
+      "id": 104371,
+      "name": "「荣光」的教导",
+      "type": "characterTalentMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104371",
+      "rank": 2,
+      "route": "Teachings of Glory"
+    },
+    "104372": {
+      "id": 104372,
+      "name": "「荣光」的指引",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104372",
+      "rank": 3,
+      "route": "Guide to Glory"
+    },
+    "104373": {
+      "id": 104373,
+      "name": "「荣光」的哲学",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104373",
+      "rank": 4,
+      "route": "Philosophies of Glory"
+    },
     "107001": {
       "id": 107001,
       "name": "散失的风神瞳",
@@ -3334,6 +3545,16 @@
       "icon": "UI_ItemIcon_110016",
       "rank": 1,
       "route": "Rye Flour"
+    },
+    "110017": {
+      "id": 110017,
+      "name": "蜂蜜",
+      "type": "cookingIngredient",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_110017",
+      "rank": 1,
+      "route": "Honey"
     },
     "111006": {
       "id": 111006,
@@ -4915,6 +5136,126 @@
       "rank": 4,
       "route": "Unblemished Lunar Iron"
     },
+    "112146": {
+      "id": 112146,
+      "name": "幻造萤屑",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112146",
+      "rank": 1,
+      "route": "Ethereal Glimmershard"
+    },
+    "112147": {
+      "id": 112147,
+      "name": "幻造裂晶",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112147",
+      "rank": 2,
+      "route": "Ethereal Crystal"
+    },
+    "112148": {
+      "id": 112148,
+      "name": "幻造晶鳞石",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112148",
+      "rank": 3,
+      "route": "Ethereal Crystalscale Stone"
+    },
+    "112149": {
+      "id": 112149,
+      "name": "嵌合种",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112149",
+      "rank": 1,
+      "route": "Chimeric Core"
+    },
+    "112150": {
+      "id": 112150,
+      "name": "并生嵌合胞",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112150",
+      "rank": 2,
+      "route": "Symbiotic Chimeric Nucleus"
+    },
+    "112151": {
+      "id": 112151,
+      "name": "源生嵌合体",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112151",
+      "rank": 3,
+      "route": "Prime Chimeric Nexus"
+    },
+    "112152": {
+      "id": 112152,
+      "name": "沉积残片",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112152",
+      "rank": 2,
+      "route": "Accreted Fragment"
+    },
+    "112153": {
+      "id": 112153,
+      "name": "沉积结块",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112153",
+      "rank": 3,
+      "route": "Accreted Mass"
+    },
+    "112154": {
+      "id": 112154,
+      "name": "沉积增生物",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112154",
+      "rank": 4,
+      "route": "Accreted Growth"
+    },
+    "112155": {
+      "id": 112155,
+      "name": "灵生空根",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112155",
+      "rank": 2,
+      "route": "Hollow Root of Life"
+    },
+    "112156": {
+      "id": 112156,
+      "name": "灵生分蘖节",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112156",
+      "rank": 3,
+      "route": "Sprout Node of Life"
+    },
+    "112157": {
+      "id": 112157,
+      "name": "灵生盘枝心",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112157",
+      "rank": 4,
+      "route": "Coiled Core of Life"
+    },
     "113001": {
       "id": 113001,
       "name": "飓风之种",
@@ -5805,6 +6146,26 @@
       "rank": 5,
       "route": "Profaned Sprout"
     },
+    "113090": {
+      "id": 113090,
+      "name": "焰中不灭花枝",
+      "type": "characterLevelUpMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113090",
+      "rank": 4,
+      "route": "Unscorched Blossom Branch"
+    },
+    "113091": {
+      "id": 113091,
+      "name": "游空之物的断尾",
+      "type": "characterLevelUpMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113091",
+      "rank": 4,
+      "route": "Severed Tail of the Sky-Roamer"
+    },
     "114001": {
       "id": 114001,
       "name": "高塔孤王的破瓦",
@@ -6644,6 +7005,126 @@
       "icon": "UI_ItemIcon_114084",
       "rank": 5,
       "route": "Aureate Radiance of the Far-North Scions"
+    },
+    "114085": {
+      "id": 114085,
+      "name": "苍星军势的始动",
+      "type": "weaponAscensionMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114085",
+      "rank": 2,
+      "route": "Rise of the Pale Star Army"
+    },
+    "114086": {
+      "id": 114086,
+      "name": "苍星军势的集结",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114086",
+      "rank": 3,
+      "route": "Muster of the Pale Star Army"
+    },
+    "114087": {
+      "id": 114087,
+      "name": "苍星军势的鸣令",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114087",
+      "rank": 4,
+      "route": "Clarion of the Pale Star Army"
+    },
+    "114088": {
+      "id": 114088,
+      "name": "苍星军势的征服",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114088",
+      "rank": 5,
+      "route": "Triumph of the Pale Star Army"
+    },
+    "114089": {
+      "id": 114089,
+      "name": "藏窖灵浆的斟酌",
+      "type": "weaponAscensionMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114089",
+      "rank": 2,
+      "route": "Measured Pour of the Cellared Spiritual Nectar"
+    },
+    "114090": {
+      "id": 114090,
+      "name": "藏窖灵浆的酩酊",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114090",
+      "rank": 3,
+      "route": "Intoxication of the Cellared Spiritual Nectar"
+    },
+    "114091": {
+      "id": 114091,
+      "name": "藏窖灵浆的酣畅",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114091",
+      "rank": 4,
+      "route": "Exhilaration of the Cellared Spiritual Nectar"
+    },
+    "114092": {
+      "id": 114092,
+      "name": "藏窖灵浆的恣意",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114092",
+      "rank": 5,
+      "route": "Revelry of the Cellared Spiritual Nectar"
+    },
+    "114093": {
+      "id": 114093,
+      "name": "凛雪帝皇的复生",
+      "type": "weaponAscensionMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114093",
+      "rank": 2,
+      "route": "The Frost Emperor's Revival"
+    },
+    "114094": {
+      "id": 114094,
+      "name": "凛雪帝皇的庆仪",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114094",
+      "rank": 3,
+      "route": "The Frost Emperor's Ceremony"
+    },
+    "114095": {
+      "id": 114095,
+      "name": "凛雪帝皇的悲恤",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114095",
+      "rank": 4,
+      "route": "The Frost Emperor's Lament"
+    },
+    "114096": {
+      "id": 114096,
+      "name": "凛雪帝皇的辞决",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114096",
+      "rank": 5,
+      "route": "The Frost Emperor's Farewell"
     },
     "120011": {
       "id": 120011,
@@ -7725,6 +8206,16 @@
       "rank": 4,
       "route": "Sandrone's Portable Tea Table"
     },
+    "220133": {
+      "id": 220133,
+      "name": "「灰眸」",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220133",
+      "rank": 4,
+      "route": "Eye of Graeae"
+    },
     "220134": {
       "id": 220134,
       "name": "魔女的谕示匣",
@@ -7734,6 +8225,16 @@
       "icon": "UI_ItemIcon_220134",
       "rank": 5,
       "route": "Witch's Revelation Case"
+    },
+    "220136": {
+      "id": 220136,
+      "name": "冰之寻宝罗盘",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220136",
+      "rank": 4,
+      "route": "Cryo Treasure Compass"
     }
   }
 }

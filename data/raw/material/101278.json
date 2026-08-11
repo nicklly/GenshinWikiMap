@@ -1,0 +1,21 @@
+{
+  "name": "红甜菜",
+  "description": "在寒冷冻土里也能生长的草本植物，为了能在严酷的环境里生存，生长出了肥大的肉质根。",
+  "type": "食材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "推荐：至冬采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101278",
+  "rank": 1,
+  "route": "Red Beet"
+}

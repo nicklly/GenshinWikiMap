@@ -1,0 +1,54 @@
+{
+  "name": "「荣光」的哲学",
+  "description": "天赋培养素材。\\n「荣光」是冰之国土的信仰。\\n荣光是火炬台上不熄的火焰，如今与风雪的国度共存亡。火焰点燃高尚的激情，为了维系它的永恒燃烧，人们甘愿奉献出自己的一切。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13048": {
+      "104372": {
+        "name": "「荣光」的指引",
+        "icon": "UI_ItemIcon_104372",
+        "rank": 3,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：共观",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": "10000005-cryo",
+          "name": "旅行者",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_PlayerBoy"
+        },
+        {
+          "id": "10000007-cryo",
+          "name": "旅行者",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_PlayerGirl"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_104373",
+  "rank": 4,
+  "route": "Philosophies of Glory"
+}

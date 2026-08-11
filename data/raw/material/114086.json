@@ -1,0 +1,66 @@
+{
+  "name": "苍星军势的集结",
+  "description": "赋予武器突破之力的材料。\\n「靠运气占据了峡谷，那可笑的妄自尊大者不过是强弩之末，冲风之衰。」\\n「他们拼尽全力才可抵挡我们的军势一二，很快就将流露出败迹。」\\n「军士们，不断行进吧，因兽王的令已喻示，我们轻松便能取得整场战役的胜利！」",
+  "type": "武器突破素材",
+  "recipe": {
+    "12064": {
+      "114085": {
+        "name": "苍星军势的始动",
+        "icon": "UI_ItemIcon_114085",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：铸铁",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11436,
+          "name": "引火之源",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_GlintstoneSword"
+        },
+        {
+          "id": 12436,
+          "name": "救赎之斩",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_GlintstoneClaymore"
+        },
+        {
+          "id": 14436,
+          "name": "寸心余响",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_GlintstoneCatalyst"
+        },
+        {
+          "id": 15436,
+          "name": "霜雪誓约",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_GlintstoneBow"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114086",
+  "rank": 3,
+  "route": "Muster of the Pale Star Army"
+}

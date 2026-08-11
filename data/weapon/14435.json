@@ -1,0 +1,36 @@
+{
+  "id": "14435",
+  "name": "群王局戏",
+  "rank": 4,
+  "type": "法器",
+  "icon": {
+    "icon": "UI_EquipIcon_Catalyst_SandMemoria",
+    "awaken": "UI_EquipIcon_Catalyst_SandMemoria_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Catalyst_SandMemoria"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 42.401,
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      "promote": [
+        25.9,
+        51.9,
+        77.8,
+        103.7,
+        129.7,
+        155.6
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CRITICAL",
+        "initValue": 0.06,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    }
+  ],
+  "buff": []
+}

@@ -1,0 +1,111 @@
+{
+  "name": "沉积结块",
+  "description": "力量强大的兽怪形成的残积物。\\n已经附着体内器官或骨骼许久的残积物。这些残积物在被取出后，将被视为力量的象征，会被该族群的后裔好好保存。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11087": {
+      "112152": {
+        "name": "沉积残片",
+        "icon": "UI_ItemIcon_112152",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "40级以上兽怪暴徒掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    },
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11436,
+          "name": "引火之源",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_GlintstoneSword"
+        },
+        {
+          "id": 13435,
+          "name": "寒息",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_FaesCrystalle"
+        },
+        {
+          "id": 14436,
+          "name": "寸心余响",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_GlintstoneCatalyst"
+        },
+        {
+          "id": 11521,
+          "name": "星锋剑",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 25131401,
+        "name": "兽怪捷掠者",
+        "icon": "UI_MonsterIcon_Vukodlak_Thin_Sword"
+      },
+      {
+        "id": 25131601,
+        "name": "兽怪瞄击者",
+        "icon": "UI_MonsterIcon_Vukodlak_Thin_Pistol"
+      },
+      {
+        "id": 25131001,
+        "name": "兽怪投掷者",
+        "icon": "UI_MonsterIcon_Vukodlak_Strong_NoWeapon"
+      },
+      {
+        "id": 25131201,
+        "name": "兽怪敲打者",
+        "icon": "UI_MonsterIcon_Vukodlak_Strong_Sword"
+      },
+      {
+        "id": 25132601,
+        "name": "狮獒护卫",
+        "icon": "UI_MonsterIcon_Volkodlak_Sheepdog"
+      },
+      {
+        "id": 25132701,
+        "name": "长耳强袭者",
+        "icon": "UI_MonsterIcon_Volkodlak_Arctichare"
+      },
+      {
+        "id": 25132801,
+        "name": "渠道联络人",
+        "icon": "UI_MonsterIcon_Volkodlak_Beaver"
+      },
+      {
+        "id": 25133601,
+        "name": "牙兽狂徒",
+        "icon": "UI_MonsterIcon_Volkodlak_Mammoth"
+      },
+      {
+        "id": 25133701,
+        "name": "嗥狼追猎者",
+        "icon": "UI_MonsterIcon_Volkodlak_Greyhound"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112153",
+  "rank": 3,
+  "route": "Accreted Mass"
+}

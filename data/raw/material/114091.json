@@ -1,0 +1,54 @@
+{
+  "name": "藏窖灵浆的酣畅",
+  "description": "赋予武器突破之力的材料。\\n据说曾经，无数的琼浆被倾倒入冰湖。\\n传言道或是作为战争补给的酒因出了纰漏不得不销毁，或是某位矮灵的大公在与水妖之主的赌约中失了利。\\n直至湖面上烧起无法扑灭的蓝色魔焰，水下的敌人于令人窒息的波涛中翻涌。\\n他们才知道在精通世事流迁的族裔手中，水也是火，灵药亦是剧毒。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12068": {
+      "114090": {
+        "name": "藏窖灵浆的酩酊",
+        "icon": "UI_ItemIcon_114090",
+        "rank": 3,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：链轨",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 13435,
+          "name": "寒息",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_FaesCrystalle"
+        },
+        {
+          "id": 11520,
+          "name": "白湖冬羽",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_Swanlake"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114091",
+  "rank": 4,
+  "route": "Exhilaration of the Cellared Spiritual Nectar"
+}

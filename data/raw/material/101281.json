@@ -1,0 +1,21 @@
+{
+  "name": "冰醋栗",
+  "description": "从霜结的冰枝之上，生长出来的风味丰富的浆果。",
+  "type": "食材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "推荐：至冬采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101281",
+  "rank": 1,
+  "route": "Rimecurrant"
+}

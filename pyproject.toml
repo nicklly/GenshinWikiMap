@@ -7,7 +7,7 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.9"
-Pillow = "^9.3.0"
+Pillow = "^9.5.0"
 pydantic = "^1.10.2"
 ujson = "^5.5.0"
 httpx = "^0.23.1"

@@ -1,0 +1,66 @@
+{
+  "name": "苍星军势的征服",
+  "description": "赋予武器突破之力的材料。\\n「所有妖精的庇护主，苍星的继承者，诞生自神圣血脉的我等的帝王，白沙皇！」\\n「称颂吧，如今整个冰原已然在极星的辉曜下浑然一体。」\\n「称颂吧，诛杀了伪王的皇帝接纳了所有的妖精，竟是如此仁爱和慈悲！」",
+  "type": "武器突破素材",
+  "recipe": {
+    "12066": {
+      "114087": {
+        "name": "苍星军势的鸣令",
+        "icon": "UI_ItemIcon_114087",
+        "rank": 4,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：铸铁",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 11436,
+          "name": "引火之源",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Sword_GlintstoneSword"
+        },
+        {
+          "id": 12436,
+          "name": "救赎之斩",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_GlintstoneClaymore"
+        },
+        {
+          "id": 14436,
+          "name": "寸心余响",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Catalyst_GlintstoneCatalyst"
+        },
+        {
+          "id": 15436,
+          "name": "霜雪誓约",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_GlintstoneBow"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_114088",
+  "rank": 5,
+  "route": "Triumph of the Pale Star Army"
+}

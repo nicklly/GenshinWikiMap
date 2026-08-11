@@ -1,0 +1,51 @@
+{
+  "name": "「慈爱」的教导",
+  "description": "天赋培养素材。\\n「慈爱」是冰之国土的救赎。\\n慈爱是凡人之间的爱护与守望。在广袤的土地上，人们凭此抵御霜雪带来的寒冷，抚平铭刻在记忆里的伤痕。",
+  "type": "角色天赋素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "礼包商城兑换",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：默想",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000150,
+          "name": "奥黛塔",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Odette"
+        },
+        {
+          "id": "10000005-cryo",
+          "name": "旅行者",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_PlayerBoy"
+        },
+        {
+          "id": "10000007-cryo",
+          "name": "旅行者",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_PlayerGirl"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_104365",
+  "rank": 2,
+  "route": "Teachings of Charity"
+}

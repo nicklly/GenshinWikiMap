@@ -1,0 +1,93 @@
+{
+  "name": "嵌合种",
+  "description": "异种合成魔兽体内的核心。\\n合成魔兽生长于体内的最简单的核心。即便是最简单的核心，也蕴藏着一切合成造物生长的规划。",
+  "type": "角色与武器培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "异种合成魔兽掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000148,
+          "name": "阿罗夏",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Alyosha"
+        },
+        {
+          "id": "10000005-cryo",
+          "name": "旅行者",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_PlayerBoy"
+        },
+        {
+          "id": "10000007-cryo",
+          "name": "旅行者",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_PlayerGirl"
+        }
+      ],
+      "weapon": [
+        {
+          "id": 12436,
+          "name": "救赎之斩",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Claymore_GlintstoneClaymore"
+        },
+        {
+          "id": 13435,
+          "name": "寒息",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Pole_FaesCrystalle"
+        },
+        {
+          "id": 15436,
+          "name": "霜雪誓约",
+          "rank": 4,
+          "icon": "UI_EquipIcon_Bow_GlintstoneBow"
+        },
+        {
+          "id": 11520,
+          "name": "白湖冬羽",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Sword_Swanlake"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 26310101,
+        "name": "嵌合鍪甲兽",
+        "icon": "UI_MonsterIcon_Chimera_BeetleLion"
+      },
+      {
+        "id": 26310201,
+        "name": "嵌合梭地兽",
+        "icon": "UI_MonsterIcon_Chimera_OwlPangolin"
+      },
+      {
+        "id": 26310301,
+        "name": "嵌合翼象兽",
+        "icon": "UI_MonsterIcon_Chimera_ElephantBird"
+      },
+      {
+        "id": 26310401,
+        "name": "嵌合角熊",
+        "icon": "UI_MonsterIcon_Chimera_BearDeer"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112149",
+  "rank": 1,
+  "route": "Chimeric Core"
+}
