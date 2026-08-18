@@ -1,0 +1,62 @@
+version: "1.0"
+
+name: GenshinWikiMap Build
+
+trigger:
+  push:
+    branches:
+      include:
+        - master
+
+stages:
+
+  - name: build
+    jobs:
+
+      - name: generate_zip
+        runs-on: ubuntu-latest
+
+        steps:
+
+          - checkout: self
+
+          - name: Install Python
+            run: |
+              python3 --version
+              python3 -m pip install --upgrade pip
+
+          - name: Install Git LFS
+            run: |
+              git lfs install
+
+          - name: Install Poetry
+            run: |
+              pip install poetry
+
+          - name: Install Dependencies
+            run: |
+              poetry install --no-interaction
+
+          - name: Generate Files
+            run: |
+              poetry run python generate.py
+
+          - name: Commit Generated Files
+            run: |
+              git lfs track "*.zip"
+
+              git add .
+
+              if git diff --cached --quiet; then
+                echo "No changes."
+                exit 0
+              fi
+
+              git config user.name "Gitee CI"
+              git config user.email "ci@gitee.com"
+
+              git commit -m "ci: 自动更新资源文件"
+
+          - name: Push
+            run: |
+              git push origin HEAD:master
