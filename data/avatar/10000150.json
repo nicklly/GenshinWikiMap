@@ -1,0 +1,132 @@
+{
+  "id": 10000150,
+  "name": "奥黛塔",
+  "element": "冰",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "至冬",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Odette",
+    "side": "UI_AvatarIcon_Side_Odette",
+    "card": "UI_AvatarIcon_Odette_Card",
+    "splash": "UI_Gacha_AvatarImg_Odette",
+    "slice": "UI_Gacha_AvatarIcon_Odette"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1010.5192,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        866.42883,
+        1482.0493,
+        2302.8767,
+        2918.497,
+        3534.1177,
+        4149.7383
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.068,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.34932,
+        38.2291,
+        59.40214,
+        75.28192,
+        91.1617,
+        107.04148
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 61.26592,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        52.5312,
+        89.856,
+        139.6224,
+        176.9472,
+        214.272,
+        251.5968
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        22.34932,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "11501": {
+      "name": "雪鹄变奏",
+      "icon": "Skill_A_01"
+    },
+    "11502": {
+      "name": "柔板·幻灵夜舞",
+      "icon": "Skill_S_Odette_01"
+    },
+    "11505": {
+      "name": "疾板·苍羽一梦",
+      "icon": "Skill_E_Odette_01"
+    },
+    "1502101": {
+      "name": "获选者的春祭",
+      "icon": "UI_Talent_S_Odette_05"
+    },
+    "1502201": {
+      "name": "赤忱者的悲歌",
+      "icon": "UI_Talent_S_Odette_06"
+    },
+    "1502301": {
+      "name": "星耀祝礼·银晓之舞",
+      "icon": "UI_Talent_S_Odette_07"
+    },
+    "1502501": {
+      "name": "回响中的冬梦",
+      "icon": "UI_Talent_S_Odette_08"
+    }
+  },
+  "constellation": {
+    "1501": {
+      "name": "「不曾起舞的清晨，她望向倒影」",
+      "icon": "UI_Talent_S_Odette_01"
+    },
+    "1502": {
+      "name": "「她想，我要见证雪鹄未见之梦」",
+      "icon": "UI_Talent_S_Odette_02"
+    },
+    "1503": {
+      "name": "「我要追逐呼啸的风，向上独行」",
+      "icon": "UI_Talent_U_Odette_01"
+    },
+    "1504": {
+      "name": "「向上，坠往恍惚、燃烧的蓝空」",
+      "icon": "UI_Talent_S_Odette_03"
+    },
+    "1505": {
+      "name": "「看呀，我已告别尘与土的苦痛」",
+      "icon": "UI_Talent_U_Odette_02"
+    },
+    "1506": {
+      "name": "「伸出手，触及苍穹永恒的面容」",
+      "icon": "UI_Talent_S_Odette_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

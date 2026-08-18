@@ -1,0 +1,135 @@
+{
+  "id": 10000133,
+  "name": "桑多涅",
+  "element": "冰",
+  "weapon": "双手剑",
+  "rank": 5,
+  "region": "挪德卡莱",
+  "icon": {
+    "avatar": "UI_AvatarIcon_MarionetteNew",
+    "side": "UI_AvatarIcon_Side_MarionetteNew",
+    "card": "UI_AvatarIcon_MarionetteNew_Card",
+    "splash": "UI_Gacha_AvatarImg_MarionetteNew",
+    "slice": "UI_Gacha_AvatarIcon_MarionetteNew"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1029.5856,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        882.77655,
+        1510.0126,
+        2346.3271,
+        2973.5632,
+        3600.799,
+        4228.035
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.6266,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.828234,
+        39.048294,
+        60.67504,
+        76.8951,
+        93.115166,
+        109.33523
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 58.57357,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        50.2227,
+        85.90725,
+        133.48665,
+        169.1712,
+        204.85574,
+        240.5403
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        22.828234,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "11331": {
+      "name": "事象数式·自明演绎",
+      "icon": "Skill_A_04"
+    },
+    "11332": {
+      "name": "事象数式·游衍解析",
+      "icon": "Skill_S_MarionetteNew_01"
+    },
+    "11335": {
+      "name": "事象数式·万理证毕",
+      "icon": "Skill_E_MarionetteNew_01"
+    },
+    "1332101": {
+      "name": "悠久的演算机关",
+      "icon": "UI_Talent_S_MarionetteNew_05"
+    },
+    "1332201": {
+      "name": "淑女的行事准则",
+      "icon": "UI_Talent_S_MarionetteNew_06"
+    },
+    "1332301": {
+      "name": "星耀祝礼·唯理为光",
+      "icon": "UI_Talent_S_MarionetteNew_07"
+    },
+    "1332501": {
+      "name": "茶会的序曲与长长的故事",
+      "icon": "UI_Talent_S_MarionetteNew_08"
+    }
+  },
+  "constellation": {
+    "1331": {
+      "name": "鎏金未凋，夕暮已远",
+      "icon": "UI_Talent_S_MarionetteNew_01"
+    },
+    "1332": {
+      "name": "回望镜中，时岁翩然",
+      "icon": "UI_Talent_S_MarionetteNew_02"
+    },
+    "1333": {
+      "name": "不叹日落，不羡月升",
+      "icon": "UI_Talent_U_MarionetteNew_01"
+    },
+    "1334": {
+      "name": "世事皆数，昼来夜往",
+      "icon": "UI_Talent_S_MarionetteNew_03"
+    },
+    "1335": {
+      "name": "万象皆灰，唯理明畅",
+      "icon": "UI_Talent_U_MarionetteNew_02"
+    },
+    "1336": {
+      "name": "水仙梦醒，且望晨光",
+      "icon": "UI_Talent_S_MarionetteNew_04"
+    }
+  },
+  "talent_fix": {
+    "11331": "事象数式·自明演绎",
+    "11335": "事象数式·万理证毕"
+  },
+  "damage": [],
+  "buff": []
+}

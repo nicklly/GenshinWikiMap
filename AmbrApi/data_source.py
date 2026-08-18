@@ -70,14 +70,15 @@ def ambr_requests(api: str):
 def github_requests():
     re = []
     data = httpx.get(
-        "https://api.github.com/repositories/506863564/contents/Genshin/CHS/Avatar",
+        "https://api.github.com/repos/wangdage12/Snap.Metadata/contents/Genshin/CHS/Avatar",
+       #  "https://api.github.com/repositories/506863564/contents/Genshin/CHS/Avatar",
         timeout=10,
         verify=False,
     ).json()
     for i in data:
         try:
             url = (
-                    "https://gh.sakuno.top/https://raw.githubusercontent.com/DGP-Studio/Snap.Metadata/main/Genshin/CHS/Avatar/"
+                    "https://ghproxy.net/https://raw.githubusercontent.com/wangdage12/Snap.Metadata/refs/heads/main/Genshin/CHS/Avatar/"
                     + i["name"]
             )
             resp = httpx.get(url, timeout=10, verify=False)

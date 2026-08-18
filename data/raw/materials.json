@@ -231,7 +231,7 @@
       "name": "甜甜花",
       "type": "cookingIngredient",
       "recipe": null,
-      "mapMark": true,
+      "mapMark": false,
       "icon": "UI_ItemIcon_100012",
       "rank": 1,
       "route": "Sweet Flower"
@@ -481,7 +481,7 @@
       "name": "电气水晶",
       "type": "material",
       "recipe": null,
-      "mapMark": true,
+      "mapMark": false,
       "icon": "UI_ItemIcon_100054",
       "rank": 1,
       "route": "Electro Crystal"
@@ -571,7 +571,7 @@
       "name": "蝴蝶翅膀",
       "type": "material",
       "recipe": null,
-      "mapMark": true,
+      "mapMark": false,
       "icon": "UI_ItemIcon_100072",
       "rank": 1,
       "route": "Butterfly Wings"
@@ -901,7 +901,7 @@
       "name": "白铁块",
       "type": "forgingOre",
       "recipe": null,
-      "mapMark": true,
+      "mapMark": false,
       "icon": "UI_ItemIcon_101002",
       "rank": 1,
       "route": "White Iron Chunk"
@@ -961,7 +961,7 @@
       "name": "虹滴晶",
       "type": "forgingOre",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101258",
       "rank": 1,
       "route": "Rainbowdrop Crystal"
@@ -1601,7 +1601,7 @@
       "name": "云岩裂叶",
       "type": "localSpecialtyNatlan",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101254",
       "rank": 1,
       "route": "Skysplit Gembloom"
@@ -1611,7 +1611,7 @@
       "name": "琉鳞石",
       "type": "localSpecialtyNatlan",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101255",
       "rank": 1,
       "route": "Dracolite"
@@ -1621,7 +1621,7 @@
       "name": "红果果菇",
       "type": "cookingIngredient",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101256",
       "rank": 1,
       "route": "Red Berryshroom"
@@ -1631,7 +1631,7 @@
       "name": "便携轴承",
       "type": "localSpecialtyNodKrai",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101257",
       "rank": 1,
       "route": "Portable Bearing"
@@ -1641,7 +1641,7 @@
       "name": "寒涌石",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101259",
       "rank": 1,
       "route": "Icy Pebble"
@@ -1651,7 +1651,7 @@
       "name": "霜盏花",
       "type": "localSpecialtyNodKrai",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101261",
       "rank": 1,
       "route": "Frostlamp Flower"
@@ -1661,7 +1661,7 @@
       "name": "宿影花",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101262",
       "rank": 1,
       "route": "Nocturnal Blossom"
@@ -1671,7 +1671,7 @@
       "name": "月落银",
       "type": "localSpecialtyNodKrai",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101263",
       "rank": 1,
       "route": "Moonfall Silver"
@@ -1681,7 +1681,7 @@
       "name": "白灵果",
       "type": "cookingIngredient",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101264",
       "rank": 1,
       "route": "Lakkaberry"
@@ -1691,7 +1691,7 @@
       "name": "夏槲果",
       "type": "cookingIngredient",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101265",
       "rank": 1,
       "route": "Midsommar Berry"
@@ -1701,7 +1701,7 @@
       "name": "冬凌草",
       "type": "localSpecialtyNodKrai",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101266",
       "rank": 1,
       "route": "Winter Icelea"
@@ -1711,7 +1711,7 @@
       "name": "松珀香",
       "type": "localSpecialtyNodKrai",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101269",
       "rank": 1,
       "route": "Pine Amber"
@@ -1721,7 +1721,7 @@
       "name": "凝月泪滴",
       "type": "localSpecialtyNodKrai",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101270",
       "rank": 1,
       "route": "Teardrop of the Moon"
@@ -1731,7 +1731,7 @@
       "name": "风息花",
       "type": "cookingIngredient",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101271",
       "rank": 1,
       "route": "Windrest Flower"
@@ -1741,7 +1741,7 @@
       "name": "空羽蛾",
       "type": "localSpecialtyMondstadt",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101272",
       "rank": 1,
       "route": "Etherwing Moth"
@@ -1751,7 +1751,7 @@
       "name": "霜仙花",
       "type": "localSpecialtySnezhnaya",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101275",
       "rank": 1,
       "route": "Frostfairy Flower"
@@ -1761,7 +1761,7 @@
       "name": "植绒草",
       "type": "localSpecialtySnezhnaya",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101276",
       "rank": 1,
       "route": "Flockingweed"
@@ -1771,7 +1771,7 @@
       "name": "金蕨",
       "type": "localSpecialtySnezhnaya",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101277",
       "rank": 1,
       "route": "Golden Fern"
@@ -1781,7 +1781,7 @@
       "name": "红甜菜",
       "type": "cookingIngredient",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101278",
       "rank": 1,
       "route": "Red Beet"
@@ -1791,7 +1791,7 @@
       "name": "冰星果",
       "type": "cookingIngredient",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101279",
       "rank": 1,
       "route": "Glaciafruit"
@@ -1801,7 +1801,7 @@
       "name": "雪球花",
       "type": "cookingIngredient",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101280",
       "rank": 1,
       "route": "Snowball Flower"
@@ -1811,7 +1811,7 @@
       "name": "冰醋栗",
       "type": "cookingIngredient",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101281",
       "rank": 1,
       "route": "Rimecurrant"
@@ -1821,7 +1821,7 @@
       "name": "幽光萤石",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101282",
       "rank": 1,
       "route": "Lumifluorite"
@@ -2081,7 +2081,7 @@
       "name": "银冷杉木",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101327",
       "rank": 1,
       "route": "Silver Fir Wood"
@@ -2091,7 +2091,7 @@
       "name": "榛木",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101328",
       "rank": 1,
       "route": "Hazelnut Wood"
@@ -2101,7 +2101,7 @@
       "name": "夏栎木",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101329",
       "rank": 1,
       "route": "Pedunculate Oak Wood"
@@ -2111,7 +2111,7 @@
       "name": "桤木",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101330",
       "rank": 1,
       "route": "Alder Wood"
@@ -2121,7 +2121,7 @@
       "name": "雪杨木",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101332",
       "rank": 1,
       "route": "Snow Poplar Wood"
@@ -2131,7 +2131,7 @@
       "name": "白桦木",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101331",
       "rank": 1,
       "route": "White Birch Wood"
@@ -2141,7 +2141,7 @@
       "name": "青榉木",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101333",
       "rank": 1,
       "route": "Bluebeech Wood"
@@ -2151,7 +2151,7 @@
       "name": "落叶松木",
       "type": "material",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_101334",
       "rank": 1,
       "route": "Larch Wood"
@@ -3411,7 +3411,7 @@
       "name": "散失的月神瞳",
       "type": "adventureItem",
       "recipe": null,
-      "mapMark": false,
+      "mapMark": true,
       "icon": "UI_ItemIcon_107030",
       "rank": 1,
       "route": "Lunoculus"

@@ -1,0 +1,128 @@
+{
+  "id": 10000129,
+  "name": "洛恩",
+  "element": "冰",
+  "weapon": "长柄武器",
+  "rank": 5,
+  "region": "挪德卡莱",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Lohen",
+    "side": "UI_AvatarIcon_Side_Lohen",
+    "card": "UI_AvatarIcon_Lohen_Card",
+    "splash": "UI_Gacha_AvatarImg_Lohen",
+    "slice": "UI_Gacha_AvatarIcon_Lohen"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1000.986,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        858.255,
+        1468.0677,
+        2281.1514,
+        2890.964,
+        3500.7769,
+        4110.59
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.8128,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.987871,
+        39.32136,
+        61.099342,
+        77.43283,
+        93.76632,
+        110.09981
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 61.0266,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        52.326,
+        89.505,
+        139.077,
+        176.256,
+        213.435,
+        250.614
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        22.987871,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "11291": {
+      "name": "西风枪术·破誓",
+      "icon": "Skill_A_03"
+    },
+    "11292": {
+      "name": "奇兵诡出",
+      "icon": "Skill_S_Lohen_01"
+    },
+    "11295": {
+      "name": "裁罚遂成",
+      "icon": "Skill_E_Lohen_01"
+    },
+    "1292101": {
+      "name": "禁问的训诫",
+      "icon": "UI_Talent_S_Lohen_05"
+    },
+    "1292201": {
+      "name": "戏言的杰作",
+      "icon": "UI_Talent_S_Lohen_06"
+    },
+    "1292301": {
+      "name": "兴尽且去来",
+      "icon": "UI_Talent_S_Lohen_08"
+    }
+  },
+  "constellation": {
+    "1291": {
+      "name": "往昔微风，载满悲歌",
+      "icon": "UI_Talent_S_Lohen_01"
+    },
+    "1292": {
+      "name": "凡飞翔者，皆为靶标",
+      "icon": "UI_Talent_S_Lohen_02"
+    },
+    "1293": {
+      "name": "唯有锋刃，能愈此伤",
+      "icon": "UI_Talent_U_Lohen_01"
+    },
+    "1294": {
+      "name": "爱若流光，逝如欢歌",
+      "icon": "UI_Talent_S_Lohen_03"
+    },
+    "1295": {
+      "name": "无可窥探，无可质疑",
+      "icon": "UI_Talent_U_Lohen_02"
+    },
+    "1296": {
+      "name": "身沦魂销，唯余欢悦",
+      "icon": "UI_Talent_S_Lohen_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

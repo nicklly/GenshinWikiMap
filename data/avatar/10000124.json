@@ -1,0 +1,132 @@
+{
+  "id": 10000124,
+  "name": "雅珂达",
+  "element": "风",
+  "weapon": "弓",
+  "rank": 4,
+  "region": "挪德卡莱",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Jahoda",
+    "side": "UI_AvatarIcon_Side_Jahoda",
+    "card": "UI_AvatarIcon_Jahoda_Card",
+    "splash": "UI_Gacha_AvatarImg_Jahoda",
+    "slice": "UI_Gacha_AvatarIcon_Jahoda"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 808.7586,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        604.1841,
+        1033.4728,
+        1605.8577,
+        2035.1465,
+        2464.435,
+        2893.7239
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.6984,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        13.96899,
+        23.894325,
+        37.128105,
+        47.05344,
+        56.978775,
+        66.90411
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 48.64125,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        36.3375,
+        62.15625,
+        96.58125,
+        122.4,
+        148.21875,
+        174.0375
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HEAL_ADD",
+      "promote": [
+        13.96899,
+        0.0462,
+        0.0923,
+        0.0923,
+        0.1385,
+        0.1846
+      ]
+    }
+  ],
+  "talent": {
+    "11241": {
+      "name": "见机行矢",
+      "icon": "Skill_A_02"
+    },
+    "11242": {
+      "name": "奇策·财富分配方案",
+      "icon": "Skill_S_Jahoda_01"
+    },
+    "11245": {
+      "name": "秘器·猎人的七道具",
+      "icon": "Skill_E_Jahoda_01"
+    },
+    "1242101": {
+      "name": "索酬的巧计",
+      "icon": "UI_Talent_S_Jahoda_05"
+    },
+    "1242201": {
+      "name": "蜜莓的嘉赏",
+      "icon": "UI_Talent_S_Jahoda_06"
+    },
+    "1242301": {
+      "name": "月兆祝赐·檐上趱行",
+      "icon": "UI_Talent_S_Jahoda_07"
+    },
+    "1242501": {
+      "name": "暗巷的黠慧",
+      "icon": "UI_Talent_S_Jahoda_08"
+    }
+  },
+  "constellation": {
+    "1241": {
+      "name": "再来一瓶！",
+      "icon": "UI_Talent_S_Jahoda_03"
+    },
+    "1242": {
+      "name": "律贼的临机应变",
+      "icon": "UI_Talent_S_Jahoda_02"
+    },
+    "1243": {
+      "name": "无所依归的豪赌",
+      "icon": "UI_Talent_U_Jahoda_01"
+    },
+    "1244": {
+      "name": "尘沙之上的野莓",
+      "icon": "UI_Talent_S_Jahoda_01"
+    },
+    "1245": {
+      "name": "最伟大的财宝",
+      "icon": "UI_Talent_U_Jahoda_02"
+    },
+    "1246": {
+      "name": "最渺小的幸运",
+      "icon": "UI_Talent_S_Jahoda_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

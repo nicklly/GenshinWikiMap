@@ -1,0 +1,132 @@
+{
+  "id": 10000127,
+  "name": "叶洛亚",
+  "element": "岩",
+  "weapon": "长柄武器",
+  "rank": 4,
+  "region": "挪德卡莱",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Illuga",
+    "side": "UI_AvatarIcon_Side_Illuga",
+    "card": "UI_AvatarIcon_Illuga_Card",
+    "splash": "UI_Gacha_AvatarImg_Illuga",
+    "slice": "UI_Gacha_AvatarIcon_Illuga"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1002.9701,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        749.27,
+        1281.6461,
+        1991.4808,
+        2523.857,
+        3056.233,
+        3588.6091
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 16.0272,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        11.97342,
+        20.48085,
+        31.82409,
+        40.33152,
+        48.83895,
+        57.34638
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 68.2122,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        50.958,
+        87.165,
+        135.441,
+        171.648,
+        207.855,
+        244.062
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ELEMENT_MASTERY",
+      "promote": [
+        11.97342,
+        24,
+        48,
+        48,
+        72,
+        96
+      ]
+    }
+  ],
+  "talent": {
+    "11271": {
+      "name": "守誓枪术",
+      "icon": "Skill_A_03"
+    },
+    "11272": {
+      "name": "衔莺破晓",
+      "icon": "Skill_S_Illuga_01"
+    },
+    "11275": {
+      "name": "鉴照无影",
+      "icon": "Skill_E_Illuga_01"
+    },
+    "1272101": {
+      "name": "铸灯者的盟约",
+      "icon": "UI_Talent_S_Illuga_05"
+    },
+    "1272201": {
+      "name": "狩魔者的黄昏",
+      "icon": "UI_Talent_S_Illuga_06"
+    },
+    "1272301": {
+      "name": "月兆祝赐·凌冬不凋",
+      "icon": "UI_Talent_S_Illuga_07"
+    },
+    "1272501": {
+      "name": "巡夜者的疾行",
+      "icon": "UI_Talent_S_Illuga_08"
+    }
+  },
+  "constellation": {
+    "1271": {
+      "name": "告警之雉",
+      "icon": "UI_Talent_S_Illuga_01"
+    },
+    "1272": {
+      "name": "噬枝之麋",
+      "icon": "UI_Talent_S_Illuga_02"
+    },
+    "1273": {
+      "name": "山吼之罴",
+      "icon": "UI_Talent_U_Illuga_01"
+    },
+    "1274": {
+      "name": "逐日之狼",
+      "icon": "UI_Talent_S_Illuga_03"
+    },
+    "1275": {
+      "name": "啸风之马",
+      "icon": "UI_Talent_U_Illuga_02"
+    },
+    "1276": {
+      "name": "魇夜之莺",
+      "icon": "UI_Talent_S_Illuga_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

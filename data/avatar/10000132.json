@@ -1,0 +1,128 @@
+{
+  "id": 10000132,
+  "name": "布伦妮",
+  "element": "风",
+  "weapon": "单手剑",
+  "rank": 4,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Prune",
+    "side": "UI_AvatarIcon_Side_Prune",
+    "card": "UI_AvatarIcon_Prune_Card",
+    "splash": "UI_Gacha_AvatarImg_Prune",
+    "slice": "UI_Gacha_AvatarIcon_Prune"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 811.494,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        606.22754,
+        1036.9681,
+        1611.2891,
+        2042.0297,
+        2472.7703,
+        2903.511
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.52032,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        13.835952,
+        23.66676,
+        36.774506,
+        46.605312,
+        56.43612,
+        66.26693
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 48.64125,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        36.3375,
+        62.15625,
+        96.58125,
+        122.4,
+        148.21875,
+        174.0375
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        13.835952,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "11321": {
+      "name": "隆咚咚·破魔之锤",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "11322": {
+      "name": "叮铃铃·猎魔之音",
+      "icon": "Skill_S_Prune_01"
+    },
+    "11325": {
+      "name": "铃鸣·狩魔之刻",
+      "icon": "Skill_E_Prune_01"
+    },
+    "1322101": {
+      "name": "裁断追惩",
+      "icon": "UI_Talent_S_Prune_05"
+    },
+    "1322201": {
+      "name": "振铃同心",
+      "icon": "UI_Talent_S_Prune_06"
+    },
+    "1322301": {
+      "name": "改装！敲敲打打！",
+      "icon": "UI_Talent_S_Prune_08"
+    }
+  },
+  "constellation": {
+    "1321": {
+      "name": "立下寻救的誓言，旅途由此开端",
+      "icon": "UI_Talent_S_Prune_01"
+    },
+    "1322": {
+      "name": "整理杂乱的包袱，元素妙力果然",
+      "icon": "UI_Talent_S_Prune_02"
+    },
+    "1323": {
+      "name": "同旅商队过山关，眼眸景色又转",
+      "icon": "UI_Talent_U_Prune_01"
+    },
+    "1324": {
+      "name": "循风同行回头看，影子还缺一半",
+      "icon": "UI_Talent_S_Prune_03"
+    },
+    "1325": {
+      "name": "输了一百次不算，明日接着再战",
+      "icon": "UI_Talent_U_Prune_02"
+    },
+    "1326": {
+      "name": "故事结尾在这儿，念给伙伴听完",
+      "icon": "UI_Talent_S_Prune_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

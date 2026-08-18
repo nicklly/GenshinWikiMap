@@ -1,0 +1,132 @@
+{
+  "id": 10000126,
+  "name": "兹白",
+  "element": "岩",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "挪德卡莱",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Zibai",
+    "side": "UI_AvatarIcon_Side_Zibai",
+    "card": "UI_AvatarIcon_Zibai_Card",
+    "splash": "UI_Gacha_AvatarImg_Zibai",
+    "slice": "UI_Gacha_AvatarIcon_Zibai"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1005.7526,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        862.3419,
+        1475.0585,
+        2292.014,
+        2904.7307,
+        3517.4473,
+        4130.164
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 17.5028,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        15.006,
+        25.6681,
+        39.8843,
+        50.5464,
+        61.2086,
+        71.8707
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 74.48835,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        63.8685,
+        109.2488,
+        169.7558,
+        215.136,
+        260.5163,
+        305.8965
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        15.006,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "11261": {
+      "name": "金铗点桂",
+      "icon": "Skill_A_01"
+    },
+    "11262": {
+      "name": "天地忽然身",
+      "icon": "Skill_S_Zibai_01"
+    },
+    "11265": {
+      "name": "三垣威仪法",
+      "icon": "Skill_E_Zibai_01"
+    },
+    "1262101": {
+      "name": "月下素娥降仙",
+      "icon": "UI_Talent_S_Zibai_05"
+    },
+    "1262201": {
+      "name": "叠嶂峦岫出云",
+      "icon": "UI_Talent_S_Zibai_06"
+    },
+    "1262301": {
+      "name": "月兆祝赐·浮明若流",
+      "icon": "UI_Talent_S_Zibai_07"
+    },
+    "1262501": {
+      "name": "花林如霰",
+      "icon": "UI_Talent_S_Zibai_08"
+    }
+  },
+  "constellation": {
+    "1261": {
+      "name": "出勃然而入寥然",
+      "icon": "UI_Talent_S_Zibai_01"
+    },
+    "1262": {
+      "name": "化于生而死于尸",
+      "icon": "UI_Talent_S_Zibai_02"
+    },
+    "1263": {
+      "name": "解天韬而堕其帙",
+      "icon": "UI_Talent_U_Zibai_01"
+    },
+    "1264": {
+      "name": "魂魄往而身从之",
+      "icon": "UI_Talent_S_Zibai_03"
+    },
+    "1265": {
+      "name": "明见无值至不论",
+      "icon": "UI_Talent_U_Zibai_02"
+    },
+    "1266": {
+      "name": "天地忽如一远行",
+      "icon": "UI_Talent_S_Zibai_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

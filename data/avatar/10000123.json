@@ -1,0 +1,128 @@
+{
+  "id": 10000123,
+  "name": "杜林",
+  "element": "火",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "挪德卡莱",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Durin",
+    "side": "UI_AvatarIcon_Side_Durin",
+    "card": "UI_AvatarIcon_Durin_Card",
+    "splash": "UI_Gacha_AvatarImg_Durin",
+    "slice": "UI_Gacha_AvatarIcon_Durin"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 967.6198,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        829.6465,
+        1419.1322,
+        2205.113,
+        2794.5986,
+        3384.0842,
+        3973.57
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.999,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        23.14751,
+        39.594425,
+        61.523643,
+        77.97056,
+        94.41747,
+        110.86439
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 64.0181,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        54.891,
+        93.8925,
+        145.8945,
+        184.896,
+        223.8975,
+        262.899
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        23.14751,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "11231": {
+      "name": "芒焰之翼斩",
+      "icon": "Skill_A_01"
+    },
+    "11232": {
+      "name": "二元式·聚分熔炼",
+      "icon": "Skill_S_Durin_01"
+    },
+    "11235": {
+      "name": "白化法·如光流变",
+      "icon": "Skill_E_Durin_01"
+    },
+    "1232101": {
+      "name": "光灵遵神数显现",
+      "icon": "UI_Talent_S_Durin_01"
+    },
+    "1232201": {
+      "name": "混沌如黑夜构成",
+      "icon": "UI_Talent_S_Durin_02"
+    },
+    "1232301": {
+      "name": "地涌的回音",
+      "icon": "UI_Talent_S_Durin_07"
+    }
+  },
+  "constellation": {
+    "1231": {
+      "name": "红土之逆",
+      "icon": "UI_Talent_S_Durin_03"
+    },
+    "1232": {
+      "name": "无底之想",
+      "icon": "UI_Talent_S_Durin_04"
+    },
+    "1233": {
+      "name": "焰镜之显",
+      "icon": "UI_Talent_U_Durin_01"
+    },
+    "1234": {
+      "name": "流溢之原",
+      "icon": "UI_Talent_S_Durin_05"
+    },
+    "1235": {
+      "name": "苦火之裂",
+      "icon": "UI_Talent_U_Durin_02"
+    },
+    "1236": {
+      "name": "双重诞生",
+      "icon": "UI_Talent_S_Durin_06"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

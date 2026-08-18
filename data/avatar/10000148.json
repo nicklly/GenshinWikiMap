@@ -1,0 +1,135 @@
+{
+  "id": 10000148,
+  "name": "阿罗夏",
+  "element": "雷",
+  "weapon": "长柄武器",
+  "rank": 4,
+  "region": "至冬",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Alyosha",
+    "side": "UI_AvatarIcon_Side_Alyosha",
+    "card": "UI_AvatarIcon_Alyosha_Card",
+    "splash": "UI_Gacha_AvatarImg_Alyosha",
+    "slice": "UI_Gacha_AvatarIcon_Alyosha"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1002.9701,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        749.27,
+        1281.6461,
+        1991.4808,
+        2523.857,
+        3056.233,
+        3588.6091
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 22.26,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        16.62975,
+        28.445625,
+        44.200127,
+        56.016,
+        67.83188,
+        79.64775
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 58.94175,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        44.0325,
+        75.31875,
+        117.03375,
+        148.32,
+        179.60625,
+        210.8925
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CHARGE_EFFICIENCY",
+      "promote": [
+        16.62975,
+        0.0667,
+        0.1333,
+        0.1333,
+        0.2,
+        0.2667
+      ]
+    }
+  ],
+  "talent": {
+    "11481": {
+      "name": "角枪驰弋",
+      "icon": "Skill_A_03"
+    },
+    "11482": {
+      "name": "伏袭霆击",
+      "icon": "Skill_S_Alyosha_01"
+    },
+    "11485": {
+      "name": "守猎进踞",
+      "icon": "Skill_E_Alyosha_01"
+    },
+    "1482101": {
+      "name": "惊醒沉睡的林线",
+      "icon": "UI_Talent_S_Alyosha_05"
+    },
+    "1482201": {
+      "name": "告别冬麦与残叶",
+      "icon": "UI_Talent_S_Alyosha_06"
+    },
+    "1482301": {
+      "name": "星赴险域",
+      "icon": "UI_Talent_S_Alyosha_07"
+    },
+    "1482501": {
+      "name": "树梢察伺",
+      "icon": "UI_Talent_S_Alyosha_08"
+    }
+  },
+  "constellation": {
+    "1481": {
+      "name": "寒谷轰雷",
+      "icon": "UI_Talent_S_Alyosha_01"
+    },
+    "1482": {
+      "name": "长嗥远讯",
+      "icon": "UI_Talent_S_Alyosha_02"
+    },
+    "1483": {
+      "name": "僚朋相唤",
+      "icon": "UI_Talent_U_Alyosha_01"
+    },
+    "1484": {
+      "name": "衔取猎品",
+      "icon": "UI_Talent_S_Alyosha_03"
+    },
+    "1485": {
+      "name": "莺啼止时",
+      "icon": "UI_Talent_U_Alyosha_02"
+    },
+    "1486": {
+      "name": "复夺旌幡",
+      "icon": "UI_Talent_S_Alyosha_04"
+    }
+  },
+  "talent_fix": {
+    "11482": "伏袭霆击",
+    "11485": "守猎进踞"
+  },
+  "damage": [],
+  "buff": []
+}

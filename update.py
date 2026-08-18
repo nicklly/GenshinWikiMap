@@ -27,12 +27,12 @@ def update_constant():
         print('>>>角色列表raw更新失败')
     time.sleep(2)
 
-    # if avatar_detail := github_requests():
-    #     save_json(avatar_detail, RAW / 'Avatar.json')
-    #     print('>>>角色信息raw更新完成')
-    # else:
-    #     print('>>>角色信息raw更新失败')
-    # time.sleep(1)
+    if avatar_detail := github_requests():
+        save_json(avatar_detail, RAW / 'Avatar.json')
+        print('>>>角色信息raw更新完成')
+    else:
+        print('>>>角色信息raw更新失败')
+    time.sleep(1)
 
     if material_list := ambr_requests(MATERIAL_LIST_API):
         save_json(material_list, RAW / 'materials.json')

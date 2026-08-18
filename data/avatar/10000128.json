@@ -1,0 +1,128 @@
+{
+  "id": 10000128,
+  "name": "法尔伽",
+  "element": "风",
+  "weapon": "双手剑",
+  "rank": 5,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Varka",
+    "side": "UI_AvatarIcon_Side_Varka",
+    "card": "UI_AvatarIcon_Varka_Card",
+    "splash": "UI_Gacha_AvatarImg_Varka",
+    "slice": "UI_Gacha_AvatarIcon_Varka"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 981.9196,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        841.9073,
+        1440.1045,
+        2237.701,
+        2835.8982,
+        3434.0955,
+        4032.2927
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 27.4645,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        23.546604,
+        40.27709,
+        62.584396,
+        79.31488,
+        96.045364,
+        112.77585
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 61.92405,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        53.0955,
+        90.82125,
+        141.12225,
+        178.848,
+        216.57375,
+        254.2995
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        23.546604,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "11281": {
+      "name": "西风剑术·流光之舞",
+      "icon": "Skill_A_04"
+    },
+    "11282": {
+      "name": "烈风终坠",
+      "icon": "Skill_S_Varka_01"
+    },
+    "11285": {
+      "name": "我即朔风",
+      "icon": "Skill_E_Varka_01"
+    },
+    "1282101": {
+      "name": "晓风的行军",
+      "icon": "UI_Talent_S_Varka_06"
+    },
+    "1282201": {
+      "name": "风帜的先引",
+      "icon": "UI_Talent_S_Varka_05"
+    },
+    "1282301": {
+      "name": "归风的凯歌",
+      "icon": "UI_Talent_S_Varka_07"
+    }
+  },
+  "constellation": {
+    "1281": {
+      "name": "「来吧，朋友，让我们在月下共舞」",
+      "icon": "UI_Talent_S_Varka_01"
+    },
+    "1282": {
+      "name": "「待天光破晓，我们便要踏上征途」",
+      "icon": "UI_Talent_S_Varka_02"
+    },
+    "1283": {
+      "name": "「朋友，莫要再饮令人落泪的苦酒」",
+      "icon": "UI_Talent_U_Varka_01"
+    },
+    "1284": {
+      "name": "「因为无人能夺去我们歌唱的自由」",
+      "icon": "UI_Talent_S_Varka_03"
+    },
+    "1285": {
+      "name": "「斟满杯中佳酿吧，暴君来了又去」",
+      "icon": "UI_Talent_U_Varka_02"
+    },
+    "1286": {
+      "name": "「我心爱的蒙德呀，依然屹立如初」",
+      "icon": "UI_Talent_S_Varka_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

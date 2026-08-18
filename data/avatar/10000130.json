@@ -1,0 +1,132 @@
+{
+  "id": 10000130,
+  "name": "莉奈娅",
+  "element": "岩",
+  "weapon": "弓",
+  "rank": 5,
+  "region": "挪德卡莱",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Linnea",
+    "side": "UI_AvatarIcon_Side_Linnea",
+    "card": "UI_AvatarIcon_Linnea_Card",
+    "splash": "UI_Gacha_AvatarImg_Linnea",
+    "slice": "UI_Gacha_AvatarIcon_Linnea"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 770.28253,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        660.44763,
+        1129.7131,
+        1755.4003,
+        2224.6658,
+        2693.9312,
+        3163.1965
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 11.172,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        9.57828,
+        16.3839,
+        25.45806,
+        32.26368,
+        39.0693,
+        45.87492
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 70.5994,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        60.534,
+        103.545,
+        160.893,
+        203.904,
+        246.915,
+        289.926
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        9.57828,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "11301": {
+      "name": "捕获方案",
+      "icon": "Skill_A_02"
+    },
+    "11302": {
+      "name": "对策·露米呀吼吼！",
+      "icon": "Skill_S_Linnea_01"
+    },
+    "11305": {
+      "name": "备忘·绝境生存指南",
+      "icon": "Skill_E_Linnea_01"
+    },
+    "1302101": {
+      "name": "野外观察手记",
+      "icon": "UI_Talent_S_Linnea_05"
+    },
+    "1302201": {
+      "name": "万类博物图鉴",
+      "icon": "UI_Talent_S_Linnea_06"
+    },
+    "1302301": {
+      "name": "月兆祝赐·栖地考察",
+      "icon": "UI_Talent_S_Linnea_07"
+    },
+    "1302501": {
+      "name": "大师级的冒险者",
+      "icon": "UI_Talent_S_Linnea_08"
+    }
+  },
+  "constellation": {
+    "1301": {
+      "name": "未完成的分类",
+      "icon": "UI_Talent_S_Linnea_01"
+    },
+    "1302": {
+      "name": "喜或悲的谕告",
+      "icon": "UI_Talent_S_Linnea_02"
+    },
+    "1303": {
+      "name": "热闹的记录页",
+      "icon": "UI_Talent_U_Linnea_01"
+    },
+    "1304": {
+      "name": "专家的直感觉",
+      "icon": "UI_Talent_S_Linnea_03"
+    },
+    "1305": {
+      "name": "仙乡的赠别礼",
+      "icon": "UI_Talent_U_Linnea_02"
+    },
+    "1306": {
+      "name": "黄金猎犬之梦",
+      "icon": "UI_Talent_S_Linnea_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

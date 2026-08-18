@@ -98,6 +98,10 @@
     "1052501": {
       "name": "皮行的巧技",
       "icon": "UI_Talent_S_Olorun_08"
+    },
+    "30506": {
+      "name": "特殊跳跃",
+      "icon": "Skill_E_Olorun_03"
     }
   },
   "constellation": {

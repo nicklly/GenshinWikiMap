@@ -1,0 +1,128 @@
+{
+  "id": 10000131,
+  "name": "尼可",
+  "element": "火",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "挪德卡莱",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Nicole",
+    "side": "UI_AvatarIcon_Side_Nicole",
+    "card": "UI_AvatarIcon_Nicole_Card",
+    "splash": "UI_Gacha_AvatarImg_Nicole",
+    "slice": "UI_Gacha_AvatarIcon_Nicole"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 810.322,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        694.77783,
+        1188.4358,
+        1846.6464,
+        2340.3042,
+        2833.9622,
+        3327.62
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.6266,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.828234,
+        39.048294,
+        60.67504,
+        76.8951,
+        93.115166,
+        109.33523
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 43.79556,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        37.5516,
+        64.233,
+        99.8082,
+        126.4896,
+        153.171,
+        179.8524
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        22.828234,
+        0.072,
+        0.144,
+        0.144,
+        0.216,
+        0.288
+      ]
+    }
+  ],
+  "talent": {
+    "11311": {
+      "name": "托喻",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "11312": {
+      "name": "圣言默示·未现之光",
+      "icon": "Skill_S_Nicole_01"
+    },
+    "11315": {
+      "name": "圣言默示·天路历程",
+      "icon": "Skill_E_Nicole_01"
+    },
+    "1312101": {
+      "name": "分有",
+      "icon": "UI_Talent_S_Nicole_05"
+    },
+    "1312201": {
+      "name": "慕善",
+      "icon": "UI_Talent_S_Nicole_06"
+    },
+    "1312301": {
+      "name": "静念",
+      "icon": "UI_Talent_S_Nicole_08"
+    }
+  },
+  "constellation": {
+    "1311": {
+      "name": "「不要惧怕，蒙眷爱的人之子呀」",
+      "icon": "UI_Talent_S_Nicole_01"
+    },
+    "1312": {
+      "name": "「我要教导你，指引你应走的路」",
+      "icon": "UI_Talent_S_Nicole_02"
+    },
+    "1313": {
+      "name": "「为你身边的灯，为你前方的光」",
+      "icon": "UI_Talent_U_Nicole_01"
+    },
+    "1314": {
+      "name": "「向左或向右，无论你行往何方」",
+      "icon": "UI_Talent_S_Nicole_03"
+    },
+    "1315": {
+      "name": "「我就要有话对你说，在你身旁」",
+      "icon": "UI_Talent_U_Nicole_02"
+    },
+    "1316": {
+      "name": "「这便是正确的道路，莫要彷徨」",
+      "icon": "UI_Talent_S_Nicole_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}
