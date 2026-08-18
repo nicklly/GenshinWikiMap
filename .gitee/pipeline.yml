@@ -55,7 +55,7 @@ stages:
               git config user.name "Gitee CI"
               git config user.email "ci@gitee.com"
 
-              git commit -m "ci: 自动更新资源文件"
+              git commit -m "ci: 自动更新资源文件 [skip ci]"
 
           - name: Push
             run: |
