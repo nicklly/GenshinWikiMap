@@ -2122,7 +2122,7 @@
       "type": "material",
       "recipe": null,
       "mapMark": true,
-      "icon": "UI_ItemIcon_101332",
+      "icon": "UI_ItemIcon_101331",
       "rank": 1,
       "route": "Snow Poplar Wood"
     },
@@ -2132,7 +2132,7 @@
       "type": "material",
       "recipe": null,
       "mapMark": true,
-      "icon": "UI_ItemIcon_101331",
+      "icon": "UI_ItemIcon_101332",
       "rank": 1,
       "route": "White Birch Wood"
     },
@@ -6166,6 +6166,16 @@
       "rank": 4,
       "route": "Severed Tail of the Sky-Roamer"
     },
+    "113092": {
+      "id": 113092,
+      "name": "游离者的裂甲",
+      "type": "characterLevelUpMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113092",
+      "rank": 4,
+      "route": "Vagabond's Cracked Armor"
+    },
     "114001": {
       "id": 114001,
       "name": "高塔孤王的破瓦",
@@ -7386,6 +7396,16 @@
       "rank": 4,
       "route": "Wings of Leisurely Moments"
     },
+    "140019": {
+      "id": 140019,
+      "name": "星苍冬凌之翼",
+      "type": "windGlider",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_FlycloakIcon_Snezhnaya",
+      "rank": 4,
+      "route": "Wings of Starry Winterfrost"
+    },
     "200007": {
       "id": 200007,
       "name": "霄灯飞阵谱",
@@ -8235,6 +8255,26 @@
       "icon": "UI_ItemIcon_220136",
       "rank": 4,
       "route": "Cryo Treasure Compass"
+    },
+    "220137": {
+      "id": 220137,
+      "name": "「呀吼号」列车长",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220137",
+      "rank": 4,
+      "route": "Conductor of the \"Ya-ho\""
+    },
+    "220138": {
+      "id": 220138,
+      "name": "迷你列车难题",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220138",
+      "rank": 4,
+      "route": "A Mini Trolley Problem"
     }
   }
 }

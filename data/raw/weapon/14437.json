@@ -1,0 +1,219 @@
+{
+  "id": 14437,
+  "rank": 4,
+  "type": "法器",
+  "name": "凝雪沉心",
+  "description": "至纯的冰雪凝结而成的礼器，传说直到五百年前，都被历任雪精王公用于加冕仪式。",
+  "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+  "icon": "UI_EquipIcon_Catalyst_FrostScepter",
+  "storyId": [
+    "14437"
+  ],
+  "affix": {
+    "114437": {
+      "name": "寒霜的遗秘",
+      "upgrade": {
+        "0": "装备者获得「银染的血契」：队伍中每存在一位冰元素类型的角色，装备者的元素精通提升<color=#99FFFFFF>24<\/color>点；队伍中每存在一位雷元素类型的角色，装备者的攻击力提升<color=#99FFFFFF>4.8%<\/color>。至多4位冰元素类型或雷元素类型的角色可以提供上述效果。\\n辉映·星烁：「银染的血契」效果改为：队伍中每存在一位冰元素类型或雷元素类型的角色，装备者的元素精通提升<color=#99FFFFFF>20<\/color>点，造成的星烁反应伤害提升<color=#99FFFFFF>6%<\/color>。",
+        "1": "装备者获得「银染的血契」：队伍中每存在一位冰元素类型的角色，装备者的元素精通提升<color=#99FFFFFF>30<\/color>点；队伍中每存在一位雷元素类型的角色，装备者的攻击力提升<color=#99FFFFFF>6%<\/color>。至多4位冰元素类型或雷元素类型的角色可以提供上述效果。\\n辉映·星烁：「银染的血契」效果改为：队伍中每存在一位冰元素类型或雷元素类型的角色，装备者的元素精通提升<color=#99FFFFFF>25<\/color>点，造成的星烁反应伤害提升<color=#99FFFFFF>7.5%<\/color>。",
+        "2": "装备者获得「银染的血契」：队伍中每存在一位冰元素类型的角色，装备者的元素精通提升<color=#99FFFFFF>36<\/color>点；队伍中每存在一位雷元素类型的角色，装备者的攻击力提升<color=#99FFFFFF>7.2%<\/color>。至多4位冰元素类型或雷元素类型的角色可以提供上述效果。\\n辉映·星烁：「银染的血契」效果改为：队伍中每存在一位冰元素类型或雷元素类型的角色，装备者的元素精通提升<color=#99FFFFFF>30<\/color>点，造成的星烁反应伤害提升<color=#99FFFFFF>9%<\/color>。",
+        "3": "装备者获得「银染的血契」：队伍中每存在一位冰元素类型的角色，装备者的元素精通提升<color=#99FFFFFF>42<\/color>点；队伍中每存在一位雷元素类型的角色，装备者的攻击力提升<color=#99FFFFFF>8.4%<\/color>。至多4位冰元素类型或雷元素类型的角色可以提供上述效果。\\n辉映·星烁：「银染的血契」效果改为：队伍中每存在一位冰元素类型或雷元素类型的角色，装备者的元素精通提升<color=#99FFFFFF>35<\/color>点，造成的星烁反应伤害提升<color=#99FFFFFF>10.5%<\/color>。",
+        "4": "装备者获得「银染的血契」：队伍中每存在一位冰元素类型的角色，装备者的元素精通提升<color=#99FFFFFF>48<\/color>点；队伍中每存在一位雷元素类型的角色，装备者的攻击力提升<color=#99FFFFFF>9.6%<\/color>。至多4位冰元素类型或雷元素类型的角色可以提供上述效果。\\n辉映·星烁：「银染的血契」效果改为：队伍中每存在一位冰元素类型或雷元素类型的角色，装备者的元素精通提升<color=#99FFFFFF>40<\/color>点，造成的星烁反应伤害提升<color=#99FFFFFF>12%<\/color>。"
+      }
+    }
+  },
+  "route": "Winter's Heavy Heart",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "type": "GROW_CURVE_ATTACK_201",
+        "initValue": 42.401,
+        "propType": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "type": "GROW_CURVE_CRITICAL_201",
+        "initValue": 0.12,
+        "propType": "FIGHT_PROP_CRITICAL_HURT"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112146": 2,
+          "112155": 3,
+          "114093": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9
+        },
+        "requiredPlayerLevel": 15,
+        "unlockMaxLevel": 40
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112146": 8,
+          "112155": 12,
+          "114094": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9
+        },
+        "requiredPlayerLevel": 25,
+        "unlockMaxLevel": 50
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112147": 6,
+          "112156": 6,
+          "114094": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8
+        },
+        "requiredPlayerLevel": 30,
+        "unlockMaxLevel": 60
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112147": 9,
+          "112156": 12,
+          "114095": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7
+        },
+        "requiredPlayerLevel": 35,
+        "unlockMaxLevel": 70
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112148": 6,
+          "112157": 9,
+          "114095": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7
+        },
+        "requiredPlayerLevel": 40,
+        "unlockMaxLevel": 80
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112148": 12,
+          "112157": 18,
+          "114096": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.6
+        },
+        "requiredPlayerLevel": 50,
+        "unlockMaxLevel": 90
+      }
+    ]
+  },
+  "ascension": {
+    "112146": 1,
+    "112147": 2,
+    "112148": 3,
+    "112155": 2,
+    "112156": 3,
+    "112157": 4,
+    "114093": 2,
+    "114094": 3,
+    "114095": 4,
+    "114096": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112146": {
+      "name": "幻造萤屑",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112146"
+    },
+    "112147": {
+      "name": "幻造裂晶",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112147"
+    },
+    "112148": {
+      "name": "幻造晶鳞石",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112148"
+    },
+    "112155": {
+      "name": "灵生空根",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112155"
+    },
+    "112156": {
+      "name": "灵生分蘖节",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112156"
+    },
+    "112157": {
+      "name": "灵生盘枝心",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112157"
+    },
+    "114093": {
+      "name": "凛雪帝皇的复生",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114093"
+    },
+    "114094": {
+      "name": "凛雪帝皇的庆仪",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114094"
+    },
+    "114095": {
+      "name": "凛雪帝皇的悲恤",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114095"
+    },
+    "114096": {
+      "name": "凛雪帝皇的辞决",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114096"
+    }
+  }
+}

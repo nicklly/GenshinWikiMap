@@ -1,0 +1,219 @@
+{
+  "id": 15437,
+  "rank": 4,
+  "type": "弓",
+  "name": "柔风游弦",
+  "description": "由纯净无瑕的宝石制成的苍翠弓弦，引动时总能挽起温暖如春的柔风。",
+  "specialProp": "FIGHT_PROP_CRITICAL",
+  "icon": "UI_EquipIcon_Bow_Windtalker",
+  "storyId": [
+    "15437"
+  ],
+  "affix": {
+    "115437": {
+      "name": "蝰蛇的谣歌",
+      "upgrade": {
+        "0": "元素充能效率提升<color=#99FFFFFF>20%<\/color>。装备者的元素战技或元素爆发命中敌人时，获得一层「纯净者的圣咏」，该效果至多叠加3层，每0.03秒至多获得一层。叠加至3层时，将清除所有「纯净者的圣咏」，获得「蛇信的死毒」：使队伍中附近的所有角色造成的星烁反应伤害提升<color=#99FFFFFF>24%<\/color>，持续12秒，期间无法再次获得「纯净者的圣咏」。装备者处于队伍后台时，依然能触发上述效果。",
+        "1": "元素充能效率提升<color=#99FFFFFF>25%<\/color>。装备者的元素战技或元素爆发命中敌人时，获得一层「纯净者的圣咏」，该效果至多叠加3层，每0.03秒至多获得一层。叠加至3层时，将清除所有「纯净者的圣咏」，获得「蛇信的死毒」：使队伍中附近的所有角色造成的星烁反应伤害提升<color=#99FFFFFF>30%<\/color>，持续12秒，期间无法再次获得「纯净者的圣咏」。装备者处于队伍后台时，依然能触发上述效果。",
+        "2": "元素充能效率提升<color=#99FFFFFF>30%<\/color>。装备者的元素战技或元素爆发命中敌人时，获得一层「纯净者的圣咏」，该效果至多叠加3层，每0.03秒至多获得一层。叠加至3层时，将清除所有「纯净者的圣咏」，获得「蛇信的死毒」：使队伍中附近的所有角色造成的星烁反应伤害提升<color=#99FFFFFF>36%<\/color>，持续12秒，期间无法再次获得「纯净者的圣咏」。装备者处于队伍后台时，依然能触发上述效果。",
+        "3": "元素充能效率提升<color=#99FFFFFF>35%<\/color>。装备者的元素战技或元素爆发命中敌人时，获得一层「纯净者的圣咏」，该效果至多叠加3层，每0.03秒至多获得一层。叠加至3层时，将清除所有「纯净者的圣咏」，获得「蛇信的死毒」：使队伍中附近的所有角色造成的星烁反应伤害提升<color=#99FFFFFF>42%<\/color>，持续12秒，期间无法再次获得「纯净者的圣咏」。装备者处于队伍后台时，依然能触发上述效果。",
+        "4": "元素充能效率提升<color=#99FFFFFF>40%<\/color>。装备者的元素战技或元素爆发命中敌人时，获得一层「纯净者的圣咏」，该效果至多叠加3层，每0.03秒至多获得一层。叠加至3层时，将清除所有「纯净者的圣咏」，获得「蛇信的死毒」：使队伍中附近的所有角色造成的星烁反应伤害提升<color=#99FFFFFF>48%<\/color>，持续12秒，期间无法再次获得「纯净者的圣咏」。装备者处于队伍后台时，依然能触发上述效果。"
+      }
+    }
+  },
+  "route": "Breezeborne Refrain",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "type": "GROW_CURVE_ATTACK_201",
+        "initValue": 42.401,
+        "propType": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "type": "GROW_CURVE_CRITICAL_201",
+        "initValue": 0.06,
+        "propType": "FIGHT_PROP_CRITICAL"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112149": 2,
+          "112152": 3,
+          "114093": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9
+        },
+        "requiredPlayerLevel": 15,
+        "unlockMaxLevel": 40
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112149": 8,
+          "112152": 12,
+          "114094": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9
+        },
+        "requiredPlayerLevel": 25,
+        "unlockMaxLevel": 50
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112150": 6,
+          "112153": 6,
+          "114094": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8
+        },
+        "requiredPlayerLevel": 30,
+        "unlockMaxLevel": 60
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112150": 9,
+          "112153": 12,
+          "114095": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7
+        },
+        "requiredPlayerLevel": 35,
+        "unlockMaxLevel": 70
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112151": 6,
+          "112154": 9,
+          "114095": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7
+        },
+        "requiredPlayerLevel": 40,
+        "unlockMaxLevel": 80
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112151": 12,
+          "112154": 18,
+          "114096": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.6
+        },
+        "requiredPlayerLevel": 50,
+        "unlockMaxLevel": 90
+      }
+    ]
+  },
+  "ascension": {
+    "112149": 1,
+    "112150": 2,
+    "112151": 3,
+    "112152": 2,
+    "112153": 3,
+    "112154": 4,
+    "114093": 2,
+    "114094": 3,
+    "114095": 4,
+    "114096": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112149": {
+      "name": "嵌合种",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112149"
+    },
+    "112150": {
+      "name": "并生嵌合胞",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112150"
+    },
+    "112151": {
+      "name": "源生嵌合体",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112151"
+    },
+    "112152": {
+      "name": "沉积残片",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112152"
+    },
+    "112153": {
+      "name": "沉积结块",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112153"
+    },
+    "112154": {
+      "name": "沉积增生物",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112154"
+    },
+    "114093": {
+      "name": "凛雪帝皇的复生",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114093"
+    },
+    "114094": {
+      "name": "凛雪帝皇的庆仪",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114094"
+    },
+    "114095": {
+      "name": "凛雪帝皇的悲恤",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114095"
+    },
+    "114096": {
+      "name": "凛雪帝皇的辞决",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114096"
+    }
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "id": 14524,
+  "rank": 5,
+  "type": "法器",
+  "name": "漩流颂歌",
+  "description": "蓝玉髓所铸的精致灯盏，仿若自童话中诞生的宝物，据闻尘封着一曲为所有人忘却的颂歌。",
+  "specialProp": "FIGHT_PROP_HP_PERCENT",
+  "icon": "UI_EquipIcon_Catalyst_Bludnye",
+  "storyId": [
+    "14524"
+  ],
+  "affix": {
+    "114524": {
+      "name": "沉眠的回旋曲",
+      "upgrade": {
+        "0": "治疗加成提升<color=#99FFFFFF>4%<\/color>；\\n进行治疗时，装备者获得「告真的蜜酿」效果：生命值上限提升<color=#99FFFFFF>4%<\/color>，且基于装备者生命值上限超过40000的部分，每1000点生命值上限都会使队伍中自己的当前场上角色的攻击力提升<color=#99FFFFFF>0.4%<\/color>，通过这种方式至多提升<color=#99FFFFFF>8%<\/color>。该效果持续10秒，至多叠加3层。\\n队伍中附近的角色触发冻结反应或星扩散反应后的5秒内，上述效果中生命值上限与攻击力提升的效果额外提高75%。\\n装备者处于队伍后台时，依然能触发上述效果。",
+        "1": "治疗加成提升<color=#99FFFFFF>5%<\/color>；\\n进行治疗时，装备者获得「告真的蜜酿」效果：生命值上限提升<color=#99FFFFFF>5%<\/color>，且基于装备者生命值上限超过40000的部分，每1000点生命值上限都会使队伍中自己的当前场上角色的攻击力提升<color=#99FFFFFF>0.5%<\/color>，通过这种方式至多提升<color=#99FFFFFF>10%<\/color>。该效果持续10秒，至多叠加3层。\\n队伍中附近的角色触发冻结反应或星扩散反应后的5秒内，上述效果中生命值上限与攻击力提升的效果额外提高75%。\\n装备者处于队伍后台时，依然能触发上述效果。",
+        "2": "治疗加成提升<color=#99FFFFFF>6%<\/color>；\\n进行治疗时，装备者获得「告真的蜜酿」效果：生命值上限提升<color=#99FFFFFF>6%<\/color>，且基于装备者生命值上限超过40000的部分，每1000点生命值上限都会使队伍中自己的当前场上角色的攻击力提升<color=#99FFFFFF>0.6%<\/color>，通过这种方式至多提升<color=#99FFFFFF>12%<\/color>。该效果持续10秒，至多叠加3层。\\n队伍中附近的角色触发冻结反应或星扩散反应后的5秒内，上述效果中生命值上限与攻击力提升的效果额外提高75%。\\n装备者处于队伍后台时，依然能触发上述效果。",
+        "3": "治疗加成提升<color=#99FFFFFF>7%<\/color>；\\n进行治疗时，装备者获得「告真的蜜酿」效果：生命值上限提升<color=#99FFFFFF>7%<\/color>，且基于装备者生命值上限超过40000的部分，每1000点生命值上限都会使队伍中自己的当前场上角色的攻击力提升<color=#99FFFFFF>0.7%<\/color>，通过这种方式至多提升<color=#99FFFFFF>14%<\/color>。该效果持续10秒，至多叠加3层。\\n队伍中附近的角色触发冻结反应或星扩散反应后的5秒内，上述效果中生命值上限与攻击力提升的效果额外提高75%。\\n装备者处于队伍后台时，依然能触发上述效果。",
+        "4": "治疗加成提升<color=#99FFFFFF>8%<\/color>；\\n进行治疗时，装备者获得「告真的蜜酿」效果：生命值上限提升<color=#99FFFFFF>8%<\/color>，且基于装备者生命值上限超过40000的部分，每1000点生命值上限都会使队伍中自己的当前场上角色的攻击力提升<color=#99FFFFFF>0.8%<\/color>，通过这种方式至多提升<color=#99FFFFFF>16%<\/color>。该效果持续10秒，至多叠加3层。\\n队伍中附近的角色触发冻结反应或星扩散反应后的5秒内，上述效果中生命值上限与攻击力提升的效果额外提高75%。\\n装备者处于队伍后台时，依然能触发上述效果。"
+      }
+    }
+  },
+  "route": "Hymn of the Maelstrom",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "type": "GROW_CURVE_ATTACK_304",
+        "initValue": 44.3358,
+        "propType": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "type": "GROW_CURVE_CRITICAL_301",
+        "initValue": 0.144,
+        "propType": "FIGHT_PROP_HP_PERCENT"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112146": 3,
+          "112152": 5,
+          "114089": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1
+        },
+        "requiredPlayerLevel": 15,
+        "unlockMaxLevel": 40
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112146": 12,
+          "112152": 18,
+          "114090": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2
+        },
+        "requiredPlayerLevel": 25,
+        "unlockMaxLevel": 50
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112147": 9,
+          "112153": 9,
+          "114090": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4
+        },
+        "requiredPlayerLevel": 30,
+        "unlockMaxLevel": 60
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112147": 14,
+          "112153": 18,
+          "114091": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5
+        },
+        "requiredPlayerLevel": 35,
+        "unlockMaxLevel": 70
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112148": 9,
+          "112154": 14,
+          "114091": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.6
+        },
+        "requiredPlayerLevel": 40,
+        "unlockMaxLevel": 80
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112148": 18,
+          "112154": 27,
+          "114092": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7
+        },
+        "requiredPlayerLevel": 50,
+        "unlockMaxLevel": 90
+      }
+    ]
+  },
+  "ascension": {
+    "112146": 1,
+    "112147": 2,
+    "112148": 3,
+    "112152": 2,
+    "112153": 3,
+    "112154": 4,
+    "114089": 2,
+    "114090": 3,
+    "114091": 4,
+    "114092": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112146": {
+      "name": "幻造萤屑",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112146"
+    },
+    "112147": {
+      "name": "幻造裂晶",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112147"
+    },
+    "112148": {
+      "name": "幻造晶鳞石",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112148"
+    },
+    "112152": {
+      "name": "沉积残片",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112152"
+    },
+    "112153": {
+      "name": "沉积结块",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112153"
+    },
+    "112154": {
+      "name": "沉积增生物",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112154"
+    },
+    "114089": {
+      "name": "藏窖灵浆的斟酌",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114089"
+    },
+    "114090": {
+      "name": "藏窖灵浆的酩酊",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114090"
+    },
+    "114091": {
+      "name": "藏窖灵浆的酣畅",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114091"
+    },
+    "114092": {
+      "name": "藏窖灵浆的恣意",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114092"
+    }
+  }
+}

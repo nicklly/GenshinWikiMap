@@ -2019,6 +2019,40 @@
     "release": 1782766800,
     "route": "Sandrone"
   },
+  "10000140": {
+    "id": 10000140,
+    "rank": 5,
+    "name": "沃雅妮莎",
+    "element": "Water",
+    "weaponType": "WEAPON_CATALYST",
+    "region": "SNEZHNAYA",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Vodyanitsa",
+    "birthday": [
+      3,
+      29
+    ],
+    "release": 1790024400,
+    "route": "Vodyanitsa"
+  },
+  "10000143": {
+    "id": 10000143,
+    "rank": 5,
+    "name": "薇斯纳",
+    "element": "Wind",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "SNEZHNAYA_STAR",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Vesna",
+    "birthday": [
+      2,
+      4
+    ],
+    "release": 1790024400,
+    "route": "Vesna"
+  },
   "10000148": {
     "id": 10000148,
     "rank": 4,

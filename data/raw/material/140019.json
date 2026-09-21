@@ -1,0 +1,24 @@
+{
+  "name": "星苍冬凌之翼",
+  "description": "风之翼款式。因为得到至冬的认可与嘉许，而获赠的礼物。",
+  "descriptionCodex": null,
+  "type": "风之翼",
+  "recipe": null,
+  "storyId": [
+    "140019"
+  ],
+  "mapMark": null,
+  "source": [
+    {
+      "name": "完成「冰宫密令·其二」下所有任务获取",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_FlycloakIcon_Snezhnaya",
+  "rank": 4,
+  "route": "Wings of Starry Winterfrost"
+}

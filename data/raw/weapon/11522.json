@@ -1,0 +1,219 @@
+{
+  "id": 11522,
+  "rank": 5,
+  "type": "单手剑",
+  "name": "蝶变",
+  "description": "溢彩流光的长剑，曾有人以之破除束缚，剑风轻盈如同翩跹的蝶舞。",
+  "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+  "icon": "UI_EquipIcon_Sword_Samosvist",
+  "storyId": [
+    "11522"
+  ],
+  "affix": {
+    "111522": {
+      "name": "破茧的自由舞",
+      "upgrade": {
+        "0": "装备者每次施放元素战技或元素爆发时，将按照以下顺序，依次获得以下三种效果中的一种：\\n忠忱之风：装备者的暴击伤害提升<color=#99FFFFFF>56%<\/color>，持续10秒；\\n叛弃之风：装备者造成的星扩散反应伤害提升<color=#99FFFFFF>36%<\/color>，持续10秒；\\n丰获之风：为装备者恢复<color=#99FFFFFF>5<\/color>点元素能量，每4秒至多通过这种方式恢复<color=#99FFFFFF>5<\/color>点元素能量。\\n装备者退场时，将移除上述效果，并重置其顺序。",
+        "1": "装备者每次施放元素战技或元素爆发时，将按照以下顺序，依次获得以下三种效果中的一种：\\n忠忱之风：装备者的暴击伤害提升<color=#99FFFFFF>72%<\/color>，持续10秒；\\n叛弃之风：装备者造成的星扩散反应伤害提升<color=#99FFFFFF>45%<\/color>，持续10秒；\\n丰获之风：为装备者恢复<color=#99FFFFFF>5.5<\/color>点元素能量，每4秒至多通过这种方式恢复<color=#99FFFFFF>5.5<\/color>点元素能量。\\n装备者退场时，将移除上述效果，并重置其顺序。",
+        "2": "装备者每次施放元素战技或元素爆发时，将按照以下顺序，依次获得以下三种效果中的一种：\\n忠忱之风：装备者的暴击伤害提升<color=#99FFFFFF>88%<\/color>，持续10秒；\\n叛弃之风：装备者造成的星扩散反应伤害提升<color=#99FFFFFF>54%<\/color>，持续10秒；\\n丰获之风：为装备者恢复<color=#99FFFFFF>6<\/color>点元素能量，每4秒至多通过这种方式恢复<color=#99FFFFFF>6<\/color>点元素能量。\\n装备者退场时，将移除上述效果，并重置其顺序。",
+        "3": "装备者每次施放元素战技或元素爆发时，将按照以下顺序，依次获得以下三种效果中的一种：\\n忠忱之风：装备者的暴击伤害提升<color=#99FFFFFF>104%<\/color>，持续10秒；\\n叛弃之风：装备者造成的星扩散反应伤害提升<color=#99FFFFFF>63%<\/color>，持续10秒；\\n丰获之风：为装备者恢复<color=#99FFFFFF>6.5<\/color>点元素能量，每4秒至多通过这种方式恢复<color=#99FFFFFF>6.5<\/color>点元素能量。\\n装备者退场时，将移除上述效果，并重置其顺序。",
+        "4": "装备者每次施放元素战技或元素爆发时，将按照以下顺序，依次获得以下三种效果中的一种：\\n忠忱之风：装备者的暴击伤害提升<color=#99FFFFFF>120%<\/color>，持续10秒；\\n叛弃之风：装备者造成的星扩散反应伤害提升<color=#99FFFFFF>72%<\/color>，持续10秒；\\n丰获之风：为装备者恢复<color=#99FFFFFF>7<\/color>点元素能量，每4秒至多通过这种方式恢复<color=#99FFFFFF>7<\/color>点元素能量。\\n装备者退场时，将移除上述效果，并重置其顺序。"
+      }
+    }
+  },
+  "route": "Beyond the Chrysalis",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "type": "GROW_CURVE_ATTACK_302",
+        "initValue": 47.537,
+        "propType": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "type": "GROW_CURVE_CRITICAL_301",
+        "initValue": 0.096,
+        "propType": "FIGHT_PROP_CRITICAL_HURT"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112149": 3,
+          "112155": 5,
+          "114085": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1
+        },
+        "requiredPlayerLevel": 15,
+        "unlockMaxLevel": 40
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112149": 12,
+          "112155": 18,
+          "114086": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2
+        },
+        "requiredPlayerLevel": 25,
+        "unlockMaxLevel": 50
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112150": 9,
+          "112156": 9,
+          "114086": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4
+        },
+        "requiredPlayerLevel": 30,
+        "unlockMaxLevel": 60
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112150": 14,
+          "112156": 18,
+          "114087": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5
+        },
+        "requiredPlayerLevel": 35,
+        "unlockMaxLevel": 70
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112151": 9,
+          "112157": 14,
+          "114087": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.6
+        },
+        "requiredPlayerLevel": 40,
+        "unlockMaxLevel": 80
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112151": 18,
+          "112157": 27,
+          "114088": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7
+        },
+        "requiredPlayerLevel": 50,
+        "unlockMaxLevel": 90
+      }
+    ]
+  },
+  "ascension": {
+    "112149": 1,
+    "112150": 2,
+    "112151": 3,
+    "112155": 2,
+    "112156": 3,
+    "112157": 4,
+    "114085": 2,
+    "114086": 3,
+    "114087": 4,
+    "114088": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112149": {
+      "name": "嵌合种",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112149"
+    },
+    "112150": {
+      "name": "并生嵌合胞",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112150"
+    },
+    "112151": {
+      "name": "源生嵌合体",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112151"
+    },
+    "112155": {
+      "name": "灵生空根",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112155"
+    },
+    "112156": {
+      "name": "灵生分蘖节",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112156"
+    },
+    "112157": {
+      "name": "灵生盘枝心",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112157"
+    },
+    "114085": {
+      "name": "苍星军势的始动",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114085"
+    },
+    "114086": {
+      "name": "苍星军势的集结",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114086"
+    },
+    "114087": {
+      "name": "苍星军势的鸣令",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114087"
+    },
+    "114088": {
+      "name": "苍星军势的征服",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114088"
+    }
+  }
+}

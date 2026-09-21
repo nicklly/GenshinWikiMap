@@ -341,6 +341,24 @@
     "icon": "UI_EquipIcon_Sword_GlintstoneSword",
     "route": "Emberwell"
   },
+  "11437": {
+    "id": 11437,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "新枝",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Sword_SpikedStake",
+    "route": "New Bough"
+  },
+  "11438": {
+    "id": 11438,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "银釭",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "icon": "UI_EquipIcon_Sword_Fajian",
+    "route": "Silver Light"
+  },
   "11501": {
     "id": 11501,
     "rank": 5,
@@ -502,6 +520,15 @@
     "specialProp": "FIGHT_PROP_CRITICAL",
     "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya",
     "route": "Exaiphanes Blade"
+  },
+  "11522": {
+    "id": 11522,
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "蝶变",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Sword_Samosvist",
+    "route": "Beyond the Chrysalis"
   },
   "12101": {
     "id": 12101,
@@ -1601,6 +1628,15 @@
     "icon": "UI_EquipIcon_Catalyst_GlintstoneCatalyst",
     "route": "Echoes of the Heart"
   },
+  "14437": {
+    "id": 14437,
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "name": "凝雪沉心",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Catalyst_FrostScepter",
+    "route": "Winter's Heavy Heart"
+  },
   "14501": {
     "id": 14501,
     "rank": 5,
@@ -1771,6 +1807,15 @@
     "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
     "icon": "UI_EquipIcon_Catalyst_FairyGarden",
     "route": "Angelos' Heptades"
+  },
+  "14524": {
+    "id": 14524,
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "name": "漩流颂歌",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "icon": "UI_EquipIcon_Catalyst_Bludnye",
+    "route": "Hymn of the Maelstrom"
   },
   "15101": {
     "id": 15101,
@@ -2104,6 +2149,15 @@
     "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
     "icon": "UI_EquipIcon_Bow_GlintstoneBow",
     "route": "Covenant of Frost and Snow"
+  },
+  "15437": {
+    "id": 15437,
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "name": "柔风游弦",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "icon": "UI_EquipIcon_Bow_Windtalker",
+    "route": "Breezeborne Refrain"
   },
   "15501": {
     "id": 15501,
@@ -2452,5 +2506,25 @@
     "isWeaponSkin": true,
     "icon": "UI_EquipIcon_Claymore_VarkaTunkeldegen",
     "route": "Unbreakable: Durandarte"
+  },
+  "390002": {
+    "id": 390002,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "星锋剑",
+    "specialProp": "NONE",
+    "isWeaponSkin": true,
+    "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya01",
+    "route": "Exaiphanes Blade"
+  },
+  "390003": {
+    "id": 390003,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "星锋剑",
+    "specialProp": "NONE",
+    "isWeaponSkin": true,
+    "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya02",
+    "route": "Exaiphanes Blade"
   }
 }

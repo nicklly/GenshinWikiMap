@@ -1,0 +1,36 @@
+{
+  "id": "14524",
+  "name": "漩流颂歌",
+  "rank": 5,
+  "type": "法器",
+  "icon": {
+    "icon": "UI_EquipIcon_Catalyst_Bludnye",
+    "awaken": "UI_EquipIcon_Catalyst_Bludnye_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Catalyst_Bludnye"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 44.3358,
+        "type": "GROW_CURVE_ATTACK_304"
+      },
+      "promote": [
+        31.1,
+        62.2,
+        93.4,
+        124.5,
+        155.6,
+        186.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_HP_PERCENT",
+        "initValue": 0.144,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    }
+  ],
+  "buff": []
+}
