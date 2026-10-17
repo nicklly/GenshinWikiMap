@@ -1,0 +1,132 @@
+{
+  "id": 10000140,
+  "name": "沃雅妮莎",
+  "element": "水",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "至冬",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Vodyanitsa",
+    "side": "UI_AvatarIcon_Side_Vodyanitsa",
+    "card": "UI_AvatarIcon_Vodyanitsa_Card",
+    "splash": "UI_Gacha_AvatarImg_Vodyanitsa",
+    "slice": "UI_Gacha_AvatarIcon_Vodyanitsa"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1153.5172,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        989.0367,
+        1691.7733,
+        2628.7554,
+        3331.492,
+        4034.2285,
+        4736.9653
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 8.379,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        7.18371,
+        12.287925,
+        19.093546,
+        24.19776,
+        29.301975,
+        34.40619
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 37.6929,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        32.319,
+        55.2825,
+        85.9005,
+        108.864,
+        131.8275,
+        154.791
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HP_PERCENT",
+      "promote": [
+        7.18371,
+        0.072,
+        0.144,
+        0.144,
+        0.216,
+        0.288
+      ]
+    }
+  ],
+  "talent": {
+    "11401": {
+      "name": "水色咏叹",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "11402": {
+      "name": "宣叙·晨声纷流",
+      "icon": "Skill_S_Vodyanitsa_01"
+    },
+    "11405": {
+      "name": "终奏·伴尔沉沦",
+      "icon": "Skill_E_Vodyanitsa_01"
+    },
+    "1402101": {
+      "name": "最后的塑诗者",
+      "icon": "UI_Talent_S_Vodyanitsa_06"
+    },
+    "1402201": {
+      "name": "十二弦的泪歌",
+      "icon": "UI_Talent_S_Vodyanitsa_05"
+    },
+    "1402301": {
+      "name": "余声绕冰湖",
+      "icon": "UI_Talent_S_Vodyanitsa_07"
+    },
+    "1402501": {
+      "name": "无琴的诱音",
+      "icon": "UI_Talent_S_Vodyanitsa_08"
+    }
+  },
+  "constellation": {
+    "1401": {
+      "name": "聚光灯下的水华",
+      "icon": "UI_Talent_S_Vodyanitsa_01"
+    },
+    "1402": {
+      "name": "穿彻风雪的余响",
+      "icon": "UI_Talent_S_Vodyanitsa_02"
+    },
+    "1403": {
+      "name": "空音犹响的春晨",
+      "icon": "UI_Talent_U_Vodyanitsa_01"
+    },
+    "1404": {
+      "name": "柔波摇漾的低诉",
+      "icon": "UI_Talent_S_Vodyanitsa_03"
+    },
+    "1405": {
+      "name": "沉往深湖的共沦",
+      "icon": "UI_Talent_U_Vodyanitsa_02"
+    },
+    "1406": {
+      "name": "永不落幕的盛歌",
+      "icon": "UI_Talent_S_Vodyanitsa_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

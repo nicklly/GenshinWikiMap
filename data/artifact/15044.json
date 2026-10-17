@@ -1,0 +1,33 @@
+{
+  "id": "15044",
+  "name": "风起之日",
+  "short_name": "风起",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15044_4",
+  "part_list": {
+    "UI_RelicIcon_15044_4": {
+      "name": "风花的箴铭",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15044_2": {
+      "name": "晨光的明誓",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15044_5": {
+      "name": "春律的片刻",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15044_1": {
+      "name": "未言的宴话",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15044_3": {
+      "name": "哀慕的恋歌",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

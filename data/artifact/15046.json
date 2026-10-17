@@ -1,0 +1,33 @@
+{
+  "id": "15046",
+  "name": "影中沉凝的幻灭",
+  "short_name": "影中",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15046_4",
+  "part_list": {
+    "UI_RelicIcon_15046_4": {
+      "name": "止于荣礼的缎彩",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15046_2": {
+      "name": "止于妙想成型的锋毫",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15046_5": {
+      "name": "止于宏伟梦醒的时刻",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15046_1": {
+      "name": "止于祝庆的喝礼",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15046_3": {
+      "name": "止于阔步跌坠的灵摆",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "15043",
+  "name": "晨星与月的晓歌",
+  "short_name": "晨星",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15043_4",
+  "part_list": {
+    "UI_RelicIcon_15043_4": {
+      "name": "献与月的华梦",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15043_2": {
+      "name": "献与月的离光",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15043_5": {
+      "name": "献与月的终时",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15043_1": {
+      "name": "献与月的酹祭",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15043_3": {
+      "name": "献与月的银冕",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

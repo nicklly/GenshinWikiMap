@@ -1,0 +1,33 @@
+{
+  "id": "15048",
+  "name": "炉火融炼之心",
+  "short_name": "炉火",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15048_4",
+  "part_list": {
+    "UI_RelicIcon_15048_4": {
+      "name": "熔铸者的揣度",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15048_2": {
+      "name": "熔铸者的观测",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15048_5": {
+      "name": "熔铸者的计算",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15048_1": {
+      "name": "熔铸者的雅量",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15048_3": {
+      "name": "熔铸者的继志",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

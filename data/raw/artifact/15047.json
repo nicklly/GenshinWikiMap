@@ -1,0 +1,52 @@
+{
+  "id": 15047,
+  "name": "血红之证",
+  "levelList": [
+    4,
+    5
+  ],
+  "affixList": {
+    "2150470": "攻击力提高18%。",
+    "2150471": "装备者触发星扩散反应后的10秒内，暴击率提升16%，星扩散反应伤害提升40%。"
+  },
+  "icon": "UI_RelicIcon_15047_4",
+  "route": "Scarlet Proof",
+  "suit": {
+    "EQUIP_BRACER": {
+      "id": 47442,
+      "name": "感谢你的奉献",
+      "description": "颜色鲜红的花饰。象征如火的荣光。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15047_4"
+    },
+    "EQUIP_NECKLACE": {
+      "id": 47422,
+      "name": "铭记你的功勋",
+      "description": "颜色鲜红的羽笔。赠与最年轻的血液。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15047_2"
+    },
+    "EQUIP_SHOES": {
+      "id": 47452,
+      "name": "授予你的年华",
+      "description": "颜色鲜红的怀表。记录着一场对谈的时限。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15047_5"
+    },
+    "EQUIP_RING": {
+      "id": 47412,
+      "name": "饮尽你的血泪",
+      "description": "颜色鲜红的酒瓶。祝你不知道里面装过什么。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15047_1"
+    },
+    "EQUIP_DRESS": {
+      "id": 47432,
+      "name": "缅怀你的信仰",
+      "description": "颜色鲜红的头盔。但愿保护过谁。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15047_3"
+    }
+  },
+  "source": null
+}

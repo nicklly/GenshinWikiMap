@@ -1,0 +1,33 @@
+{
+  "id": "15047",
+  "name": "血红之证",
+  "short_name": "血红",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15047_4",
+  "part_list": {
+    "UI_RelicIcon_15047_4": {
+      "name": "感谢你的奉献",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15047_2": {
+      "name": "铭记你的功勋",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15047_5": {
+      "name": "授予你的年华",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15047_1": {
+      "name": "饮尽你的血泪",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15047_3": {
+      "name": "缅怀你的信仰",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

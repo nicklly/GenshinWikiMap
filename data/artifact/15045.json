@@ -1,0 +1,33 @@
+{
+  "id": "15045",
+  "name": "天之美赐",
+  "short_name": "天之",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15045_4",
+  "part_list": {
+    "UI_RelicIcon_15045_4": {
+      "name": "天授之馨",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15045_2": {
+      "name": "天授之殁",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15045_5": {
+      "name": "天授之令",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15045_1": {
+      "name": "天授之禄",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15045_3": {
+      "name": "天授之冕",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}
