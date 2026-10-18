@@ -1,172 +1,264 @@
+
 version: "1.0"
 name: genshin-wiki-map
 displayName: GenshinWikiMap 自动生成资源
+
 stages:
-  - name: 生成资源、推送 JSON 并发布 Release
-    displayName: 生成资源、推送 JSON 并发布 Release
+  - name: 生成并发布资源
+    displayName: 生成资源、删除旧 Release 并发布新版
     strategy: naturally
     trigger: auto
     executor: []
+
     steps:
+      # ==========================================
+      # 步骤一：生成资源、推送 JSON、删除旧 Release
+      # ==========================================
       - step: build@python
         name: generate_zip
-        displayName: 安装依赖、生成资源并推送 JSON
+        displayName: 安装依赖、生成资源并清理旧 Release
         pythonVersion: "3.9"
+
         commands:
-          - set -eu
-          - set +x
-          - ""
-          - echo "===== 检查构建环境 ====="
-          - python3 --version
-          - git --version
-          - ""
-          - if git lfs version >/dev/null 2>&1; then
-          - '  git lfs install --local'
-          - '  echo "Git LFS 已安装，但本流水线不会使用 LFS 跟踪 ZIP"'
-          - else
-          - '  echo "未安装 Git LFS，继续使用普通 Git"'
-          - fi
-          - ""
-          - echo "===== 检查自动生成提交 ====="
-          - SKIP_PUSH=0
-          - "if git log -1 --pretty=%s | grep -Fq ':wrench: 更新文件'; then"
-          - '  echo "检测到自动生成提交：本次仍生成 ZIP 并发布 Release，但跳过再次推送"'
-          - '  SKIP_PUSH=1'
-          - fi
-          - ""
-          - echo "===== 配置临时 Python 镜像 ====="
-          - export PIP_DEFAULT_TIMEOUT=60
-          - PRIMARY_MIRROR="https://pypi.tuna.tsinghua.edu.cn/simple"
-          - BACKUP_MIRROR="https://mirrors.aliyun.com/pypi/simple/"
-          - ""
-          - "pip_install() {"
-          - '  python3 -m pip install \'
-          - '    --index-url "$PRIMARY_MIRROR" "$@" ||'
-          - '  python3 -m pip install \'
-          - '    --index-url "$BACKUP_MIRROR" "$@"'
-          - "}"
-          - ""
-          - echo "===== 安装 pip 和 Poetry ====="
-          - pip_install --upgrade pip
-          - pip_install poetry
-          - ""
-          - export PATH="/root/.local/bin:$HOME/.local/bin:$PATH"
-          - poetry --version
-          - ""
-          - echo "===== 检查项目配置 ====="
-          - "test -f pyproject.toml || {"
-          - '  echo "错误：未找到 pyproject.toml"'
-          - '  exit 1'
-          - "}"
-          - ""
-          - echo "===== 临时配置 Poetry 镜像 ====="
-          - cp pyproject.toml /tmp/genshin-pyproject.toml.bak
-          - ""
-          - HAD_LOCK=0
-          - "if [ -f poetry.lock ]; then"
-          - '  cp poetry.lock /tmp/genshin-poetry.lock.bak'
-          - '  HAD_LOCK=1'
-          - fi
-          - ""
-          - "restore_project_files() {"
-          - '  cp /tmp/genshin-pyproject.toml.bak pyproject.toml'
-          - "  if [ \"$HAD_LOCK\" = \"1\" ]; then"
-          - '    cp /tmp/genshin-poetry.lock.bak poetry.lock'
-          - '  else'
-          - '    rm -f poetry.lock'
-          - '  fi'
-          - "}"
-          - ""
-          - trap restore_project_files EXIT
-          - ""
-          - poetry source add --priority=primary tsinghua \
-          - '  https://pypi.tuna.tsinghua.edu.cn/simple/'
-          - ""
-          - poetry source add --priority=primary aliyun \
-          - '  https://mirrors.aliyun.com/pypi/simple/'
-          - ""
-          - echo "===== 更新锁文件并安装依赖 ====="
-          - poetry lock
-          - poetry install --no-interaction
-          - ""
-          - echo "===== 恢复项目依赖配置 ====="
-          - restore_project_files
-          - trap - EXIT
-          - ""
-          - echo "===== 运行资源生成程序 ====="
-          - poetry run python generate.py
-          - ""
-          - echo "===== 检查生成的 ZIP ====="
-          - ZIP_FILE="resources/genshin_resources.zip"
-          - test -s "$ZIP_FILE"
-          - ls -lh "$ZIP_FILE"
-          - ""
-          - ""
-          - "# 取消 Git 对 ZIP 的跟踪，但保留本地生成文件供 Release 上传"
-          - git rm --cached --ignore-unmatch -- "$ZIP_FILE"
-          - ""
-          - echo "===== 配置 Git 提交信息 ====="
-          - "git config user.name \"gitee-go[bot]\""
-          - "git config user.email \"gitee-go[bot]@users.noreply.gitee.com\""
-          - ""
-          - echo "===== 暂存 JSON 和 .gitignore ====="
-          - git add -A -- '*.json' .gitignore
-          - ""
-          - "if [ \"$SKIP_PUSH\" = \"1\" ]; then"
-          - '  echo "自动生成提交触发的构建：不再创建新的提交"'
-          - elif git diff --cached --quiet; then
-          - '  echo "没有需要提交的 JSON 或配置变更"'
-          - else
-          - '  echo "===== 提交生成结果 ====="'
-          - "  git commit -m \":wrench: 更新文件 [skip ci]\""
-          - ""
-          - '  echo "===== 检查 Gitee 推送凭据 ====="'
-          - "  : \"${USERNAME:?缺少流水线变量 USERNAME}\""
-          - "  : \"${TOKEN:?缺少流水线变量 TOKEN}\""
-          - ""
-          - '  echo "===== 推送 JSON 更新到 master ====="'
-          - '  AUTH="$(printf ''%s:%s'' "$USERNAME" "$TOKEN" |'
-          - '    base64 | tr -d ''\n'')"'
-          - ""
-          - "  if git -c \"http.https://gitee.com/.extraheader=Authorization: Basic ${AUTH}\"\
-      \ \\"
-          - '    push https://gitee.com/tonykun/GenshinWikiMap.git \'
-          - '    HEAD:refs/heads/master; then'
-          - '    unset AUTH'
-          - '  else'
-          - '    unset AUTH'
-          - '    echo "错误：推送到 Gitee 失败"'
-          - '    exit 1'
-          - '  fi'
-          - fi
-          - ""
-          - echo "===== 构建步骤完成 ====="
-          - echo "ZIP 将交由下一步的 Gitee Release 插件发布"
-          - test -s "$ZIP_FILE"
+          - |
+            set -eu
+            set +x
+            
+            echo "===== 检查构建环境 ====="
+            python3 --version
+            git --version
+            
+            if git lfs version >/dev/null 2>&1; then
+              git lfs install --local
+              echo "Git LFS 已安装，但本流水线不会使用 LFS 跟踪 ZIP"
+            fi
+            
+            echo "===== 检查自动生成提交 ====="
+            if git log -1 --pretty=%s | grep -Fq ':wrench: 更新文件'; then
+              echo "上次提交由自动生成产生，本次仍继续生成和发布"
+            fi
+            
+            echo "===== 配置 Python 镜像 ====="
+            export PIP_DEFAULT_TIMEOUT=60
+            PRIMARY_MIRROR="https://pypi.tuna.tsinghua.edu.cn/simple"
+            BACKUP_MIRROR="https://mirrors.aliyun.com/pypi/simple/"
+            
+            pip_install() {
+              python3 -m pip install \
+                --index-url "$PRIMARY_MIRROR" "$@" ||
+              python3 -m pip install \
+                --index-url "$BACKUP_MIRROR" "$@"
+            }
+            
+            echo "===== 安装 pip 和 Poetry ====="
+            pip_install --upgrade pip
+            pip_install poetry
+            
+            export PATH="/root/.local/bin:$HOME/.local/bin:$PATH"
+            poetry --version
+            
+            echo "===== 检查项目配置 ====="
+            test -f pyproject.toml || {
+              echo "错误：未找到 pyproject.toml"
+              exit 1
+            }
+            
+            echo "===== 临时配置 Poetry 镜像 ====="
+            cp pyproject.toml /tmp/genshin-pyproject.toml.bak
+            
+            HAD_LOCK=0
+            if [ -f poetry.lock ]; then
+              cp poetry.lock /tmp/genshin-poetry.lock.bak
+              HAD_LOCK=1
+            fi
+            
+            restore_project_files() {
+              cp /tmp/genshin-pyproject.toml.bak pyproject.toml
+              if [ "$HAD_LOCK" = "1" ]; then
+                cp /tmp/genshin-poetry.lock.bak poetry.lock
+              else
+                rm -f poetry.lock
+              fi
+            }
+            
+            trap restore_project_files EXIT
+            
+            poetry source add --priority=primary tsinghua \
+              https://pypi.tuna.tsinghua.edu.cn/simple/
+            
+            poetry source add --priority=primary aliyun \
+              https://mirrors.aliyun.com/pypi/simple/
+            
+            echo "===== 更新锁文件并安装依赖 ====="
+            poetry lock
+            poetry install --no-interaction
+            
+            echo "===== 恢复项目依赖配置 ====="
+            restore_project_files
+            trap - EXIT
+            
+            echo "===== 生成资源文件 ====="
+            poetry run python generate.py
+            
+            ZIP_FILE="resources/genshin_resources.zip"
+            test -s "$ZIP_FILE"
+            
+            echo "===== 检查 ZIP 大小 ====="
+            ls -lh "$ZIP_FILE"
+            
+            # 从 Git 索引取消跟踪，但保留工作区文件
+            git rm --cached --ignore-unmatch -- "$ZIP_FILE"
+            
+            echo "===== 配置 Git 提交信息 ====="
+            git config user.name "gitee-go[bot]"
+            git config user.email "gitee-go[bot]@users.noreply.gitee.com"
+            
+            echo "===== 暂存 JSON 和 .gitignore ====="
+            git add -A -- '*.json' .gitignore
+            
+            if git diff --cached --quiet; then
+              echo "没有需要提交的 JSON 或配置变更"
+            else
+              echo "===== 提交生成结果 ====="
+              git commit -m ":wrench: 更新文件 [skip ci]"
+            
+              echo "===== 检查 Gitee 推送凭据 ====="
+              : "${USERNAME:?缺少流水线变量 USERNAME}"
+              : "${TOKEN:?缺少流水线变量 TOKEN}"
+            
+              echo "===== 推送 JSON 到 master ====="
+              AUTH="$(printf '%s:%s' "$USERNAME" "$TOKEN" |
+                base64 | tr -d '\n')"
+            
+              if git -c "http.https://gitee.com/.extraheader=Authorization: Basic ${AUTH}" \
+                push https://gitee.com/tonykun/GenshinWikiMap.git \
+                HEAD:refs/heads/master; then
+                unset AUTH
+              else
+                unset AUTH
+                echo "错误：推送到 Gitee 失败，保留旧 Release"
+                exit 1
+              fi
+            fi
+            
+            echo "===== 检查 Release 删除凭据 ====="
+            : "${TOKEN:?缺少流水线变量 TOKEN}"
+            export TOKEN
+            
+            echo "===== 查询并删除旧 Release：resources-latest ====="
+            
+            # 使用 Gitee API 查询指定 Tag 的 Release。
+            # 只有确认查询成功或旧 Release 不存在时，才继续发布。
+            python3 - <<'PY'
+            import json
+            import os
+            import sys
+            import urllib.error
+            import urllib.parse
+            import urllib.request
+            
+            owner = "tonykun"
+            repo = "GenshinWikiMap"
+            tag = "resources-latest"
+            token = os.environ["TOKEN"]
+            
+            base = "https://gitee.com/api/v5/repos/{}/{}/releases".format(
+                owner, repo
+            )
+            auth = urllib.parse.urlencode({"access_token": token})
+            
+            def request(url, method="GET"):
+                req = urllib.request.Request(url, method=method)
+                return urllib.request.urlopen(req, timeout=60)
+            
+            lookup_url = "{}/tags/{}?{}".format(
+                base, urllib.parse.quote(tag, safe=""), auth
+            )
+            
+            try:
+                with request(lookup_url) as response:
+                    status = response.status
+                    body = response.read().decode("utf-8")
+            except urllib.error.HTTPError as exc:
+                if exc.code == 404:
+                    print("没有找到旧 Release，直接进入发布阶段")
+                    sys.exit(0)
+                print("查询 Release 失败，HTTP {}".format(exc.code))
+                print("为避免误删或覆盖状态未知的发行版，终止流水线")
+                sys.exit(1)
+            except Exception as exc:
+                print("查询 Release 时发生网络错误：{}".format(type(exc).__name__))
+                sys.exit(1)
+            
+            if status != 200:
+                print("查询 Release 返回非预期状态：{}".format(status))
+                sys.exit(1)
+            
+            try:
+                release = json.loads(body)
+                release_id = release.get("id")
+            except Exception:
+                release_id = None
+            
+            if not release_id:
+                print("API 响应中没有 Release ID，终止流水线")
+                sys.exit(1)
+            
+            print("已找到旧 Release，准备删除，ID={}".format(release_id))
+            
+            delete_url = "{}/{}?{}".format(base, release_id, auth)
+            
+            try:
+                with request(delete_url, method="DELETE") as response:
+                    if response.status not in (200, 202, 204):
+                        print("删除 Release 返回非预期状态：{}".format(
+                            response.status
+                        ))
+                        sys.exit(1)
+            except urllib.error.HTTPError as exc:
+                print("删除 Release 失败，HTTP {}".format(exc.code))
+                sys.exit(1)
+            except Exception as exc:
+                print("删除 Release 时发生网络错误：{}".format(type(exc).__name__))
+                sys.exit(1)
+            
+            print("旧 Release 已删除，Tag 保留为 resources-latest")
+            PY
+            
+            echo "===== 构建与旧 Release 清理完成 ====="
+            test -s "$ZIP_FILE"
+
         notify: []
         strategy:
           retry: "0"
-  - name: 发布到Release
-    displayName: 发布到Release
-    strategy: naturally
-    trigger: auto
-    steps:
+
+      # ==========================================
+      # 步骤二：发布新的 Release
+      # ==========================================
       - step: release@gitee
         name: publish_resources_release
-        displayName: 发布 GenshinWikiMap 资源包
+        displayName: 发布最新资源包
+
         releaseName: GenshinWikiMap Resources
         description: GenshinWikiMap 自动生成的最新资源包
+
         tagName: resources-latest
+
         assertFiles:
           - resources/genshin_resources.zip
+
         prerelease: false
         allowUpdate: true
+
         notify: []
         strategy:
           retry: "0"
+
 triggers:
-  trigger: manual
+  trigger: auto
+
 notify: []
+
 ref_variable:
   - TOKEN
   - USERNAME
