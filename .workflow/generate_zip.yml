@@ -5,18 +5,18 @@ displayName: GenshinWikiMap 自动生成资源
 
 stages:
   - name: 生成并发布资源
-    displayName: 生成资源、删除旧 Release 并发布新版
+    displayName: 生成资源、清理旧 Release 并发布新版
     strategy: naturally
     trigger: auto
     executor: []
 
     steps:
       # ==========================================
-      # 步骤一：生成资源、推送 JSON、删除旧 Release
+      # 步骤一：生成资源、推送 JSON、检查旧 Release
       # ==========================================
       - step: build@python
         name: generate_zip
-        displayName: 安装依赖、生成资源并清理旧 Release
+        displayName: 安装依赖、生成资源并处理旧 Release
         pythonVersion: "3.9"
 
         commands:
@@ -31,11 +31,13 @@ stages:
             if git lfs version >/dev/null 2>&1; then
               git lfs install --local
               echo "Git LFS 已安装，但本流水线不会使用 LFS 跟踪 ZIP"
+            else
+              echo "未安装 Git LFS，继续构建"
             fi
             
             echo "===== 检查自动生成提交 ====="
             if git log -1 --pretty=%s | grep -Fq ':wrench: 更新文件'; then
-              echo "上次提交由自动生成产生，本次仍继续生成和发布"
+              echo "检测到自动生成提交，但本次仍继续构建和发布"
             fi
             
             echo "===== 配置 Python 镜像 ====="
@@ -103,10 +105,16 @@ stages:
             ZIP_FILE="resources/genshin_resources.zip"
             test -s "$ZIP_FILE"
             
-            echo "===== 检查 ZIP 大小 ====="
+            echo "===== 检查生成的 ZIP ====="
             ls -lh "$ZIP_FILE"
             
-            # 从 Git 索引取消跟踪，但保留工作区文件
+            echo "===== 确保 ZIP 不进入 Git ====="
+            touch .gitignore
+            
+            grep -qxF '/resources/genshin_resources.zip' .gitignore ||
+              echo '/resources/genshin_resources.zip' >> .gitignore
+            
+            # 取消 Git 跟踪，但保留本地 ZIP 供 Release 上传
             git rm --cached --ignore-unmatch -- "$ZIP_FILE"
             
             echo "===== 配置 Git 提交信息 ====="
@@ -136,19 +144,17 @@ stages:
                 unset AUTH
               else
                 unset AUTH
-                echo "错误：推送到 Gitee 失败，保留旧 Release"
+                echo "错误：推送到 Gitee 失败"
                 exit 1
               fi
             fi
             
-            echo "===== 检查 Release 删除凭据 ====="
+            echo "===== 检查 Release API 凭据 ====="
             : "${TOKEN:?缺少流水线变量 TOKEN}"
             export TOKEN
             
-            echo "===== 查询并删除旧 Release：resources-latest ====="
+            echo "===== 检查 resources-latest 旧 Release ====="
             
-            # 使用 Gitee API 查询指定 Tag 的 Release。
-            # 只有确认查询成功或旧 Release 不存在时，才继续发布。
             python3 - <<'PY'
             import json
             import os
@@ -162,103 +168,125 @@ stages:
             tag = "resources-latest"
             token = os.environ["TOKEN"]
             
-            base = "https://gitee.com/api/v5/repos/{}/{}/releases".format(
-                owner, repo
+            base_url = (
+                "https://gitee.com/api/v5/repos/"
+                + owner + "/" + repo + "/releases"
             )
-            auth = urllib.parse.urlencode({"access_token": token})
+            auth_query = urllib.parse.urlencode({
+                "access_token": token
+            })
             
-            def request(url, method="GET"):
+            def api_request(url, method="GET"):
                 req = urllib.request.Request(url, method=method)
                 return urllib.request.urlopen(req, timeout=60)
             
             lookup_url = "{}/tags/{}?{}".format(
-                base, urllib.parse.quote(tag, safe=""), auth
+                base_url,
+                urllib.parse.quote(tag, safe=""),
+                auth_query
             )
             
+            # 查询旧 Release。
             try:
-                with request(lookup_url) as response:
+                with api_request(lookup_url) as response:
                     status = response.status
                     body = response.read().decode("utf-8")
+            
             except urllib.error.HTTPError as exc:
                 if exc.code == 404:
-                    print("没有找到旧 Release，直接进入发布阶段")
+                    print("旧 Release 不存在，跳过删除步骤")
+                    print("继续执行后续 Release 发布")
                     sys.exit(0)
+            
                 print("查询 Release 失败，HTTP {}".format(exc.code))
-                print("为避免误删或覆盖状态未知的发行版，终止流水线")
+                print("为避免误操作，终止流水线")
                 sys.exit(1)
+            
             except Exception as exc:
-                print("查询 Release 时发生网络错误：{}".format(type(exc).__name__))
+                print("查询 Release 发生错误：{}".format(
+                    type(exc).__name__
+                ))
                 sys.exit(1)
             
             if status != 200:
-                print("查询 Release 返回非预期状态：{}".format(status))
+                print("查询 Release 返回异常状态：{}".format(status))
                 sys.exit(1)
             
             try:
                 release = json.loads(body)
-                release_id = release.get("id")
-            except Exception:
-                release_id = None
-            
-            if not release_id:
-                print("API 响应中没有 Release ID，终止流水线")
+            except json.JSONDecodeError:
+                print("Release API 返回了无效 JSON")
                 sys.exit(1)
             
-            print("已找到旧 Release，准备删除，ID={}".format(release_id))
+            if not isinstance(release, dict):
+                print("Release API 返回格式不正确")
+                sys.exit(1)
             
-            delete_url = "{}/{}?{}".format(base, release_id, auth)
+            release_id = release.get("id")
+            
+            if not release_id:
+                print("响应中未找到 Release ID，停止发布")
+                sys.exit(1)
+            
+            print("检测到旧 Release，ID={}".format(release_id))
+            print("开始删除旧 Release")
+            
+            delete_url = "{}/{}?{}".format(
+                base_url,
+                urllib.parse.quote(str(release_id), safe=""),
+                auth_query
+            )
             
             try:
-                with request(delete_url, method="DELETE") as response:
+                with api_request(delete_url, method="DELETE") as response:
                     if response.status not in (200, 202, 204):
-                        print("删除 Release 返回非预期状态：{}".format(
+                        print("删除 Release 返回异常状态：{}".format(
                             response.status
                         ))
                         sys.exit(1)
+            
             except urllib.error.HTTPError as exc:
                 print("删除 Release 失败，HTTP {}".format(exc.code))
                 sys.exit(1)
+            
             except Exception as exc:
-                print("删除 Release 时发生网络错误：{}".format(type(exc).__name__))
+                print("删除 Release 发生错误：{}".format(
+                    type(exc).__name__
+                ))
                 sys.exit(1)
             
-            print("旧 Release 已删除，Tag 保留为 resources-latest")
+            print("旧 Release 删除成功")
+            print("继续发布新版 Release")
             PY
             
-            echo "===== 构建与旧 Release 清理完成 ====="
+            echo "===== 资源生成与旧 Release 处理完成 ====="
             test -s "$ZIP_FILE"
 
         notify: []
         strategy:
           retry: "0"
 
-      # ==========================================
-      # 步骤二：发布新的 Release
-      # ==========================================
+  - name: 发布Release
+    displayName: 发布Release
+    strategy: naturally
+    trigger: auto
+    steps:
       - step: release@gitee
         name: publish_resources_release
         displayName: 发布最新资源包
-
         releaseName: GenshinWikiMap Resources
         description: GenshinWikiMap 自动生成的最新资源包
-
         tagName: resources-latest
-
         assertFiles:
           - resources/genshin_resources.zip
-
         prerelease: false
         allowUpdate: true
-
         notify: []
         strategy:
           retry: "0"
-
 triggers:
-  trigger: auto
-
+  trigger: manual
 notify: []
-
 ref_variable:
   - TOKEN
   - USERNAME
