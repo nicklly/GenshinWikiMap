@@ -1735,61 +1735,61 @@
   },
   "UI_RelicIcon_15047_1": {
     "name": "饮尽你的血泪",
-    "suit_id": 15046,
+    "suit_id": 15047,
     "suit_name": "血红之证",
     "part": "空之杯"
   },
   "UI_RelicIcon_15047_2": {
     "name": "铭记你的功勋",
-    "suit_id": 15045,
+    "suit_id": 15047,
     "suit_name": "血红之证",
     "part": "死之羽"
   },
   "UI_RelicIcon_15047_3": {
     "name": "缅怀你的信仰",
-    "suit_id": 15046,
+    "suit_id": 15047,
     "suit_name": "血红之证",
     "part": "理之冠"
   },
   "UI_RelicIcon_15047_4": {
     "name": "感谢你的奉献",
-    "suit_id": 15046,
+    "suit_id": 15047,
     "suit_name": "血红之证",
     "part": "生之花"
   },
   "UI_RelicIcon_15047_5": {
     "name": "授予你的年华",
-    "suit_id": 15046,
+    "suit_id": 15047,
     "suit_name": "炉火融炼之心",
     "part": "时之沙"
   },
   "UI_RelicIcon_15048_1": {
     "name": "熔铸者的雅量",
-    "suit_id": 15046,
+    "suit_id": 15048,
     "suit_name": "炉火融炼之心",
     "part": "空之杯"
   },
   "UI_RelicIcon_15048_2": {
     "name": "熔铸者的观测",
-    "suit_id": 15045,
+    "suit_id": 15048,
     "suit_name": "炉火融炼之心",
     "part": "死之羽"
   },
   "UI_RelicIcon_15048_3": {
     "name": "缅怀你的信仰",
-    "suit_id": 15046,
+    "suit_id": 15048,
     "suit_name": "炉火融炼之心",
     "part": "理之冠"
   },
   "UI_RelicIcon_15048_4": {
     "name": "熔铸者的揣度",
-    "suit_id": 15046,
+    "suit_id": 15048,
     "suit_name": "炉火融炼之心",
     "part": "生之花"
   },
   "UI_RelicIcon_15048_5": {
     "name": "熔铸者的计算",
-    "suit_id": 15046,
+    "suit_id": 15048,
     "suit_name": "炉火融炼之心",
     "part": "时之沙"
   }
