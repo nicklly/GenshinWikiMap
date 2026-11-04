@@ -1,0 +1,37 @@
+{
+  "name": "破碎的稳定锚",
+  "description": "曾被作为武器挥舞的巨大船锚。\\n就像过于悠远的愿望总是会逐渐偏离本心，原本被设计用于在海中探索求生的巨锚，时至今日也只变成了遗忘使命的妖精挥舞在手中的笨重武器。",
+  "descriptionCodex": null,
+  "type": "角色培养素材",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "30级以上浪涛锚定者掉落",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000136,
+          "name": "米提亚",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Mitya"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 25134601,
+        "name": "浪涛锚定者",
+        "icon": "UI_MonsterIcon_Volkodlak_Whale"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_113093",
+  "rank": 4,
+  "route": "Shattered Stability Anchor"
+}

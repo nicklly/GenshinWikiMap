@@ -1,0 +1,219 @@
+{
+  "id": 14525,
+  "rank": 5,
+  "type": "法器",
+  "name": "秘星典谕",
+  "description": "记载皇家能源协会内部工作法则的厚重书籍，条目繁多，历史悠久。",
+  "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+  "icon": "UI_EquipIcon_Catalyst_Chernaya",
+  "storyId": [
+    "14525"
+  ],
+  "affix": {
+    "114525": {
+      "name": "辰星的流迹",
+      "upgrade": {
+        "0": "暴击伤害提升<color=#99FFFFFF>24%<\/color>。施放元素战技时，装备者获得「晶质调合」效果：元素精通提升<color=#99FFFFFF>48<\/color>点，持续20秒；持续期间，队伍中附近的角色触发元素反应时，装备者还会获得一层「炬中法度」，使元素精通进一步提升<color=#99FFFFFF>24<\/color>点，该效果至多叠加3层，持续至「晶质调合」效果结束或再次施放元素战技。\\n辉映·星超导：每层「炬中法度」还会使装备者造成的星超导反应伤害的暴击伤害提升<color=#99FFFFFF>12%<\/color>。\\n装备者处于队伍后台时，依然能触发上述效果。",
+        "1": "暴击伤害提升<color=#99FFFFFF>30%<\/color>。施放元素战技时，装备者获得「晶质调合」效果：元素精通提升<color=#99FFFFFF>60<\/color>点，持续20秒；持续期间，队伍中附近的角色触发元素反应时，装备者还会获得一层「炬中法度」，使元素精通进一步提升<color=#99FFFFFF>30<\/color>点，该效果至多叠加3层，持续至「晶质调合」效果结束或再次施放元素战技。\\n辉映·星超导：每层「炬中法度」还会使装备者造成的星超导反应伤害的暴击伤害提升<color=#99FFFFFF>15%<\/color>。\\n装备者处于队伍后台时，依然能触发上述效果。",
+        "2": "暴击伤害提升<color=#99FFFFFF>36%<\/color>。施放元素战技时，装备者获得「晶质调合」效果：元素精通提升<color=#99FFFFFF>72<\/color>点，持续20秒；持续期间，队伍中附近的角色触发元素反应时，装备者还会获得一层「炬中法度」，使元素精通进一步提升<color=#99FFFFFF>36<\/color>点，该效果至多叠加3层，持续至「晶质调合」效果结束或再次施放元素战技。\\n辉映·星超导：每层「炬中法度」还会使装备者造成的星超导反应伤害的暴击伤害提升<color=#99FFFFFF>18%<\/color>。\\n装备者处于队伍后台时，依然能触发上述效果。",
+        "3": "暴击伤害提升<color=#99FFFFFF>42%<\/color>。施放元素战技时，装备者获得「晶质调合」效果：元素精通提升<color=#99FFFFFF>84<\/color>点，持续20秒；持续期间，队伍中附近的角色触发元素反应时，装备者还会获得一层「炬中法度」，使元素精通进一步提升<color=#99FFFFFF>42<\/color>点，该效果至多叠加3层，持续至「晶质调合」效果结束或再次施放元素战技。\\n辉映·星超导：每层「炬中法度」还会使装备者造成的星超导反应伤害的暴击伤害提升<color=#99FFFFFF>21%<\/color>。\\n装备者处于队伍后台时，依然能触发上述效果。",
+        "4": "暴击伤害提升<color=#99FFFFFF>48%<\/color>。施放元素战技时，装备者获得「晶质调合」效果：元素精通提升<color=#99FFFFFF>96<\/color>点，持续20秒；持续期间，队伍中附近的角色触发元素反应时，装备者还会获得一层「炬中法度」，使元素精通进一步提升<color=#99FFFFFF>48<\/color>点，该效果至多叠加3层，持续至「晶质调合」效果结束或再次施放元素战技。\\n辉映·星超导：每层「炬中法度」还会使装备者造成的星超导反应伤害的暴击伤害提升<color=#99FFFFFF>24%<\/color>。\\n装备者处于队伍后台时，依然能触发上述效果。"
+      }
+    }
+  },
+  "route": "Starsealed Edict",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "initValue": 44.3358,
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "type": "GROW_CURVE_ATTACK_304"
+      },
+      {
+        "initValue": 0.192,
+        "propType": "FIGHT_PROP_CRITICAL_HURT",
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112146": 3,
+          "112158": 5,
+          "114093": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1
+        },
+        "requiredPlayerLevel": 15,
+        "unlockMaxLevel": 40
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112146": 12,
+          "112158": 18,
+          "114094": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2
+        },
+        "requiredPlayerLevel": 25,
+        "unlockMaxLevel": 50
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112147": 9,
+          "112159": 9,
+          "114094": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4
+        },
+        "requiredPlayerLevel": 30,
+        "unlockMaxLevel": 60
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112147": 14,
+          "112159": 18,
+          "114095": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5
+        },
+        "requiredPlayerLevel": 35,
+        "unlockMaxLevel": 70
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112148": 9,
+          "112160": 14,
+          "114095": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.6
+        },
+        "requiredPlayerLevel": 40,
+        "unlockMaxLevel": 80
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112148": 18,
+          "112160": 27,
+          "114096": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7
+        },
+        "requiredPlayerLevel": 50,
+        "unlockMaxLevel": 90
+      }
+    ]
+  },
+  "ascension": {
+    "112146": 1,
+    "112147": 2,
+    "112148": 3,
+    "112158": 2,
+    "112159": 3,
+    "112160": 4,
+    "114093": 2,
+    "114094": 3,
+    "114095": 4,
+    "114096": 5
+  },
+  "items": {
+    "202": {
+      "name": "摩拉",
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    "104011": {
+      "name": "精锻用杂矿",
+      "rank": 1,
+      "icon": "UI_ItemIcon_104011"
+    },
+    "104012": {
+      "name": "精锻用良矿",
+      "rank": 2,
+      "icon": "UI_ItemIcon_104012"
+    },
+    "104013": {
+      "name": "精锻用魔矿",
+      "rank": 3,
+      "icon": "UI_ItemIcon_104013"
+    },
+    "112146": {
+      "name": "幻造萤屑",
+      "rank": 1,
+      "icon": "UI_ItemIcon_112146"
+    },
+    "112147": {
+      "name": "幻造裂晶",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112147"
+    },
+    "112148": {
+      "name": "幻造晶鳞石",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112148"
+    },
+    "112158": {
+      "name": "雪结片心",
+      "rank": 2,
+      "icon": "UI_ItemIcon_112158"
+    },
+    "112159": {
+      "name": "雪结镜心",
+      "rank": 3,
+      "icon": "UI_ItemIcon_112159"
+    },
+    "112160": {
+      "name": "雪结无明心",
+      "rank": 4,
+      "icon": "UI_ItemIcon_112160"
+    },
+    "114093": {
+      "name": "凛雪帝皇的复生",
+      "rank": 2,
+      "icon": "UI_ItemIcon_114093"
+    },
+    "114094": {
+      "name": "凛雪帝皇的庆仪",
+      "rank": 3,
+      "icon": "UI_ItemIcon_114094"
+    },
+    "114095": {
+      "name": "凛雪帝皇的悲恤",
+      "rank": 4,
+      "icon": "UI_ItemIcon_114095"
+    },
+    "114096": {
+      "name": "凛雪帝皇的辞决",
+      "rank": 5,
+      "icon": "UI_ItemIcon_114096"
+    }
+  }
+}

@@ -1746,6 +1746,26 @@
       "rank": 1,
       "route": "Etherwing Moth"
     },
+    "101273": {
+      "id": 101273,
+      "name": "妖精绿艾",
+      "type": "localSpecialtySnezhnaya",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101273",
+      "rank": 1,
+      "route": "Fairy Wormwood"
+    },
+    "101274": {
+      "id": 101274,
+      "name": "析晶褶伞",
+      "type": "localSpecialtySnezhnaya",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101274",
+      "rank": 1,
+      "route": "Kristallfold"
+    },
     "101275": {
       "id": 101275,
       "name": "霜仙花",
@@ -1825,6 +1845,16 @@
       "icon": "UI_ItemIcon_101282",
       "rank": 1,
       "route": "Lumifluorite"
+    },
+    "101285": {
+      "id": 101285,
+      "name": "笼酸浆",
+      "type": "cookingIngredient",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101285",
+      "rank": 1,
+      "route": "Lanternberry"
     },
     "101301": {
       "id": 101301,
@@ -5256,6 +5286,36 @@
       "rank": 4,
       "route": "Coiled Core of Life"
     },
+    "112158": {
+      "id": 112158,
+      "name": "雪结片心",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112158",
+      "rank": 2,
+      "route": "Snowborn Heartshard"
+    },
+    "112159": {
+      "id": 112159,
+      "name": "雪结镜心",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112159",
+      "rank": 3,
+      "route": "Snowborn Mirrorheart"
+    },
+    "112160": {
+      "id": 112160,
+      "name": "雪结无明心",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112160",
+      "rank": 4,
+      "route": "Snowborn Heart of Ignorance"
+    },
     "113001": {
       "id": 113001,
       "name": "飓风之种",
@@ -6175,6 +6235,16 @@
       "icon": "UI_ItemIcon_113092",
       "rank": 4,
       "route": "Vagabond's Cracked Armor"
+    },
+    "113093": {
+      "id": 113093,
+      "name": "破碎的稳定锚",
+      "type": "characterLevelUpMaterial",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113093",
+      "rank": 4,
+      "route": "Shattered Stability Anchor"
     },
     "114001": {
       "id": 114001,
@@ -8275,6 +8345,16 @@
       "icon": "UI_ItemIcon_220138",
       "rank": 4,
       "route": "A Mini Trolley Problem"
+    },
+    "220141": {
+      "id": 220141,
+      "name": "米提亚的饰品盒",
+      "type": "gadget",
+      "recipe": null,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_121736",
+      "rank": 4,
+      "route": "Mitya's Accessory Box"
     }
   }
 }

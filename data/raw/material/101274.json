@@ -1,0 +1,39 @@
+{
+  "name": "析晶褶伞",
+  "description": "在克什尼克晶矿的矿脉旁生长出来的奇特蘑菇，因其伞盖的形状犹如带有褶皱的晶伞而得名。",
+  "descriptionCodex": "在克什尼克晶矿的矿脉旁生长出来的奇特蘑菇，因其伞盖的形状犹如带有褶皱的晶伞而得名。\\n曾有研究蕈类的学者认为，析晶褶伞的形成是由于其菌丝形成了非常独特的和克什尼克晶矿的共生关系。但后来某日，学者们真正拆解析晶褶伞时才真正意识到，对于这种蕈类来说，菌丝就是晶矿，晶矿就是菌丝。",
+  "type": "至冬区域特产",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "推荐：新基捷城市区采集",
+      "type": "single"
+    },
+    {
+      "name": "尘歌壶种植",
+      "type": "single"
+    },
+    {
+      "name": "前往采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000136,
+          "name": "米提亚",
+          "rank": 5,
+          "icon": "UI_AvatarIcon_Mitya"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101274",
+  "rank": 1,
+  "route": "Kristallfold"
+}

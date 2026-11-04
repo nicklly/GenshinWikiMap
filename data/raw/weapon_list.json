@@ -1817,6 +1817,15 @@
     "icon": "UI_EquipIcon_Catalyst_Bludnye",
     "route": "Hymn of the Maelstrom"
   },
+  "14525": {
+    "id": 14525,
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "name": "秘星典谕",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "icon": "UI_EquipIcon_Catalyst_Chernaya",
+    "route": "Starsealed Edict"
+  },
   "15101": {
     "id": 15101,
     "rank": 1,

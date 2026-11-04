@@ -1,0 +1,54 @@
+{
+  "name": "雪结镜心",
+  "description": "冰雪凝结的魔物在消散后遗留之物。\\n不知为何，该生物明显没有能够沟通的智慧，却对固有的对象保留了极强的攻击性。就仿佛仇恨被刻写在了其形成时的血脉之中。",
+  "descriptionCodex": null,
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11091": {
+      "112158": {
+        "name": "雪结片心",
+        "icon": "UI_ItemIcon_112158",
+        "rank": 2,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "40级以上无智的凝冰体掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    },
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 14525,
+          "name": "秘星典谕",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Catalyst_Chernaya"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 20090101,
+        "name": "冰结镜映体",
+        "icon": "UI_MonsterIcon_Crystalian_01"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112159",
+  "rank": 3,
+  "route": "Snowborn Mirrorheart"
+}

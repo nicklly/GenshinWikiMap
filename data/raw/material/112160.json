@@ -1,0 +1,54 @@
+{
+  "name": "雪结无明心",
+  "description": "冰雪凝结的魔物在消散后遗留之物。\\n因为某种不知名伟力的影响，似人似兽的冰雪魔物构成身躯的方式与一般的元素魔物不同，其证明就是遗留的力量核心拥有着类似远古生物鳞片向外乖张生长的形状。",
+  "descriptionCodex": null,
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11092": {
+      "112159": {
+        "name": "雪结镜心",
+        "icon": "UI_ItemIcon_112159",
+        "rank": 3,
+        "count": 3
+      }
+    }
+  },
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "60级以上无智的凝冰体掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换：兑换后合成",
+      "type": "single"
+    },
+    {
+      "name": "占位-可合成数量:{0}",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "weapon": [
+        {
+          "id": 14525,
+          "name": "秘星典谕",
+          "rank": 5,
+          "icon": "UI_EquipIcon_Catalyst_Chernaya"
+        }
+      ]
+    },
+    "droppedBy": [
+      {
+        "id": 20090101,
+        "name": "冰结镜映体",
+        "icon": "UI_MonsterIcon_Crystalian_01"
+      }
+    ]
+  },
+  "icon": "UI_ItemIcon_112160",
+  "rank": 4,
+  "route": "Snowborn Heart of Ignorance"
+}

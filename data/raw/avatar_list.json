@@ -2019,6 +2019,40 @@
     "release": 1782766800,
     "route": "Sandrone"
   },
+  "10000136": {
+    "id": 10000136,
+    "rank": 5,
+    "name": "米提亚",
+    "element": "Electric",
+    "weaponType": "WEAPON_CATALYST",
+    "region": "SNEZHNAYA_STAR",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "BOY",
+    "icon": "UI_AvatarIcon_Mitya",
+    "birthday": [
+      2,
+      8
+    ],
+    "release": 1793656800,
+    "route": "Mitya"
+  },
+  "10000137": {
+    "id": 10000137,
+    "rank": 4,
+    "name": "瓦列里",
+    "element": "Electric",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "SNEZHNAYA",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "MALE",
+    "icon": "UI_AvatarIcon_Valeriy",
+    "birthday": [
+      3,
+      24
+    ],
+    "release": 1793656800,
+    "route": "Valeriy"
+  },
   "10000140": {
     "id": 10000140,
     "rank": 5,

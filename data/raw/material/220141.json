@@ -1,0 +1,17 @@
+{
+  "name": "米提亚的饰品盒",
+  "description": "属于米提亚的装扮物品盒，存有「能级辉光」饰品，可以随时选用合意的搭配…",
+  "descriptionCodex": null,
+  "type": "小道具",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": null,
+  "additions": {
+    "requiredBy": null,
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_121736",
+  "rank": 4,
+  "route": "Mitya's Accessory Box"
+}

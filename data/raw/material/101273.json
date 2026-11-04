@@ -1,0 +1,39 @@
+{
+  "name": "妖精绿艾",
+  "description": "生长在特普洛绿洲的神奇艾草，因为生长时吸收了土地之下的矿物，以至于叶面也覆盖了类似晶矿之物。",
+  "descriptionCodex": "生长在特普洛绿洲的神奇艾草，因为生长时吸收了土地之下的矿物，以至于叶面也覆盖了类似晶矿之物。\\n特普洛绿洲的居民曾经在酿造桶内大量加入这样的植物，一度是特普洛绿洲相当畅销的产品。只不过后来发现加入妖精绿艾的饮品有奇异的特性，喝下后能听见晶石里的话语…后来阿尔维斯大公出台了政策，要求酿造时加入的妖精绿艾汁液得在一定比例以下。",
+  "type": "至冬区域特产",
+  "recipe": null,
+  "storyId": null,
+  "mapMark": null,
+  "source": [
+    {
+      "name": "推荐：特普洛绿洲采集",
+      "type": "single"
+    },
+    {
+      "name": "尘歌壶种植",
+      "type": "single"
+    },
+    {
+      "name": "前往采集",
+      "type": "single"
+    }
+  ],
+  "additions": {
+    "requiredBy": {
+      "avatar": [
+        {
+          "id": 10000137,
+          "name": "瓦列里",
+          "rank": 4,
+          "icon": "UI_AvatarIcon_Valeriy"
+        }
+      ]
+    },
+    "droppedBy": null
+  },
+  "icon": "UI_ItemIcon_101273",
+  "rank": 1,
+  "route": "Fairy Wormwood"
+}

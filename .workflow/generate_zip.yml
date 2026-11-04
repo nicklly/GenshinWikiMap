@@ -81,17 +81,19 @@ stages:
             restore_dependency_files
             trap - EXIT
 
-            echo "===== 从 Git 索引移除旧 ZIP ====="
-            git rm --cached --ignore-unmatch \
-              resources/genshin_resources.zip
-
             echo "===== 生成游戏资源 ====="
             python -m poetry run python generate.py
 
             echo "===== 检查生成结果 ====="
             test -f resources/genshin_resources.zip
             ls -lh resources/genshin_resources.zip
-
+            
+            echo "===== 复制发布文件到仓库根目录 ====="
+            cp resources/genshin_resources.zip ./genshin_resources.zip
+            echo "===== 检查发布文件 ====="
+            test -f ./genshin_resources.zip
+            ls -lh ./genshin_resources.zip
+            
             echo "===== 暂存 JSON 和 .gitignore ====="
             git add -A -- '*.json' .gitignore
 
@@ -118,7 +120,7 @@ stages:
         artifacts:
           - name: GENSHIN_RESOURCES
             path:
-              - resources/genshin_resources.zip
+              - genshin_resources.zip
         caches:
           - /root/.cache/pypoetry
           - /root/.cache/pip
@@ -141,7 +143,7 @@ stages:
         upstreamArtifact:
           - GENSHIN_RESOURCES
         assertFiles:
-          - resources/genshin_resources.zip
+          - genshin_resources.zip
         prerelease: false
         allowUpdate: true
         notify: []
