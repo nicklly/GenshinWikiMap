@@ -1,0 +1,132 @@
+{
+  "id": 10000137,
+  "name": "瓦列里",
+  "element": "雷",
+  "weapon": "单手剑",
+  "rank": 4,
+  "region": "至冬",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Valeriy",
+    "side": "UI_AvatarIcon_Side_Valeriy",
+    "card": "UI_AvatarIcon_Valeriy_Card",
+    "splash": "UI_Gacha_AvatarImg_Valeriy",
+    "slice": "UI_Gacha_AvatarIcon_Valeriy"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 838.8477,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        626.6622,
+        1071.9221,
+        1665.6022,
+        2110.862,
+        2556.122,
+        3001.382
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 21.3696,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        15.96456,
+        27.3078,
+        42.43212,
+        53.77536,
+        65.1186,
+        76.46184
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 58.94175,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        44.0325,
+        75.31875,
+        117.03375,
+        148.32,
+        179.60625,
+        210.8925
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        15.96456,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "30601": {
+      "name": "近卫战法·盾剑攻斥",
+      "icon": "Skill_A_01"
+    },
+    "30602": {
+      "name": "攻势防御·堡垒骤进",
+      "icon": "Skill_S_Valeriy_01"
+    },
+    "30605": {
+      "name": "火力焦点·雷霰急袭",
+      "icon": "Skill_E_Valeriy_01"
+    },
+    "1372101": {
+      "name": "与徐进弹幕为伴",
+      "icon": "UI_Talent_S_Valeriy_05"
+    },
+    "1372201": {
+      "name": "向防线缺口突击",
+      "icon": "UI_Talent_S_Valeriy_06"
+    },
+    "1372301": {
+      "name": "极寒应变惯性",
+      "icon": "UI_Talent_S_Valeriy_08"
+    },
+    "1372501": {
+      "name": "冰原行动情报",
+      "icon": "UI_Talent_S_Valeriy_07"
+    }
+  },
+  "constellation": {
+    "1371": {
+      "name": "持续压制的时序",
+      "icon": "UI_Talent_S_Valeriy_01"
+    },
+    "1372": {
+      "name": "伴随冲阵的队型",
+      "icon": "UI_Talent_S_Valeriy_02"
+    },
+    "1373": {
+      "name": "白刃对决的戒备",
+      "icon": "UI_Talent_U_Valeriy_01"
+    },
+    "1374": {
+      "name": "不惧折损的韧性",
+      "icon": "UI_Talent_S_Valeriy_03"
+    },
+    "1375": {
+      "name": "分割歼灭的专意",
+      "icon": "UI_Talent_U_Valeriy_02"
+    },
+    "1376": {
+      "name": "穿透敌阵的威能",
+      "icon": "UI_Talent_S_Valeriy_04"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

@@ -1,0 +1,135 @@
+{
+  "id": 10000136,
+  "name": "米提亚",
+  "element": "雷",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "至冬",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Mitya",
+    "side": "UI_AvatarIcon_Side_Mitya",
+    "card": "UI_AvatarIcon_Mitya_Card",
+    "splash": "UI_Gacha_AvatarImg_Mitya",
+    "slice": "UI_Gacha_AvatarIcon_Mitya"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 905.654,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        776.5164,
+        1328.2517,
+        2063.899,
+        2615.6343,
+        3167.3696,
+        3719.105
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 20.482,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        17.56018,
+        30.03715,
+        46.67311,
+        59.15008,
+        71.62705,
+        84.10402
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 61.6249,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        52.839,
+        90.3825,
+        140.4405,
+        177.984,
+        215.5275,
+        253.071
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        17.56018,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "11361": {
+      "name": "链式反应",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "11362": {
+      "name": "律定·变量侦测",
+      "icon": "Skill_S_Mitya_01"
+    },
+    "11364": {
+      "name": "解析·递变之理",
+      "icon": "Skill_E_Mitya_01"
+    },
+    "1362101": {
+      "name": "基准承压测验",
+      "icon": "UI_Talent_S_Mitya_05"
+    },
+    "1362201": {
+      "name": "超限易爆试剂",
+      "icon": "UI_Talent_S_Mitya_06"
+    },
+    "1362301": {
+      "name": "星耀祝礼·极密协议",
+      "icon": "UI_Talent_S_Mitya_07"
+    },
+    "1362501": {
+      "name": "能源活性催化",
+      "icon": "UI_Talent_S_Mitya_08"
+    }
+  },
+  "constellation": {
+    "1361": {
+      "name": "缺位寻踪的观察者",
+      "icon": "UI_Talent_S_Mitya_01"
+    },
+    "1362": {
+      "name": "惰性之外的沉寂物",
+      "icon": "UI_Talent_S_Mitya_02"
+    },
+    "1363": {
+      "name": "拓扑不变的扭结弦",
+      "icon": "UI_Talent_U_Mitya_01"
+    },
+    "1364": {
+      "name": "衰变相生的同位素",
+      "icon": "UI_Talent_S_Mitya_03"
+    },
+    "1365": {
+      "name": "勘定万物的周期律",
+      "icon": "UI_Talent_U_Mitya_02"
+    },
+    "1366": {
+      "name": "元素阶跃的理之门",
+      "icon": "UI_Talent_S_Mitya_04"
+    }
+  },
+  "talent_fix": {
+    "11362": "律定·变量侦测",
+    "11361": "链式反应"
+  },
+  "damage": [],
+  "buff": []
+}

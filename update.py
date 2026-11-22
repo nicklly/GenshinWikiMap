@@ -137,7 +137,7 @@ def update_character():
                 save_json(new_data, ambr_data_file_path)
 
         if need_update:
-            draw_character_map(Character.parse_file(ambr_data_file_path))
+            draw_character_map(Character.model_validate(load_json(ambr_data_file_path)))
 
     save_json(avatar_alias_file, DATA / '角色列表.json')
     save_json(weapon_type_data, DATA / '武器类型.json')
@@ -259,7 +259,7 @@ def update_material():
                                                      '图标':   item['icon'],
                                                      } for item in load_json(RAW / 'materials.json')['items'].values()}
     avatar_infos = [
-        Character.parse_file(AVATAR_RAW / f'{avatar_id}.json')
+        Character.model_validate_json((AVATAR_RAW / f'{avatar_id}.json').read_text(encoding='utf-8'))
         for avatar_id in avatar_list_data
         if avatar_id not in skip_ids
     ]
@@ -321,7 +321,7 @@ def update_weapon():
 
         # 如果没有这个武器的详细信息，或者需要更新，则更新
         if need_update or not data_save_path.exists():
-            weapon_info = Weapon.parse_file(save_path)
+            weapon_info = Weapon.model_validate_json(save_path)
             dict_data = weapon_info.save_data()
             if data_save_path.exists():
                 old_data = load_json(data_save_path)
@@ -429,7 +429,7 @@ def update_monster():
             time.sleep(1)
 
         if need_update:
-            monster_info = Monster.parse_file(raw_data_file_path)
+            monster_info = Monster.model_validate_json(raw_data_file_path)
             draw_monster_map(monster_info)
 
     save_json(monster_alias_list, DATA / '原魔列表.json')

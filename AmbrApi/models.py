@@ -2,7 +2,7 @@ import re
 from collections import defaultdict
 from typing import Optional, Union, Any
 
-from pydantic import BaseModel, validator
+from pydantic import BaseModel, field_validator, ConfigDict
 
 from path import DATA, RAW
 from utils import load_json
@@ -19,6 +19,8 @@ ELEMENT_MAP = {
     "Rock": "岩",
     "Fire": "火",
 }
+class CoerceStrBase(BaseModel):
+    model_config = ConfigDict(coerce_numbers_to_str=True)
 
 
 # -----------------材料相关-----------------
@@ -80,8 +82,8 @@ class Upgrade(BaseModel):
     promote: list[Promote]
 
 
-class NameCard(BaseModel):
-    id: str  # 凝光的名片id有问题
+class NameCard(CoerceStrBase):
+    id: str  # 凝光的名片id有问题，接口可能返回数字，需要兼容
     name: str
     description: str
     icon: str
@@ -100,14 +102,14 @@ class Other(BaseModel):
     specialFood: Optional[SpecialFood] = None
 
 
-class TalentPromote(BaseModel):
+class TalentPromote(CoerceStrBase):
     level: int
     costItems: Optional[dict[str, int]] = None
     coinCost: Optional[int] = None
     description: list[str]
     params: list[float]
 
-    @validator("description", pre=True)
+    @field_validator("description")
     def format_description(cls, value: list[str]):
         return [v for v in value if v]
 
@@ -118,7 +120,7 @@ class Talent(BaseModel):
     description: str
     icon: str
     promote: Optional[dict[str, TalentPromote]] = None
-    cooldown: Optional[int] = None
+    cooldown: Union[int, float] = float
     cost: Optional[int] = None
 
     def get_promote_list(self) -> Optional[dict[str, list[str]]]:
@@ -156,7 +158,7 @@ class Constellation(BaseModel):
     icon: str
 
 
-class Character(BaseModel):
+class Character(CoerceStrBase):
     id: str
     rank: int
     name: str
@@ -174,15 +176,18 @@ class Character(BaseModel):
     constellation: dict[str, Constellation]
     beta: bool = False
 
-    @validator("element", pre=True)
+    @field_validator("element", mode="before")
+    @classmethod
     def format_element(cls, value: str):
         return ELEMENT_MAP[value]
 
-    @validator("weaponType", pre=True)
+    @field_validator("weaponType", mode="before")
+    @classmethod
     def format_weaponType(cls, value: str):
         return load_json(DATA / "属性Map.json")[value]
 
-    @validator("birthday", pre=True)
+    @field_validator("birthday", mode="before")
+    @classmethod
     def format_birthday(cls, value: list[int]):
         return f"{value[0]}/{value[1]}"
 
@@ -274,7 +279,7 @@ class Character(BaseModel):
         for item, num in material_ids.items():
             if mat := load_json(RAW / "materials.json")["items"].get(item):
                 material_list.append(
-                    MaterialItemCount(material=MaterialItem.parse_obj(mat), count=num)
+                    MaterialItemCount(material=MaterialItem.model_validate(mat), count=num)
                 )
         material_list.sort(key=lambda x: x.material.id)
         return material_list
@@ -298,7 +303,7 @@ class Character(BaseModel):
                 temp_group[group[0][0]].append(material.count)
         material_group.extend(
             MaterialItemCount(
-                material=MaterialItem.parse_obj(
+                material=MaterialItem.model_validate(
                     load_json(RAW / "materials.json")["items"][material_id]
                 ),
                 count=num,
@@ -354,7 +359,7 @@ class WeaponUpgrade(BaseModel):
     promote: list[Promote]
 
 
-class Weapon(BaseModel):
+class Weapon(CoerceStrBase):
     id: str
     rank: int
     name: str
@@ -439,7 +444,7 @@ class Weapon(BaseModel):
         for item, num in material_ids.items():
             if mat := material_data.get(item):
                 material_list.append(
-                    MaterialItemCount(material=MaterialItem.parse_obj(mat), count=num)
+                    MaterialItemCount(material=MaterialItem.model_validate(mat), count=num)
                 )
         material_list.sort(key=lambda x: x.material.id)
         return material_list
@@ -462,7 +467,7 @@ class Weapon(BaseModel):
                 temp_group[group[0][0]].append(material.count)
         material_group.extend(
             MaterialItemCount(
-                material=MaterialItem.parse_obj(
+                material=MaterialItem.model_validate(
                     load_json(RAW / "materials.json")["items"][material_id]
                 ),
                 count=num,
@@ -485,7 +490,7 @@ class Weapon(BaseModel):
             },
             "property": [
                 {
-                    "base": self.upgrade.prop[0].dict(),
+                    "base": self.upgrade.prop[0].model_dump(),
                     "promote": [
                         p.addProps["FIGHT_PROP_BASE_ATTACK"] if p.addProps else None
                         for p in self.upgrade.promote[1:]
@@ -494,7 +499,7 @@ class Weapon(BaseModel):
             ],
         }
         if len(self.upgrade.prop) > 1 and self.upgrade.prop[1].propType:
-            data["property"].append({"base": self.upgrade.prop[1].dict()})
+            data["property"].append({"base": self.upgrade.prop[1].model_dump()})
         return data
 
     def save_detail(self) -> dict:
